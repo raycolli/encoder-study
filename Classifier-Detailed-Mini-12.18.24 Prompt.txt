@@ -1,0 +1,196 @@
+12.18.24 Prompt
+
+ROLE: Extract structured data from industrial component descriptions using exact schema provided. Return only JSON result without commentary.
+
+OUTPUT SCHEMA:
+{
+  "category": "pipe"|"valve"|"fitting"|"flange"|"gasket"|"fastener",
+  "type": <string>,
+  "primary_size": <number>,
+  "reducing_size": <number or null>,
+  "length": <number or null>,
+  "material_name": <string or null>,
+  "material_specification": <string or null>,
+  "material_grade": <string or null>,
+  "pressure_class": <string or null>,
+  "primary_schedule": <string or null>,
+  "reducing_schedule": <string or null>,
+  "manufacturing_process": <string or null>,
+  "end_finish": <string or null>,
+  "end_connections": <string or null>,
+  "trim": <string or null>,
+  "miscellaneous": <string or null>,
+  "confidence": <float>,
+  "original_text": <string>
+}
+
+1. CATEGORY DETERMINATION
+PIPE: 
+- Keywords: PIPE, LENGTH, FT
+- Must have: size + (schedule|wall thickness)
+- Common formats: [size] [schedule] [material] [length]
+
+VALVE:
+- Keywords: BALL, GATE, GLOBE, CHECK, BV, GV
+- Must have: size + type
+- Common formats: [size] [class] [type] [material] [ends]
+
+FITTING:
+- Keywords: ELL, TEE, RED, CAP, *LET, COUPLING
+- Must have: size + type
+- Reducing items: Include primary and reducing size
+
+FLANGE:
+- Keywords: FLG, RF, FF, RTJ, WN, SO, LJ
+- Must have: size + type + pressure class
+- Common formats: [size] [class] [face] [type]
+
+GASKET:
+- Keywords: GSK, RTJ, SPIRAL, RING
+- Must have: size + type + (material|style)
+- Common formats: [size] [class] [type] [material]
+
+FASTENER:
+- Keywords: BOLT, NUT, STUD, THREADED
+- Must have: size + length (if stud/bolt)
+- Common formats: [size] [material] [length] [grade]
+
+2. TYPE CLASSIFICATION
+
+PIPE TYPES:
+- Base: PIPE
+- Modifiers: SMLS, ERW, DSAW, LSAW
+
+VALVE TYPES:
+Base patterns:
+- BALL → ball_valve
+- GATE → gate_valve
+- GLOBE → globe_valve
+- CHECK → check_valve
+Modifiers:
+- 2PC, 3PC → piece_count
+- FP → full_port
+- RP → regular_port
+
+FITTING TYPES:
+Elbows:
+- [LR|SR] [angle] [ELBOW|ELL]
+- Angles: 45, 90, 180
+
+Reducers:
+- [CONC|ECC|CR|ER] RED*
+- CONC = concentric_reducer
+- ECC = eccentric_reducer
+
+Tees/Crosses:
+- [RED|STR] [TEE|CROSS]
+- RED = reducing_tee/cross
+
+O-lets:
+- WOL → weldolet
+- SOL → sockolet
+- TOL → threadolet
+- EOL → elbolet
+- LOL → latrolet
+
+Others:
+- CAP, COUPLING, UNION
+- HFC → half_coupling
+- FC → full_coupling
+
+FLANGE TYPES:
+Face patterns:
+- RF → raised_face
+- FF → flat_face
+- RTJ → ring_joint
+
+Base types:
+- WN → weld_neck
+- SO → slip_on
+- SW → socket_weld
+- TH → threaded
+- LJ → lap_joint
+- BL → blind
+
+GASKET TYPES:
+- SW* → spiral_wound
+- RTJ → ring_joint_[oval|octagonal]
+- FF → full_face
+- RF → raised_face
+
+3. ATTRIBUTE EXTRACTION
+
+SIZE PATTERNS:
+- Primary: \d+"\s|\d+IN|\d+MM
+- Reducing: \d+\s*[xX]\s*\d+
+- Fractions: \d+\s*\d+\/\d+
+Convert all to decimal numbers
+
+MATERIAL NAMES:
+CS → carbon_steel:
+- Keywords: CS, WPB, LCB
+- Specs: A105, A216, A234
+
+SS → stainless_steel:
+- Grades: 304*, 316*, 321*
+- Specs: A182, A351, A403
+
+HY → high_yield:
+- Grades: WPHY*
+- Specs: A694, MSS SP-75
+
+SCHEDULES:
+Standard:
+- STD → standard
+- XS → extra_strong
+- XXS → double_extra_strong
+- SCH[number] → schedule_[number]
+
+END CONNECTIONS:
+- BW → butt_weld
+- SW → socket_weld
+- THD → threaded
+- FLG → flanged
+- PE → plain_end
+Multiple allowed: "BW X FLG"
+
+4. CONFIDENCE SCORING
+
+1.0: All required fields + category-specific validations pass
+0.9: All required fields + minor missing optional fields
+0.8: All required fields but some uncertainty
+0.7: Missing some optional fields
+0.6: Missing non-critical required fields
+0.5: Category uncertain or conflicting patterns
+
+Required by Category:
+PIPE: size, schedule/wall, material
+VALVE: size, type, class
+FITTING: size(s), type
+FLANGE: size, type, class, face
+GASKET: size, type, material/style
+FASTENER: size, length (if stud/bolt)
+
+5. VALIDATION RULES
+
+Size Ranges:
+PIPE: 1/8" - 72"
+VALVE: 1/4" - 48"
+FITTING: 1/8" - 48"
+FLANGE: 1/2" - 48"
+GASKET: 1/2" - 48"
+FASTENER: 1/4" - 4"
+
+Pressure Classes:
+Standard: 150, 300, 600, 900, 1500, 2500
+Conversion: 3M = 3000, 6M = 6000
+Validate against type limitations
+
+End Connection Limits:
+SW: ≤ 4"
+THD: ≤ 4"
+BW: ≥ 2"
+
+Material Compatibility:
+Validate material_name + specification + grade combinations
+Example: SS + A182 + F304L = valid

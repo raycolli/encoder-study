@@ -1,0 +1,6583 @@
+{
+    "filter-attributes": [
+        "SIZE"
+    ],
+    "regex-patterns": {
+        "size": [
+            [
+                "(\\d+)[\\\"\\']",
+                "\\1 "
+            ],
+            [
+                "IN$",
+                ""
+            ],
+            [
+                "(\\d+)([a-zA-Z])",
+                "\\1 \\2"
+            ],
+            [
+                "([a-zA-Z])(\\d+)",
+                "\\1 \\2"
+            ],
+            [
+                "\\s+IN\\s+",
+                " "
+            ],
+            [
+                "\\s+INCH\\s+",
+                " "
+            ],
+            [
+                "(\\d+)\\s*IN(?=-)",
+                "\\1"
+            ],
+            [
+                "(\\d+)\\s*INCH(?=-)",
+                "\\1"
+            ],
+            [
+                "(\\d+)\\s*IN(?=/)",
+                "\\1"
+            ],
+            [
+                "(\\d+)\\s*INCH(?=/)",
+                "\\1"
+            ],
+            [
+                "(\\d+)\\s*OD",
+                "\\1 "
+            ],
+            [
+                "\\s*OD\\s*",
+                " "
+            ],
+            [
+                "\\s*ID\\s*",
+                " "
+            ],
+            [
+                "\\s*(?:AW|ID|OD|INCH|M|W|DN)\\s*",
+                " "
+            ],
+            [
+                "^(?:AW|ID|OD|INCH|M|W|DN)\\s*",
+                " "
+            ],
+            [
+                "\\s*(?:AW|ID|OD|INCH|M|W|DN)$",
+                " "
+            ],
+            [
+                "(\\d+)\\s*-\\s*(\\d+)",
+                "\\1-\\2"
+            ],
+            [
+                "(\\d+)\\s*[xX]\\s*(\\d+)",
+                "\\1X\\2"
+            ],
+            [
+                "(\\d*\\.\\d+)[xX](\\d+/\\d+)",
+                "\\1X\\2"
+            ],
+            [
+                "(\\d+/\\d+)[xX](\\d*\\.\\d+)",
+                "\\1X\\2"
+            ],
+            [
+                "(\\d+)\\s*[xX]",
+                "\\1X"
+            ],
+            [
+                "[xX]\\s*(\\d+)",
+                "X\\1"
+            ],
+            [
+                "[xX]\\s*(\\.\\d+)",
+                "X\\1"
+            ],
+            [
+                "(\\d+)\\s+(\\d+)",
+                "\\1-\\2"
+            ]
+        ]
+    },
+    "PBE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PBE",
+            "PLAIN BOTH ENDS"
+        ]
+    },
+    "PLAIN BOTH ENDS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PBE",
+            "PLAIN BOTH ENDS"
+        ]
+    },
+    "BE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BE",
+            "BEVEL END",
+            "BEVELED ENDS"
+        ]
+    },
+    "BEVEL END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BE",
+            "BEVEL END",
+            "BEVELED ENDS"
+        ]
+    },
+    "BEVELED ENDS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BE",
+            "BEVEL END",
+            "BEVELED ENDS"
+        ]
+    },
+    "BExPE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BEXPE",
+            "BEVEL END X PLAIN END"
+        ]
+    },
+    "BEVEL END x PLAIN END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BEXPE",
+            "BEVEL END X PLAIN END"
+        ]
+    },
+    "BW ": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BW",
+            "BUTT WELD",
+            "BUTTWELD",
+            "BUTT-WELD"
+        ]
+    },
+    "BUTT WELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BW",
+            "BUTT WELD",
+            "BUTTWELD",
+            "BUTT-WELD"
+        ]
+    },
+    "BUTTWELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BW",
+            "BUTT WELD",
+            "BUTTWELD",
+            "BUTT-WELD"
+        ]
+    },
+    "BUTT-WELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BW",
+            "BUTT WELD",
+            "BUTTWELD",
+            "BUTT-WELD"
+        ]
+    },
+    "FF": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FF",
+            "FLAT FACE",
+            "FLATFACE"
+        ]
+    },
+    "FLAT FACE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FF",
+            "FLAT FACE",
+            "FLATFACE"
+        ]
+    },
+    "FLATFACE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FF",
+            "FLAT FACE",
+            "FLATFACE"
+        ]
+    },
+    "FNPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "FPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "Female NPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "FT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "FEMALE THREADED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "Female Threaded End": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "F/T": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FNPT",
+            "FPT",
+            "FEMALE NPT",
+            "FT",
+            "FEMALE THREADED",
+            "FEMALE THREADED END",
+            "F/T"
+        ]
+    },
+    "FSW": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FSW",
+            "FEMALE SOCKETWELD",
+            "FEMALE SOCKET WELD"
+        ]
+    },
+    "FEMALE SOCKETWELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FSW",
+            "FEMALE SOCKETWELD",
+            "FEMALE SOCKET WELD"
+        ]
+    },
+    "FEMALE SOCKET WELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "FSW",
+            "FEMALE SOCKETWELD",
+            "FEMALE SOCKET WELD"
+        ]
+    },
+    "GRVD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "GRVD",
+            "GRV",
+            "GROOVED",
+            "GROOVED END"
+        ]
+    },
+    "GRV": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "GRVD",
+            "GRV",
+            "GROOVED",
+            "GROOVED END"
+        ]
+    },
+    "GROOVED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "GRVD",
+            "GRV",
+            "GROOVED",
+            "GROOVED END"
+        ]
+    },
+    "GROOVED END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "GRVD",
+            "GRV",
+            "GROOVED",
+            "GROOVED END"
+        ]
+    },
+    "MNPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "MPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "Male NPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "MT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "MALE THREADED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "Male Threaded End": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "M/T": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MNPT",
+            "MPT",
+            "MALE NPT",
+            "MT",
+            "MALE THREADED",
+            "MALE THREADED END",
+            "M/T",
+            "MPT"
+        ]
+    },
+    "MSW": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MSW",
+            "MALE SOCKETWELD",
+            "MALE SOCKET WELD"
+        ]
+    },
+    "MALE SOCKETWELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MSW",
+            "MALE SOCKETWELD",
+            "MALE SOCKET WELD"
+        ]
+    },
+    "MALE SOCKET WELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MSW",
+            "MALE SOCKETWELD",
+            "MALE SOCKET WELD"
+        ]
+    },
+    "PE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PE",
+            "PLAIN ENDS",
+            "PLAIN END"
+        ]
+    },
+    "PLAIN ENDS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PE",
+            "PLAIN ENDS",
+            "PLAIN END"
+        ]
+    },
+    "PLAIN END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PE",
+            "PLAIN ENDS",
+            "PLAIN END"
+        ]
+    },
+    "RF": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RF",
+            "RAISED FACE",
+            "RF FLG",
+            "RAISED FACE FLG"
+        ]
+    },
+    "RAISED FACE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RF",
+            "RAISED FACE",
+            "RF FLG",
+            "RAISED FACE FLG"
+        ]
+    },
+    "RF FLG": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RF",
+            "RAISED FACE",
+            "RF FLG",
+            "RAISED FACE FLG"
+        ]
+    },
+    "RAISED FACE FLG": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RF",
+            "RAISED FACE",
+            "RF FLG",
+            "RAISED FACE FLG"
+        ]
+    },
+    "RTJ": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RTJ",
+            "RING TYPE JOINT",
+            "RING JOINT",
+            "RJ"
+        ]
+    },
+    "RING TYPE JOINT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RTJ",
+            "RING TYPE JOINT",
+            "RING JOINT",
+            "RJ"
+        ]
+    },
+    "RING JOINT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RTJ",
+            "RING TYPE JOINT",
+            "RING JOINT",
+            "RJ"
+        ]
+    },
+    "RJ": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "RTJ",
+            "RING TYPE JOINT",
+            "RING JOINT",
+            "RJ"
+        ]
+    },
+    "SW": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "SOCKETWELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "SOCKET WELD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "SWE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "S/W": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "SOCKETWELD END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "SOC": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SW",
+            "SOCKETWELD",
+            "SOCKET WELD",
+            "SWE",
+            "S/W",
+            "SOCKETWELD END",
+            "SOC"
+        ]
+    },
+    "TBE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TBE",
+            "THREADED BOTH ENDS"
+        ]
+    },
+    "THREADED BOTH ENDS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TBE",
+            "THREADED BOTH ENDS"
+        ]
+    },
+    "TOE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TOE",
+            "THREADED ONE END"
+        ]
+    },
+    "THREADED ONE END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TOE",
+            "THREADED ONE END"
+        ]
+    },
+    "NPT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "NPT",
+            "THD",
+            "THREADED",
+            "THRD",
+            "NOMINAL PIPE THREAD"
+        ]
+    },
+    "THD ": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "NPT",
+            "THD",
+            "THREADED",
+            "THRD",
+            "NOMINAL PIPE THREAD"
+        ]
+    },
+    "THREADED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "NPT",
+            "THD",
+            "THREADED",
+            "THRD",
+            "NOMINAL PIPE THREAD"
+        ]
+    },
+    "THRD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "NPT",
+            "THD",
+            "THREADED",
+            "THRD",
+            "NOMINAL PIPE THREAD"
+        ]
+    },
+    "Nominal Pipe Thread": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "NPT",
+            "THD",
+            "THREADED",
+            "THRD",
+            "NOMINAL PIPE THREAD"
+        ]
+    },
+    "FLG": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "FLG",
+            "FLANGE"
+        ]
+    },
+    "FLANGE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "FLG",
+            "FLANGE"
+        ]
+    },
+    "BSP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BSP",
+            "BRITISH STANDARD PIPE"
+        ]
+    },
+    "British Standard Pipe": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BSP",
+            "BRITISH STANDARD PIPE"
+        ]
+    },
+    "DP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DP",
+            "DIFFERENTIAL PRESSURE"
+        ]
+    },
+    "Differential Pressure ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DP",
+            "DIFFERENTIAL PRESSURE"
+        ]
+    },
+    "HP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "HP",
+            "HIGH PRESSURE"
+        ]
+    },
+    "High Pressure ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "HP",
+            "HIGH PRESSURE"
+        ]
+    },
+    "ID": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "ID",
+            "INSIDE DIAMETER"
+        ]
+    },
+    "Inside Diameter ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "ID",
+            "INSIDE DIAMETER"
+        ]
+    },
+    "IPS": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IPS",
+            "IRON PIPE SIZE"
+        ]
+    },
+    "Iron Pipe Size ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IPS",
+            "IRON PIPE SIZE"
+        ]
+    },
+    "IPT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IPT",
+            "IRON PIPE THREAD"
+        ]
+    },
+    "Iron Pipe Thread": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IPT",
+            "IRON PIPE THREAD"
+        ]
+    },
+    "LP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "LP",
+            "LOW PRESSURE"
+        ]
+    },
+    "Low Pressure ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "LP",
+            "LOW PRESSURE"
+        ]
+    },
+    "MOP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MOP",
+            "MAX OPERATING PRESSURE",
+            "MAXIMUM OPERATING PRESSURE"
+        ]
+    },
+    "MAX OPERATING PRESSURE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MOP",
+            "MAX OPERATING PRESSURE",
+            "MAXIMUM OPERATING PRESSURE"
+        ]
+    },
+    "Maximum Operating Pressure": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MOP",
+            "MAX OPERATING PRESSURE",
+            "MAXIMUM OPERATING PRESSURE"
+        ]
+    },
+    "MP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MP",
+            "MEDIUM PRESSURE"
+        ]
+    },
+    "Medium Pressure ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MP",
+            "MEDIUM PRESSURE"
+        ]
+    },
+    "NB": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "NB",
+            "NOMINAL BORE"
+        ]
+    },
+    "Nominal Bore ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "NB",
+            "NOMINAL BORE"
+        ]
+    },
+    "NPS": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "NPS",
+            "NOMINAL PIPE SIZE"
+        ]
+    },
+    "Nominal Pipe Size ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "NPS",
+            "NOMINAL PIPE SIZE"
+        ]
+    },
+    "OD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "OD",
+            "OUTSIDE DIAMETER"
+        ]
+    },
+    "Outside Diameter ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "OD",
+            "OUTSIDE DIAMETER"
+        ]
+    },
+    "SCH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SCH",
+            "SCHEDULE"
+        ]
+    },
+    "SCHEDULE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SCH",
+            "SCHEDULE"
+        ]
+    },
+    "SIL": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SIL",
+            "SAFETY INTEGRITY LEVEL"
+        ]
+    },
+    "Safety Integrity Level ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SIL",
+            "SAFETY INTEGRITY LEVEL"
+        ]
+    },
+    "WOG ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WOG",
+            "WATER OIL GAS"
+        ]
+    },
+    "WATER OIL GAS": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WOG",
+            "WATER OIL GAS"
+        ]
+    },
+    "WP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WP",
+            "WORKING PRESSURE"
+        ]
+    },
+    "Working Pressure ": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WP",
+            "WORKING PRESSURE"
+        ]
+    },
+    "CS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "Carbon Steel ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL"
+        ]
+    },
+    "DI": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "DI",
+            "DUCTILE IRON",
+            "D.I."
+        ]
+    },
+    "Ductile Iron ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "DI",
+            "DUCTILE IRON",
+            "D.I."
+        ]
+    },
+    "D.I.": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "DI",
+            "DUCTILE IRON",
+            "D.I."
+        ]
+    },
+    "HDPE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "HDPE",
+            "HIGH-DENSITY POLYETHYLENE"
+        ]
+    },
+    "High-Density Polyethylene ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "HDPE",
+            "HIGH-DENSITY POLYETHYLENE"
+        ]
+    },
+    "LTCS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "Low Temperature Carbon Steel ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMPERATURE CARBON STEEL"
+        ]
+    },
+    "PVC": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "PVC",
+            "POLYVINYL CHLORIDE"
+        ]
+    },
+    "Polyvinyl Chloride ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "PVC",
+            "POLYVINYL CHLORIDE"
+        ]
+    },
+    "SS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "Stainless Steel ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL"
+        ]
+    },
+    "WPHY": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "WPHY",
+            "WELDABLE HIGH YIELD"
+        ]
+    },
+    "Weldable High Yield ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "WPHY",
+            "WELDABLE HIGH YIELD"
+        ]
+    },
+    "CARBON STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A216 WCB": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "WCB": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A105": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A106": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A53": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A234": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A106-B": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A53-B": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "A234-WPB": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CS",
+            "CARBON STEEL",
+            "A216 WCB",
+            "WCB",
+            "A105",
+            "A106",
+            "A53",
+            "A234",
+            "A106-B",
+            "A53-B",
+            "A234-WPB"
+        ]
+    },
+    "STAINLESS STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "316": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "CF8M": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "A182": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "317": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "347": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "304": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "310": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "A403": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "A276": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "F304": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "F316": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "WP304": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "WP316": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "SS",
+            "STAINLESS STEEL",
+            "316",
+            "CF8M",
+            "A182",
+            "317",
+            "347",
+            "304",
+            "310",
+            "A403",
+            "A276",
+            "F304",
+            "F316",
+            "WP304",
+            "WP316"
+        ]
+    },
+    "LOW TEMP CARBON STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "LCC": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "A333": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "A420": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "A350 LF2": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "LF2": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "A333-6": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "WPL6": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "A352": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "A352 LCB": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTCS",
+            "LOW TEMP CARBON STEEL",
+            "LCC",
+            "A333",
+            "A420",
+            "A350 LF2",
+            "LF2",
+            "A333-6",
+            "WPL6",
+            "A352",
+            "A352 LCB"
+        ]
+    },
+    "LTSS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "LOW TEMP STAINLESS STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "A312": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "F340L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "304/L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "F316L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "316/L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "321": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "WP304L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "WP316L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "CF3M": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "316L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "304L": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "LTSS",
+            "LOW TEMP STAINLESS STEEL",
+            "A312",
+            "F340L",
+            "304/L",
+            "F316L",
+            "316/L",
+            "321",
+            "WP304L",
+            "WP316L",
+            "CF3M",
+            "316L",
+            "304L"
+        ]
+    },
+    "API": {
+        "TYPE": "ORG",
+        "PEERS": [
+            "API",
+            "AMERICAN PETROLEUM INSTITUTE"
+        ]
+    },
+    "American Petroleum Institute ": {
+        "TYPE": "ORG",
+        "PEERS": [
+            "API",
+            "AMERICAN PETROLEUM INSTITUTE"
+        ]
+    },
+    "ASME": {
+        "TYPE": "ORG",
+        "PEERS": [
+            "ASME",
+            "AMERICAN SOCIETY OF MECHANICAL ENGINEERS"
+        ]
+    },
+    "American Society of Mechanical Engineers ": {
+        "TYPE": "ORG",
+        "PEERS": [
+            "ASME",
+            "AMERICAN SOCIETY OF MECHANICAL ENGINEERS"
+        ]
+    },
+    "RP": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "RB": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "REDUCED PORT": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "SP",
+            "STANDARD PORT",
+            "REDUCED PORT"
+        ]
+    },
+    "REDUCED BORE": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "RED PORT": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "RED BORE": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "REG BORE": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "REG PORT": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "REGULAR BORE": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "REGULAR PORT": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "RP",
+            "RB",
+            "REDUCED PORT",
+            "REDUCED BORE",
+            "RED PORT",
+            "RED BORE",
+            "REG BORE",
+            "REG PORT",
+            "REGULAR BORE",
+            "REGULAR PORT"
+        ]
+    },
+    "FB": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "FB",
+            "FP",
+            "FULL BORE",
+            "FULL PORT"
+        ]
+    },
+    "FP": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "FB",
+            "FP",
+            "FULL BORE",
+            "FULL PORT"
+        ]
+    },
+    "FULL BORE": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "FB",
+            "FP",
+            "FULL BORE",
+            "FULL PORT"
+        ]
+    },
+    "FULL PORT": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "FB",
+            "FP",
+            "FULL BORE",
+            "FULL PORT"
+        ]
+    },
+    "CL 300": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 300",
+            "CL300",
+            "CLASS 300",
+            "PN 50",
+            "50 BAR"
+        ]
+    },
+    "CL300": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 300",
+            "CL300",
+            "CLASS 300",
+            "PN 50",
+            "50 BAR"
+        ]
+    },
+    "CLASS 300": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 300",
+            "CL300",
+            "CLASS 300",
+            "PN 50",
+            "50 BAR"
+        ]
+    },
+    "PN 50": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 300",
+            "CL300",
+            "CLASS 300",
+            "PN 50",
+            "50 BAR"
+        ]
+    },
+    "50 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 300",
+            "CL300",
+            "CLASS 300",
+            "PN 50",
+            "50 BAR"
+        ]
+    },
+    "CL": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL",
+            "CLASS"
+        ]
+    },
+    "CLASS": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL",
+            "CLASS"
+        ]
+    },
+    "CL 150": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 150",
+            "CL150",
+            "CLASS 150",
+            "PN 20",
+            "20 BAR"
+        ]
+    },
+    "CL150": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 150",
+            "CL150",
+            "CLASS 150",
+            "PN 20",
+            "20 BAR"
+        ]
+    },
+    "CLASS 150": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 150",
+            "CL150",
+            "CLASS 150",
+            "PN 20",
+            "20 BAR"
+        ]
+    },
+    "PN 20": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 150",
+            "CL150",
+            "CLASS 150",
+            "PN 20",
+            "20 BAR"
+        ]
+    },
+    "20 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 150",
+            "CL150",
+            "CLASS 150",
+            "PN 20",
+            "20 BAR"
+        ]
+    },
+    "CL 1500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 1500",
+            "CL1500",
+            "CLASS 1500",
+            "PN 250",
+            "420 BAR"
+        ]
+    },
+    "CL1500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 1500",
+            "CL1500",
+            "CLASS 1500",
+            "PN 250",
+            "420 BAR"
+        ]
+    },
+    "CLASS 1500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 1500",
+            "CL1500",
+            "CLASS 1500",
+            "PN 250",
+            "420 BAR"
+        ]
+    },
+    "PN 250": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 1500",
+            "CL1500",
+            "CLASS 1500",
+            "PN 250",
+            "420 BAR"
+        ]
+    },
+    "420 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 1500",
+            "CL1500",
+            "CLASS 1500",
+            "PN 250",
+            "420 BAR"
+        ]
+    },
+    "CL 2500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 2500",
+            "CL2500",
+            "CLASS 2500",
+            "PN 420",
+            "690 BAR"
+        ]
+    },
+    "CL2500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 2500",
+            "CL2500",
+            "CLASS 2500",
+            "PN 420",
+            "690 BAR"
+        ]
+    },
+    "CLASS 2500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 2500",
+            "CL2500",
+            "CLASS 2500",
+            "PN 420",
+            "690 BAR"
+        ]
+    },
+    "PN 420": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 2500",
+            "CL2500",
+            "CLASS 2500",
+            "PN 420",
+            "690 BAR"
+        ]
+    },
+    "690 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 2500",
+            "CL2500",
+            "CLASS 2500",
+            "PN 420",
+            "690 BAR"
+        ]
+    },
+    "CL 400": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 400",
+            "CL400",
+            "CLASS 400",
+            "PN 64",
+            "110 BAR"
+        ]
+    },
+    "CL400": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 400",
+            "CL400",
+            "CLASS 400",
+            "PN 64",
+            "110 BAR"
+        ]
+    },
+    "CLASS 400": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 400",
+            "CL400",
+            "CLASS 400",
+            "PN 64",
+            "110 BAR"
+        ]
+    },
+    "PN 64": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 400",
+            "CL400",
+            "CLASS 400",
+            "PN 64",
+            "110 BAR"
+        ]
+    },
+    "110 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 400",
+            "CL400",
+            "CLASS 400",
+            "PN 64",
+            "110 BAR"
+        ]
+    },
+    "CL 4000": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4000",
+            "CL4000",
+            "CLASS 4000",
+            "PN 690",
+            "1000 BAR"
+        ]
+    },
+    "CL4000": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4000",
+            "CL4000",
+            "CLASS 4000",
+            "PN 690",
+            "1000 BAR"
+        ]
+    },
+    "CLASS 4000": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4000",
+            "CL4000",
+            "CLASS 4000",
+            "PN 690",
+            "1000 BAR"
+        ]
+    },
+    "PN 690": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4000",
+            "CL4000",
+            "CLASS 4000",
+            "PN 690",
+            "1000 BAR"
+        ]
+    },
+    "1000 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4000",
+            "CL4000",
+            "CLASS 4000",
+            "PN 690",
+            "1000 BAR"
+        ]
+    },
+    "CL 4500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4500",
+            "CL4500",
+            "CLASS 4500",
+            "PN 750",
+            "1200 BAR"
+        ]
+    },
+    "CL4500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4500",
+            "CL4500",
+            "CLASS 4500",
+            "PN 750",
+            "1200 BAR"
+        ]
+    },
+    "CLASS 4500": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4500",
+            "CL4500",
+            "CLASS 4500",
+            "PN 750",
+            "1200 BAR"
+        ]
+    },
+    "PN 750": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4500",
+            "CL4500",
+            "CLASS 4500",
+            "PN 750",
+            "1200 BAR"
+        ]
+    },
+    "1200 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 4500",
+            "CL4500",
+            "CLASS 4500",
+            "PN 750",
+            "1200 BAR"
+        ]
+    },
+    "CL 600": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 600",
+            "CL600",
+            "CLASS 600",
+            "PN 100",
+            "150 BAR"
+        ]
+    },
+    "CL600": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 600",
+            "CL600",
+            "CLASS 600",
+            "PN 100",
+            "150 BAR"
+        ]
+    },
+    "CLASS 600": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 600",
+            "CL600",
+            "CLASS 600",
+            "PN 100",
+            "150 BAR"
+        ]
+    },
+    "PN 100": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 600",
+            "CL600",
+            "CLASS 600",
+            "PN 100",
+            "150 BAR"
+        ]
+    },
+    "150 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 600",
+            "CL600",
+            "CLASS 600",
+            "PN 100",
+            "150 BAR"
+        ]
+    },
+    "CL 800": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 800",
+            "CL800",
+            "CLASS 800",
+            "PN 140",
+            "200 BAR"
+        ]
+    },
+    "CL800": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 800",
+            "CL800",
+            "CLASS 800",
+            "PN 140",
+            "200 BAR"
+        ]
+    },
+    "CLASS 800": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 800",
+            "CL800",
+            "CLASS 800",
+            "PN 140",
+            "200 BAR"
+        ]
+    },
+    "PN 140": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 800",
+            "CL800",
+            "CLASS 800",
+            "PN 140",
+            "200 BAR"
+        ]
+    },
+    "200 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 800",
+            "CL800",
+            "CLASS 800",
+            "PN 140",
+            "200 BAR"
+        ]
+    },
+    "CL 900": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 900",
+            "CL900",
+            "CLASS 900",
+            "PN 150",
+            "250 BAR"
+        ]
+    },
+    "CL900": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 900",
+            "CL900",
+            "CLASS 900",
+            "PN 150",
+            "250 BAR"
+        ]
+    },
+    "CLASS 900": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 900",
+            "CL900",
+            "CLASS 900",
+            "PN 150",
+            "250 BAR"
+        ]
+    },
+    "PN 150": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 900",
+            "CL900",
+            "CLASS 900",
+            "PN 150",
+            "250 BAR"
+        ]
+    },
+    "250 BAR": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "CL 900",
+            "CL900",
+            "CLASS 900",
+            "PN 150",
+            "250 BAR"
+        ]
+    },
+    "SCH 80": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80",
+            "SCHEDULE 80",
+            "S/80",
+            "SH. 80",
+            "S80"
+        ]
+    },
+    "SCHEDULE 80": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80",
+            "SCHEDULE 80",
+            "S/80",
+            "SH. 80",
+            "S80"
+        ]
+    },
+    "S/80": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80",
+            "SCHEDULE 80",
+            "S/80",
+            "SH. 80",
+            "S80"
+        ]
+    },
+    "SH. 80": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80",
+            "SCHEDULE 80",
+            "S/80",
+            "SH. 80",
+            "S80"
+        ]
+    },
+    "S80": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80",
+            "SCHEDULE 80",
+            "S/80",
+            "SH. 80",
+            "S80"
+        ]
+    },
+    "SCH 10": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10",
+            "SCHEDULE 10",
+            "S/10",
+            "SH. 10",
+            "S10"
+        ]
+    },
+    "SCHEDULE 10": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10",
+            "SCHEDULE 10",
+            "S/10",
+            "SH. 10",
+            "S10"
+        ]
+    },
+    "S/10": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10",
+            "SCHEDULE 10",
+            "S/10",
+            "SH. 10",
+            "S10"
+        ]
+    },
+    "SH. 10": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10",
+            "SCHEDULE 10",
+            "S/10",
+            "SH. 10",
+            "S10"
+        ]
+    },
+    "S10": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10",
+            "SCHEDULE 10",
+            "S/10",
+            "SH. 10",
+            "S10"
+        ]
+    },
+    "SCH 60": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 60",
+            "SCHEDULE 60",
+            "S/60",
+            "SH. 60",
+            "S60"
+        ]
+    },
+    "SCHEDULE 60": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 60",
+            "SCHEDULE 60",
+            "S/60",
+            "SH. 60",
+            "S60"
+        ]
+    },
+    "S/60": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 60",
+            "SCHEDULE 60",
+            "S/60",
+            "SH. 60",
+            "S60"
+        ]
+    },
+    "SH. 60": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 60",
+            "SCHEDULE 60",
+            "S/60",
+            "SH. 60",
+            "S60"
+        ]
+    },
+    "S60": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 60",
+            "SCHEDULE 60",
+            "S/60",
+            "SH. 60",
+            "S60"
+        ]
+    },
+    "SCH 120": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 120",
+            "SCHEDULE 120",
+            "S/120",
+            "SH. 120",
+            "S120"
+        ]
+    },
+    "SCHEDULE 120": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 120",
+            "SCHEDULE 120",
+            "S/120",
+            "SH. 120",
+            "S120"
+        ]
+    },
+    "S/120": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 120",
+            "SCHEDULE 120",
+            "S/120",
+            "SH. 120",
+            "S120"
+        ]
+    },
+    "SH. 120": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 120",
+            "SCHEDULE 120",
+            "S/120",
+            "SH. 120",
+            "S120"
+        ]
+    },
+    "S120": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 120",
+            "SCHEDULE 120",
+            "S/120",
+            "SH. 120",
+            "S120"
+        ]
+    },
+    "SCH 160": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 160",
+            "SCHEDULE 160",
+            "S/160",
+            "SH. 160",
+            "S160"
+        ]
+    },
+    "SCHEDULE 160": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 160",
+            "SCHEDULE 160",
+            "S/160",
+            "SH. 160",
+            "S160"
+        ]
+    },
+    "S/160": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 160",
+            "SCHEDULE 160",
+            "S/160",
+            "SH. 160",
+            "S160"
+        ]
+    },
+    "SH. 160": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 160",
+            "SCHEDULE 160",
+            "S/160",
+            "SH. 160",
+            "S160"
+        ]
+    },
+    "S160": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 160",
+            "SCHEDULE 160",
+            "S/160",
+            "SH. 160",
+            "S160"
+        ]
+    },
+    "SCH 40": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 40",
+            "SCHEDULE 40",
+            "S/40",
+            "SH. 40",
+            "S40"
+        ]
+    },
+    "SCHEDULE 40": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 40",
+            "SCHEDULE 40",
+            "S/40",
+            "SH. 40",
+            "S40"
+        ]
+    },
+    "S/40": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 40",
+            "SCHEDULE 40",
+            "S/40",
+            "SH. 40",
+            "S40"
+        ]
+    },
+    "SH. 40": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 40",
+            "SCHEDULE 40",
+            "S/40",
+            "SH. 40",
+            "S40"
+        ]
+    },
+    "S40": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 40",
+            "SCHEDULE 40",
+            "S/40",
+            "SH. 40",
+            "S40"
+        ]
+    },
+    "SCH 10S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10S",
+            "S/10S",
+            "S10S",
+            "SCHEDULE 10S",
+            "SH. 10S"
+        ]
+    },
+    "S/10S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10S",
+            "S/10S",
+            "S10S",
+            "SCHEDULE 10S",
+            "SH. 10S"
+        ]
+    },
+    "S10S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10S",
+            "S/10S",
+            "S10S",
+            "SCHEDULE 10S",
+            "SH. 10S"
+        ]
+    },
+    "SCHEDULE 10S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10S",
+            "S/10S",
+            "S10S",
+            "SCHEDULE 10S",
+            "SH. 10S"
+        ]
+    },
+    "SH. 10S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 10S",
+            "S/10S",
+            "S10S",
+            "SCHEDULE 10S",
+            "SH. 10S"
+        ]
+    },
+    "SCH 80S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "S/80S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "S80S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "SCHEDULE 80S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "SCH XH": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "SCHEDULE EXTRA HEAVY": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "S/XH": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "EXTRA HEAVY": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "SCH EXTRA HEAVY": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "SCH XS": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "XS": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "Extra Strong": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH 80S",
+            "S/80S",
+            "S80S",
+            "SCHEDULE 80S",
+            "SCH XH",
+            "SCHEDULE EXTRA HEAVY",
+            "S/XH",
+            "EXTRA HEAVY",
+            "SCH EXTRA HEAVY",
+            "SCH XS",
+            "XS",
+            "EXTRA STRONG"
+        ]
+    },
+    "SCH STD": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH STD",
+            "SCHEDULE STANDARD",
+            "S/STD",
+            "SCH 40S",
+            "SCHEDULE 40S",
+            "S/40S"
+        ]
+    },
+    "SCHEDULE STANDARD": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH STD",
+            "SCHEDULE STANDARD",
+            "S/STD",
+            "SCH 40S",
+            "SCHEDULE 40S",
+            "S/40S"
+        ]
+    },
+    "S/STD": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH STD",
+            "SCHEDULE STANDARD",
+            "S/STD",
+            "SCH 40S",
+            "SCHEDULE 40S",
+            "S/40S"
+        ]
+    },
+    "SCH 40S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH STD",
+            "SCHEDULE STANDARD",
+            "S/STD",
+            "SCH 40S",
+            "SCHEDULE 40S",
+            "S/40S"
+        ]
+    },
+    "SCHEDULE 40S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH STD",
+            "SCHEDULE STANDARD",
+            "S/STD",
+            "SCH 40S",
+            "SCHEDULE 40S",
+            "S/40S"
+        ]
+    },
+    "S/40S": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH STD",
+            "SCHEDULE STANDARD",
+            "S/STD",
+            "SCH 40S",
+            "SCHEDULE 40S",
+            "S/40S"
+        ]
+    },
+    "SCH XXH": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH XXH",
+            "XXH",
+            "EXTRA EXTRA HEAVY",
+            "DOUBLE EXTRA HEAVY"
+        ]
+    },
+    "XXH": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH XXH",
+            "XXH",
+            "EXTRA EXTRA HEAVY",
+            "DOUBLE EXTRA HEAVY"
+        ]
+    },
+    "Extra Extra Heavy": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH XXH",
+            "XXH",
+            "EXTRA EXTRA HEAVY",
+            "DOUBLE EXTRA HEAVY"
+        ]
+    },
+    "Double Extra Heavy ": {
+        "TYPE": "SCHEDULE_(ALWAYS)",
+        "PEERS": [
+            "SCH XXH",
+            "XXH",
+            "EXTRA EXTRA HEAVY",
+            "DOUBLE EXTRA HEAVY"
+        ]
+    },
+    "SCH 10 = SCH 10S": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 10 = SCH 10S",
+            "ONLY SIZES 1/8\" TO 12\""
+        ]
+    },
+    "ONLY SIZES 1/8\" TO 12\"": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 10 = SCH 10S",
+            "ONLY SIZES 1/8\" TO 12\""
+        ]
+    },
+    "SCH STD = SCH 40": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH STD = SCH 40",
+            "ONLY SIZES 1/8\" TO 10\""
+        ]
+    },
+    "ONLY SIZES 1/8\" TO 10\"": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 40 = SCH 40S",
+            "ONLY SIZES 1/8\" TO 10\""
+        ]
+    },
+    "SCH XH = SCH 80": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH XH = SCH 80",
+            "ONLY SIZES 1/8\" TO 8\""
+        ]
+    },
+    "ONLY SIZES 1/8\" TO 8\"": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 80 = SCH 80S",
+            "ONLY SIZES 1/8\" TO 8\""
+        ]
+    },
+    "SCH 5 = SCH 5S": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 5 = SCH 5S",
+            "ONLY SIZES 1/8\" TO 10\""
+        ]
+    },
+    "SCH 40 = SCH 40S": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 40 = SCH 40S",
+            "ONLY SIZES 1/8\" TO 10\""
+        ]
+    },
+    "SCH 80 = SCH 80S": {
+        "TYPE": "SCHEDULE_(DEPEND.ON_SIZES)",
+        "PEERS": [
+            "SCH 80 = SCH 80S",
+            "ONLY SIZES 1/8\" TO 8\""
+        ]
+    },
+    "0.125": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.125",
+            "1/8",
+            "0.125X0.125X0.125"
+        ]
+    },
+    "1/8": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.125",
+            "1/8",
+            "0.125X0.125X0.125"
+        ]
+    },
+    "0.125X0.125X0.125": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.125",
+            "1/8",
+            "0.125X0.125X0.125"
+        ]
+    },
+    "0.25X0.25X0.25": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.25X0.25X0.25",
+            "1/4",
+            "0.25"
+        ]
+    },
+    "1/4": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.25X0.25X0.25",
+            "1/4",
+            "0.25"
+        ]
+    },
+    "0.25": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.25X0.25X0.25",
+            "1/4",
+            "0.25"
+        ]
+    },
+    "0.375X0.375X0.375": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.375X0.375X0.375",
+            "0.375",
+            "3/8"
+        ]
+    },
+    "0.375": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.375X0.375X0.375",
+            "0.375",
+            "3/8"
+        ]
+    },
+    "3/8": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.375X0.375X0.375",
+            "0.375",
+            "3/8"
+        ]
+    },
+    "0.5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.5",
+            "1/2",
+            "0.5X0.5X0.5"
+        ]
+    },
+    "1/2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.5",
+            "1/2",
+            "0.5X0.5X0.5"
+        ]
+    },
+    "0.5X0.5X0.5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.5",
+            "1/2",
+            "0.5X0.5X0.5"
+        ]
+    },
+    "5/8": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "5/8",
+            "0.625X0.625X0.625",
+            "0.625"
+        ]
+    },
+    "0.625X0.625X0.625": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "5/8",
+            "0.625X0.625X0.625",
+            "0.625"
+        ]
+    },
+    "0.625": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "5/8",
+            "0.625X0.625X0.625",
+            "0.625"
+        ]
+    },
+    "0.75X0.75X0.75": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.75X0.75X0.75",
+            "3/4",
+            "0.75"
+        ]
+    },
+    "3/4": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.75X0.75X0.75",
+            "3/4",
+            "0.75"
+        ]
+    },
+    "0.75": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.75X0.75X0.75",
+            "3/4",
+            "0.75"
+        ]
+    },
+    "0.875X0.875X0.875": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.875X0.875X0.875",
+            "7/8",
+            "0.875"
+        ]
+    },
+    "7/8": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.875X0.875X0.875",
+            "7/8",
+            "0.875"
+        ]
+    },
+    "0.875": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "0.875X0.875X0.875",
+            "7/8",
+            "0.875"
+        ]
+    },
+    "1X1X1": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1X1X1",
+            "1"
+        ]
+    },
+    "1": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1X1X1",
+            "1"
+        ]
+    },
+    "1.25": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.25",
+            "1.1/4",
+            "1-1/4",
+            "1.25X1.25X1.25"
+        ]
+    },
+    "1.1/4": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.25",
+            "1.1/4",
+            "1-1/4",
+            "1.25X1.25X1.25"
+        ]
+    },
+    "1-1/4": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.25",
+            "1.1/4",
+            "1-1/4",
+            "1.25X1.25X1.25"
+        ]
+    },
+    "1.25X1.25X1.25": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.25",
+            "1.1/4",
+            "1-1/4",
+            "1.25X1.25X1.25"
+        ]
+    },
+    "1.5X1.5X1.5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.5X1.5X1.5",
+            "1.5",
+            "1-1/2",
+            "1.1/2"
+        ]
+    },
+    "1.5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.5X1.5X1.5",
+            "1.5",
+            "1-1/2",
+            "1.1/2"
+        ]
+    },
+    "1-1/2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.5X1.5X1.5",
+            "1.5",
+            "1-1/2",
+            "1.1/2"
+        ]
+    },
+    "1.1/2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "1.5X1.5X1.5",
+            "1.5",
+            "1-1/2",
+            "1.1/2"
+        ]
+    },
+    "10": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "10",
+            "10X10X10"
+        ]
+    },
+    "10X10X10": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "10",
+            "10X10X10"
+        ]
+    },
+    "12X12X12": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "12X12X12",
+            "12"
+        ]
+    },
+    "12": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "12X12X12",
+            "12"
+        ]
+    },
+    "14": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "14",
+            "14X14X14"
+        ]
+    },
+    "14X14X14": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "14",
+            "14X14X14"
+        ]
+    },
+    "16": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "16",
+            "16X16X16"
+        ]
+    },
+    "16X16X16": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "16",
+            "16X16X16"
+        ]
+    },
+    "18": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "18",
+            "18X18X18"
+        ]
+    },
+    "18X18X18": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "18",
+            "18X18X18"
+        ]
+    },
+    "2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "2",
+            "2X2X2"
+        ]
+    },
+    "2X2X2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "2",
+            "2X2X2"
+        ]
+    },
+    "2.1/2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "2.1/2",
+            "2.5X2.5X2.5",
+            "2.5",
+            "2-1/2"
+        ]
+    },
+    "2.5X2.5X2.5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "2.1/2",
+            "2.5X2.5X2.5",
+            "2.5",
+            "2-1/2"
+        ]
+    },
+    "2.5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "2.1/2",
+            "2.5X2.5X2.5",
+            "2.5",
+            "2-1/2"
+        ]
+    },
+    "2-1/2": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "2.1/2",
+            "2.5X2.5X2.5",
+            "2.5",
+            "2-1/2"
+        ]
+    },
+    "20X20X20": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "20X20X20",
+            "20"
+        ]
+    },
+    "20": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "20X20X20",
+            "20"
+        ]
+    },
+    "24": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "24",
+            "24X24X24"
+        ]
+    },
+    "24X24X24": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "24",
+            "24X24X24"
+        ]
+    },
+    "3": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "3",
+            "3X3X3"
+        ]
+    },
+    "3X3X3": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "3",
+            "3X3X3"
+        ]
+    },
+    "30": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "30",
+            "30X30X30"
+        ]
+    },
+    "30X30X30": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "30",
+            "30X30X30"
+        ]
+    },
+    "36": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "36",
+            "36X36X36"
+        ]
+    },
+    "36X36X36": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "36",
+            "36X36X36"
+        ]
+    },
+    "4X4X4": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "4X4X4",
+            "4"
+        ]
+    },
+    "4": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "4X4X4",
+            "4"
+        ]
+    },
+    "42X42X42": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "42X42X42",
+            "42"
+        ]
+    },
+    "42": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "42X42X42",
+            "42"
+        ]
+    },
+    "48": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "48",
+            "48X48X48"
+        ]
+    },
+    "48X48X48": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "48",
+            "48X48X48"
+        ]
+    },
+    "5X5X5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "5X5X5",
+            "5"
+        ]
+    },
+    "5": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "5X5X5",
+            "5"
+        ]
+    },
+    "54X54X54X": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "54X54X54X",
+            "54"
+        ]
+    },
+    "54": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "54X54X54X",
+            "54"
+        ]
+    },
+    "6": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "6",
+            "6X6X6"
+        ]
+    },
+    "6X6X6": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "6",
+            "6X6X6"
+        ]
+    },
+    "60X60X60": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "60X60X60",
+            "60"
+        ]
+    },
+    "60": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "60X60X60",
+            "60"
+        ]
+    },
+    "7\"": {
+        "TYPE": "",
+        "PEERS": [
+            "7\"",
+            "7",
+            "7IN",
+            "7 IN",
+            "7X7X7"
+        ]
+    },
+    "7": {
+        "TYPE": "",
+        "PEERS": [
+            "7\"",
+            "7",
+            "7IN",
+            "7 IN",
+            "7X7X7"
+        ]
+    },
+    "7IN": {
+        "TYPE": "",
+        "PEERS": [
+            "7\"",
+            "7",
+            "7IN",
+            "7 IN",
+            "7X7X7"
+        ]
+    },
+    "7 IN": {
+        "TYPE": "",
+        "PEERS": [
+            "7\"",
+            "7",
+            "7IN",
+            "7 IN",
+            "7X7X7"
+        ]
+    },
+    "7X7X7": {
+        "TYPE": "",
+        "PEERS": [
+            "7\"",
+            "7",
+            "7IN",
+            "7 IN",
+            "7X7X7"
+        ]
+    },
+    "8X8X8": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "8X8X8",
+            "8"
+        ]
+    },
+    "8": {
+        "TYPE": "SIZE",
+        "PEERS": [
+            "8X8X8",
+            "8"
+        ]
+    },
+    "9\"": {
+        "TYPE": "",
+        "PEERS": [
+            "9\"",
+            "9",
+            "9IN",
+            "9 IN",
+            "9X9X9"
+        ]
+    },
+    "9": {
+        "TYPE": "",
+        "PEERS": [
+            "9\"",
+            "9",
+            "9IN",
+            "9 IN",
+            "9X9X9"
+        ]
+    },
+    "9IN": {
+        "TYPE": "",
+        "PEERS": [
+            "9\"",
+            "9",
+            "9IN",
+            "9 IN",
+            "9X9X9"
+        ]
+    },
+    "9 IN": {
+        "TYPE": "",
+        "PEERS": [
+            "9\"",
+            "9",
+            "9IN",
+            "9 IN",
+            "9X9X9"
+        ]
+    },
+    "9X9X9": {
+        "TYPE": "",
+        "PEERS": [
+            "9\"",
+            "9",
+            "9IN",
+            "9 IN",
+            "9X9X9"
+        ]
+    },
+    "AOV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "AOV",
+            "AIR OPERATED VALVE"
+        ]
+    },
+    "Air Operated Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "AOV",
+            "AIR OPERATED VALVE"
+        ]
+    },
+    "BB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BB",
+            "BOLTED BONNET"
+        ]
+    },
+    "BOLTED BONNET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BB",
+            "BOLTED BONNET"
+        ]
+    },
+    "BFV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BFV",
+            "BUTTERFLY VALVE",
+            "BF",
+            "BFLY"
+        ]
+    },
+    "Butterfly Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BFV",
+            "BUTTERFLY VALVE",
+            "BF",
+            "BFLY"
+        ]
+    },
+    "BF": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BFV",
+            "BUTTERFLY VALVE",
+            "BF",
+            "BFLY"
+        ]
+    },
+    "BFLY": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BFV",
+            "BUTTERFLY VALVE",
+            "BF",
+            "BFLY"
+        ]
+    },
+    "BS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BS",
+            "BELLOWS SEAL"
+        ]
+    },
+    "BELLOWS SEAL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BS",
+            "BELLOWS SEAL"
+        ]
+    },
+    "BV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BV",
+            "BALL VALVE"
+        ]
+    },
+    "Ball Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BV",
+            "BALL VALVE"
+        ]
+    },
+    "CV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CV",
+            "CHK VLV",
+            "CHECK VALVE"
+        ]
+    },
+    "CHK VLV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CV",
+            "CHK VLV",
+            "CHECK VALVE"
+        ]
+    },
+    "CHECK VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CV",
+            "CHK VLV",
+            "CHECK VALVE"
+        ]
+    },
+    "DBB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DBB",
+            "DOUBLE BLOCK AND BLEED"
+        ]
+    },
+    "Double Block and Bleed ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DBB",
+            "DOUBLE BLOCK AND BLEED"
+        ]
+    },
+    "DCV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DCV",
+            "DIRECTIONAL CONTROL VALVE"
+        ]
+    },
+    "Directional Control Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DCV",
+            "DIRECTIONAL CONTROL VALVE"
+        ]
+    },
+    "DOV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DOV",
+            "DOUBLE OFFSET VALVE"
+        ]
+    },
+    "DOUBLE OFFSET VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DOV",
+            "DOUBLE OFFSET VALVE"
+        ]
+    },
+    "GLB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "GLB",
+            "GLOBE"
+        ]
+    },
+    "GLOBE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "GLB",
+            "GLOBE"
+        ]
+    },
+    "IREB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "IREB",
+            "INTEGRALLY REINFORCED EXTENDED BODY"
+        ]
+    },
+    "Integrally reinforced EXTENDED BODY": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "IREB",
+            "INTEGRALLY REINFORCED EXTENDED BODY"
+        ]
+    },
+    "LB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LB",
+            "LONG BEND"
+        ]
+    },
+    "Long Bend ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LB",
+            "LONG BEND"
+        ]
+    },
+    "LJ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LJ",
+            "LAP JOINT"
+        ]
+    },
+    "LAP JOINT": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LJ",
+            "LAP JOINT"
+        ]
+    },
+    "MOV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "MOV",
+            "MOTOR OPERATED VALVE"
+        ]
+    },
+    "Motor Operated Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "MOV",
+            "MOTOR OPERATED VALVE"
+        ]
+    },
+    "NRV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NRV",
+            "NON-RETURN VALVE"
+        ]
+    },
+    "Non-Return Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NRV",
+            "NON-RETURN VALVE"
+        ]
+    },
+    "PCV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PCV",
+            "PRESSURE CONTROL VALVE"
+        ]
+    },
+    "Pressure Control Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PCV",
+            "PRESSURE CONTROL VALVE"
+        ]
+    },
+    "RV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "RV",
+            "RELIEF VALVE"
+        ]
+    },
+    "RELIEF VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "RV",
+            "RELIEF VALVE"
+        ]
+    },
+    "SB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SB",
+            "SHORT BEND"
+        ]
+    },
+    "SHORT BEND": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SB",
+            "SHORT BEND"
+        ]
+    },
+    "SDV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SDV",
+            "SHUTDOWN VALVE"
+        ]
+    },
+    "Shutdown Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SDV",
+            "SHUTDOWN VALVE"
+        ]
+    },
+    "SO": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SO",
+            "SLIP ON",
+            "SLIP-ON",
+            "SL"
+        ]
+    },
+    "SLIP ON": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SO",
+            "SLIP ON",
+            "SLIP-ON",
+            "SL"
+        ]
+    },
+    "SLIP-ON": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SO",
+            "SLIP ON",
+            "SLIP-ON",
+            "SL"
+        ]
+    },
+    "SL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SO",
+            "SLIP ON",
+            "SLIP-ON",
+            "SL"
+        ]
+    },
+    "SOV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SOV",
+            "SOLENOID OPERATED VALVE"
+        ]
+    },
+    "Solenoid Operated Valve ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SOV",
+            "SOLENOID OPERATED VALVE"
+        ]
+    },
+    "SR": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SR",
+            "SHORT RADIUS"
+        ]
+    },
+    "SHORT RADIUS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SR",
+            "SHORT RADIUS"
+        ]
+    },
+    "TOV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TOV",
+            "TRIPLE OFFSET VALVE"
+        ]
+    },
+    "TRIPLE OFFSET VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TOV",
+            "TRIPLE OFFSET VALVE"
+        ]
+    },
+    "UB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "UB",
+            "UNION BONNET"
+        ]
+    },
+    "UNION BONNET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "UB",
+            "UNION BONNET"
+        ]
+    },
+    "VJ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "VJ",
+            "VICTAULIC JOINT"
+        ]
+    },
+    "Victaulic Joint": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "VJ",
+            "VICTAULIC JOINT"
+        ]
+    },
+    "WB": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WB",
+            "WELDED BONNET"
+        ]
+    },
+    "WELDED BONNET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WB",
+            "WELDED BONNET"
+        ]
+    },
+    "WN": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WN",
+            "WELD NECK",
+            "WELDNECK"
+        ]
+    },
+    "WELD NECK": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WN",
+            "WELD NECK",
+            "WELDNECK"
+        ]
+    },
+    "WELDNECK": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WN",
+            "WELD NECK",
+            "WELDNECK"
+        ]
+    },
+    "A105N": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "A105N",
+            "A105 NORMALIZED"
+        ]
+    },
+    "A105 NORMALIZED": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "A105N",
+            "A105 NORMALIZED"
+        ]
+    },
+    "AL BRZ": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "AL BRZ",
+            "ALUMINUM BRONZE"
+        ]
+    },
+    "ALUMINUM BRONZE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "AL BRZ",
+            "ALUMINUM BRONZE"
+        ]
+    },
+    "APD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "APD",
+            "APPROVED"
+        ]
+    },
+    "APPROVED": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "APD",
+            "APPROVED"
+        ]
+    },
+    "BRS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "BRS",
+            "BRASS"
+        ]
+    },
+    "BRASS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "BRS",
+            "BRASS"
+        ]
+    },
+    "BRZ": {
+        "TYPE": "MAT",
+        "PEERS": [
+            "BRZ",
+            "BRONZE",
+            "BRNZ"
+        ]
+    },
+    "BRONZE": {
+        "TYPE": "MAT",
+        "PEERS": [
+            "BRZ",
+            "BRONZE",
+            "BRNZ"
+        ]
+    },
+    "BRNZ": {
+        "TYPE": "MAT",
+        "PEERS": [
+            "BRZ",
+            "BRONZE",
+            "BRNZ"
+        ]
+    },
+    "CONC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CONC",
+            "CONCENTRIC"
+        ]
+    },
+    "CONCENTRIC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CONC",
+            "CONCENTRIC"
+        ]
+    },
+    "CPVC": {
+        "TYPE": "TYPE/MATERIAL",
+        "PEERS": [
+            "CPVC",
+            "CHLORINATED PVC"
+        ]
+    },
+    "Chlorinated PVC": {
+        "TYPE": "TYPE/MATERIAL",
+        "PEERS": [
+            "CPVC",
+            "CHLORINATED PVC"
+        ]
+    },
+    "CWP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "CWP",
+            "COLD WORKING PRESSURE"
+        ]
+    },
+    "COLD WORKING PRESSURE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "CWP",
+            "COLD WORKING PRESSURE"
+        ]
+    },
+    "DBL FLG": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "DBL FLG",
+            "DOUBLE FLANGE"
+        ]
+    },
+    "DOUBLE FLANGE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "DBL FLG",
+            "DOUBLE FLANGE"
+        ]
+    },
+    "DEG": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DEG",
+            "DEGREE"
+        ]
+    },
+    "DEGREE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DEG",
+            "DEGREE"
+        ]
+    },
+    "DRL": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DRL",
+            "DOUBLE RANDOM LENGTH"
+        ]
+    },
+    "DOUBLE RANDOM LENGTH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DRL",
+            "DOUBLE RANDOM LENGTH"
+        ]
+    },
+    "TRL": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "TRL",
+            "TRIPLE RANDOM LENGTH"
+        ]
+    },
+    "TRIPLE RANDOM LENGTH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "TRL",
+            "TRIPLE RANDOM LENGTH"
+        ]
+    },
+    "DUAL PLT CHK": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DUAL PLT CHK",
+            "DUAL PLATE CHECK"
+        ]
+    },
+    "DUAL PLATE CHECK": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "DUAL PLT CHK",
+            "DUAL PLATE CHECK"
+        ]
+    },
+    "ECC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ECC",
+            "ECCENTRIC"
+        ]
+    },
+    "ECCENTRIC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ECC",
+            "ECCENTRIC"
+        ]
+    },
+    "EFW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "EFW",
+            "ELECTRIC FUSION WELDED"
+        ]
+    },
+    "Electric Fusion Welded": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "EFW",
+            "ELECTRIC FUSION WELDED"
+        ]
+    },
+    "ELL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ELL",
+            "ELBOW",
+            "ELLS"
+        ]
+    },
+    "ELBOW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ELL",
+            "ELBOW",
+            "ELLS"
+        ]
+    },
+    "ELLS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ELL",
+            "ELBOW",
+            "ELLS"
+        ]
+    },
+    "ERW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ERW",
+            "ELECTRIC RESISTANCE WELDED"
+        ]
+    },
+    "Electric Resistance Welded": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ERW",
+            "ELECTRIC RESISTANCE WELDED"
+        ]
+    },
+    "ESD": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ESD",
+            "EMERGENCY SHUTDOWN VALVE"
+        ]
+    },
+    "Emergency Shutdown Valve": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ESD",
+            "EMERGENCY SHUTDOWN VALVE"
+        ]
+    },
+    "EXT BODY": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "EXT BODY",
+            "EXTENDED BODY"
+        ]
+    },
+    "EXTENDED BODY": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "EXT BODY",
+            "EXTENDED BODY"
+        ]
+    },
+    "FS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "FS",
+            "FORGED STEEL"
+        ]
+    },
+    "FORGED STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "FS",
+            "FORGED STEEL"
+        ]
+    },
+    "FTG": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "FTG",
+            "FITTING"
+        ]
+    },
+    "FITTING": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "FTG",
+            "FITTING"
+        ]
+    },
+    "GO": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "GO",
+            "GEAR OPERATOR",
+            "GEAR OP"
+        ]
+    },
+    "GEAR OPERATOR": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "GO",
+            "GEAR OPERATOR",
+            "GEAR OP"
+        ]
+    },
+    "GEAR OP": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "GO",
+            "GEAR OPERATOR",
+            "GEAR OP"
+        ]
+    },
+    "GV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "GV",
+            "GATE VALVE"
+        ]
+    },
+    "Gate Valve": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "GV",
+            "GATE VALVE"
+        ]
+    },
+    "HDL": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "HDL",
+            "HANDLE"
+        ]
+    },
+    "HANDLE": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "HDL",
+            "HANDLE"
+        ]
+    },
+    "HFW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "HFW",
+            "HIGH-FREQUENCY WELDED"
+        ]
+    },
+    "High-Frequency Welded": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "HFW",
+            "HIGH-FREQUENCY WELDED"
+        ]
+    },
+    "HW": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "HW",
+            "HANDWHEEL"
+        ]
+    },
+    "HANDWHEEL": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "HW",
+            "HANDWHEEL"
+        ]
+    },
+    "IMP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IMP",
+            "IMPORT"
+        ]
+    },
+    "IMPORT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IMP",
+            "IMPORT"
+        ]
+    },
+    "LL": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LL",
+            "LOCKING LEVER",
+            "LKG LVR"
+        ]
+    },
+    "LOCKING LEVER": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LL",
+            "LOCKING LEVER",
+            "LKG LVR"
+        ]
+    },
+    "LKG LVR": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LL",
+            "LOCKING LEVER",
+            "LKG LVR"
+        ]
+    },
+    "LO": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LO",
+            "LEVER OP",
+            "LVR",
+            "LEVER"
+        ]
+    },
+    "LEVER OP": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LO",
+            "LEVER OP",
+            "LVR",
+            "LEVER"
+        ]
+    },
+    "LVR": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LO",
+            "LEVER OP",
+            "LVR",
+            "LEVER"
+        ]
+    },
+    "LEVER": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "LO",
+            "LEVER OP",
+            "LVR",
+            "LEVER"
+        ]
+    },
+    "LR": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LR",
+            "LONG RADIUS"
+        ]
+    },
+    "Long Radius": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LR",
+            "LONG RADIUS"
+        ]
+    },
+    "LSAW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LSAW",
+            "LONGITUDINAL SUBMERGED ARC WELDED"
+        ]
+    },
+    "Longitudinal Submerged Arc Welded": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LSAW",
+            "LONGITUDINAL SUBMERGED ARC WELDED"
+        ]
+    },
+    "NDE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "NDE",
+            "NON DESTRUCTIVE EXAM"
+        ]
+    },
+    "NON DESTRUCTIVE EXAM": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "NDE",
+            "NON DESTRUCTIVE EXAM"
+        ]
+    },
+    "NSF": {
+        "TYPE": "ORGANIZATION",
+        "PEERS": [
+            "NSF",
+            "NATIONAL SANITATION FOUNDATION"
+        ]
+    },
+    "National Sanitation Foundation": {
+        "TYPE": "ORGANIZATION",
+        "PEERS": [
+            "NSF",
+            "NATIONAL SANITATION FOUNDATION"
+        ]
+    },
+    "OP": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "OP",
+            "OPERATOR"
+        ]
+    },
+    "OPERATOR": {
+        "TYPE": "OPERATOR",
+        "PEERS": [
+            "OP",
+            "OPERATOR"
+        ]
+    },
+    "OS&Y": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "OS&Y",
+            "OUTSIDE STEM & YOKE"
+        ]
+    },
+    "OUTSIDE STEM & YOKE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "OS&Y",
+            "OUTSIDE STEM & YOKE"
+        ]
+    },
+    "PC": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "PC",
+            "PIECE"
+        ]
+    },
+    "PIECE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "PC",
+            "PIECE"
+        ]
+    },
+    "PExBE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PEXBE",
+            "PLAIN END X BEVEL END"
+        ]
+    },
+    "PLAIN END x BEVEL END": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PEXBE",
+            "PLAIN END X BEVEL END"
+        ]
+    },
+    "PRV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PRV",
+            "PRESSURE REDUCING VALVE"
+        ]
+    },
+    "Pressure Reducing Valve": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PRV",
+            "PRESSURE REDUCING VALVE"
+        ]
+    },
+    "PSV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PSV",
+            "PRESSURE SAFETY VALVE"
+        ]
+    },
+    "Pressure Safety Valve": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PSV",
+            "PRESSURE SAFETY VALVE"
+        ]
+    },
+    "RED": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "RED",
+            "REDUC",
+            "REDUCER"
+        ]
+    },
+    "REDUC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "RED",
+            "REDUC",
+            "REDUCER"
+        ]
+    },
+    "REDUCER": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "RED",
+            "REDUC",
+            "REDUCER"
+        ]
+    },
+    "RT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "RT",
+            "RADIOGRAPHY TEST"
+        ]
+    },
+    "RADIOGRAPHY TEST": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "RT",
+            "RADIOGRAPHY TEST"
+        ]
+    },
+    "SAW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SAW",
+            "SUBMERGED ARC WELDED"
+        ]
+    },
+    "Submerged Arc Welded": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SAW",
+            "SUBMERGED ARC WELDED"
+        ]
+    },
+    "SMLS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SMLS",
+            "SEAMLESS"
+        ]
+    },
+    "SEAMLESS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SMLS",
+            "SEAMLESS"
+        ]
+    },
+    "RL": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "RL",
+            "ROLLED LENGTH"
+        ]
+    },
+    "ROLLED LENGTH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "RL",
+            "ROLLED LENGTH"
+        ]
+    },
+    "SRL": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SRL",
+            "SINGLE RANDOM LENGTH"
+        ]
+    },
+    "SINGLE RANDOM LENGTH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SRL",
+            "SINGLE RANDOM LENGTH"
+        ]
+    },
+    "T12": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T12",
+            "TRIM 12"
+        ]
+    },
+    "TRIM 12": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T12",
+            "TRIM 12"
+        ]
+    },
+    "T12N": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T12N",
+            "TRIM 12 NAME"
+        ]
+    },
+    "TRIM 12 NAME": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T12N",
+            "TRIM 12 NAME"
+        ]
+    },
+    "T5": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T5",
+            "TRIM 5"
+        ]
+    },
+    "TRIM 5": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T5",
+            "TRIM 5"
+        ]
+    },
+    "T5N": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T5N",
+            "TRIM 5 NACE"
+        ]
+    },
+    "TRIM 5 NACE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T5N",
+            "TRIM 5 NACE"
+        ]
+    },
+    "T8": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T8",
+            "TRIM 8"
+        ]
+    },
+    "TRIM 8": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T8",
+            "TRIM 8"
+        ]
+    },
+    "T8N": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T8N",
+            "TRIM 8 NACE"
+        ]
+    },
+    "TRIM 8 NACE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "T8N",
+            "TRIM 8 NACE"
+        ]
+    },
+    "TEE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TEE",
+            "T-FITTING"
+        ]
+    },
+    "T-fitting": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TEE",
+            "T-FITTING"
+        ]
+    },
+    "TMBV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TMBV",
+            "TRUNNION MOUNTED BALL VALVE"
+        ]
+    },
+    "TRUNNION MOUNTED BALL VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TMBV",
+            "TRUNNION MOUNTED BALL VALVE"
+        ]
+    },
+    "WLD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WLD",
+            "WELD"
+        ]
+    },
+    "WELD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WLD",
+            "WELD"
+        ]
+    },
+    "WT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WT",
+            "WEIGHT"
+        ]
+    },
+    "WEIGHT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "WT",
+            "WEIGHT"
+        ]
+    },
+    "NIP": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NIP",
+            "NIPPLE",
+            "NPPL",
+            "NPPLS"
+        ]
+    },
+    "NIPPLE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NIP",
+            "NIPPLE",
+            "NPPL",
+            "NPPLS"
+        ]
+    },
+    "NPPL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NIP",
+            "NIPPLE",
+            "NPPL",
+            "NPPLS"
+        ]
+    },
+    "NPPLS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NIP",
+            "NIPPLE",
+            "NPPL",
+            "NPPLS"
+        ]
+    },
+    "OLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "OLET",
+            "OUTLET"
+        ]
+    },
+    "OUTLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "OLET",
+            "OUTLET"
+        ]
+    },
+    "SOL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SOL",
+            "SOCKOLET",
+            "SOCOLET"
+        ]
+    },
+    "SOCKOLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SOL",
+            "SOCKOLET",
+            "SOCOLET"
+        ]
+    },
+    "SOCOLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SOL",
+            "SOCKOLET",
+            "SOCOLET"
+        ]
+    },
+    "TOL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TOL",
+            "THREADOLET"
+        ]
+    },
+    "THREADOLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "TOL",
+            "THREADOLET"
+        ]
+    },
+    "EOL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "EOL",
+            "ELBOLET"
+        ]
+    },
+    "ELBOLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "EOL",
+            "ELBOLET"
+        ]
+    },
+    "WOL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WOL",
+            "WELDOLET"
+        ]
+    },
+    "WELDOLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "WOL",
+            "WELDOLET"
+        ]
+    },
+    "FIP": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "FIP",
+            "FEMALE IRON PIPE"
+        ]
+    },
+    "FEMALE IRON PIPE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "FIP",
+            "FEMALE IRON PIPE"
+        ]
+    },
+    "MIP": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MIP",
+            "MALE IRON PIPE"
+        ]
+    },
+    "MALE IRON PIPE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MIP",
+            "MALE IRON PIPE"
+        ]
+    },
+    "TFE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "TFE",
+            "TEFLON"
+        ]
+    },
+    "TEFLON": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "TFE",
+            "TEFLON"
+        ]
+    },
+    "AWWA": {
+        "TYPE": "ORGANIZATION",
+        "PEERS": [
+            "AWWA",
+            "AMERICAN WATER WORKS ASSOCIATION"
+        ]
+    },
+    "American Water Works Association": {
+        "TYPE": "ORGANIZATION",
+        "PEERS": [
+            "AWWA",
+            "AMERICAN WATER WORKS ASSOCIATION"
+        ]
+    },
+    "GALV": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "GALV",
+            "GALVANIZED",
+            "GLV"
+        ]
+    },
+    "GALVANIZED": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "GALV",
+            "GALVANIZED",
+            "GLV"
+        ]
+    },
+    "GLV": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "GALV",
+            "GALVANIZED",
+            "GLV"
+        ]
+    },
+    "BLK": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BLK",
+            "BLACK"
+        ]
+    },
+    "BLACK": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BLK",
+            "BLACK"
+        ]
+    },
+    "FBE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "FBE",
+            "FUSION BONDED EPOXY"
+        ]
+    },
+    "Fusion Bonded Epoxy": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "FBE",
+            "FUSION BONDED EPOXY"
+        ]
+    },
+    "CPLG": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CPLG",
+            "COUPLING"
+        ]
+    },
+    "COUPLING": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CPLG",
+            "COUPLING"
+        ]
+    },
+    "45D": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "45D",
+            "45 DEGREE"
+        ]
+    },
+    "45 DEGREE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "45D",
+            "45 DEGREE"
+        ]
+    },
+    "90D": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "90D",
+            "90 DEGREE"
+        ]
+    },
+    "90 DEGREE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "90D",
+            "90 DEGREE"
+        ]
+    },
+    "T&C": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "T&C",
+            "THREADED AND COUPLED"
+        ]
+    },
+    "THREADED AND COUPLED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "T&C",
+            "THREADED AND COUPLED"
+        ]
+    },
+    "3M": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "3M",
+            "3000",
+            "3K"
+        ]
+    },
+    "3000": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "3M",
+            "3000",
+            "3K"
+        ]
+    },
+    "3K": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "3M",
+            "3000",
+            "3K"
+        ]
+    },
+    "6M": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "6M",
+            "6000",
+            "6K"
+        ]
+    },
+    "6000": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "6M",
+            "6000",
+            "6K"
+        ]
+    },
+    "6K": {
+        "TYPE": "PRESSURE",
+        "PEERS": [
+            "6M",
+            "6000",
+            "6K"
+        ]
+    },
+    "MALL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "MALL",
+            "MALLEABLE",
+            "MALLEABLE IRON",
+            "MI"
+        ]
+    },
+    "MALLEABLE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "MALL",
+            "MALLEABLE",
+            "MALLEABLE IRON",
+            "MI"
+        ]
+    },
+    "MALLEABLE IRON": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "MALL",
+            "MALLEABLE",
+            "MALLEABLE IRON",
+            "MI"
+        ]
+    },
+    "MI": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "MALL",
+            "MALLEABLE",
+            "MALLEABLE IRON",
+            "MI"
+        ]
+    },
+    "IR": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IR",
+            "INNER RING"
+        ]
+    },
+    "INNER RING": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "IR",
+            "INNER RING"
+        ]
+    },
+    "OR": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "OR",
+            "OUTER RING"
+        ]
+    },
+    "OUTER RING": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "OR",
+            "OUTER RING"
+        ]
+    },
+    "HSTL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "HSTL",
+            "HASTELLOY"
+        ]
+    },
+    "HASTELLOY": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "HSTL",
+            "HASTELLOY"
+        ]
+    },
+    "BLT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BLT",
+            "BOLT"
+        ]
+    },
+    "BOLT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BLT",
+            "BOLT"
+        ]
+    },
+    "GSKT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "GSKT",
+            "GASKET"
+        ]
+    },
+    "GASKET": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "GSKT",
+            "GASKET"
+        ]
+    },
+    "SWG": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SWG",
+            "SPIRAL WOUND GASKET"
+        ]
+    },
+    "SPIRAL WOUND GASKET": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SWG",
+            "SPIRAL WOUND GASKET"
+        ]
+    },
+    "PTD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "PTD",
+            "PAINTED"
+        ]
+    },
+    "PAINTED": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "PTD",
+            "PAINTED"
+        ]
+    },
+    "SLD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SLD",
+            "SOLID"
+        ]
+    },
+    "SOLID": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "SLD",
+            "SOLID"
+        ]
+    },
+    "GRF": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "GRF",
+            "GRAPHITE"
+        ]
+    },
+    "GRAPHITE": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "GRF",
+            "GRAPHITE"
+        ]
+    },
+    "HDWR": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "HDWR",
+            "HARDWARE"
+        ]
+    },
+    "HARDWARE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "HDWR",
+            "HARDWARE"
+        ]
+    },
+    "MECH TEE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MECH TEE",
+            "MECHANICAL TEE"
+        ]
+    },
+    "MECHANICAL TEE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MECH TEE",
+            "MECHANICAL TEE"
+        ]
+    },
+    "ECC RED": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ECC RED",
+            "ECCENTRIC REDUCER"
+        ]
+    },
+    "ECCENTRIC REDUCER": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ECC RED",
+            "ECCENTRIC REDUCER"
+        ]
+    },
+    "CONC RED": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CONC RED",
+            "CONCENTRIC REDUCER"
+        ]
+    },
+    "CONCENTRIC REDUCER": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "CONC RED",
+            "CONCENTRIC REDUCER"
+        ]
+    },
+    "BLD": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BLD",
+            "BLIND"
+        ]
+    },
+    "BLIND": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "BLD",
+            "BLIND"
+        ]
+    },
+    "PSTN": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PSTN",
+            "PISTON"
+        ]
+    },
+    "PISTON": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "PSTN",
+            "PISTON"
+        ]
+    },
+    "FCS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "FCS",
+            "FORGED CARBON STEEL"
+        ]
+    },
+    "FORGED CARBON STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "FCS",
+            "FORGED CARBON STEEL"
+        ]
+    },
+    "F&T": {
+        "TYPE": "TYPE_(FERG)",
+        "PEERS": [
+            "F&T",
+            "FLOOR & TABLE"
+        ]
+    },
+    "FLOOR & TABLE": {
+        "TYPE": "TYPE_(FERG)",
+        "PEERS": [
+            "F&T",
+            "FLOOR & TABLE"
+        ]
+    },
+    "STM": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "STM",
+            "STEAM"
+        ]
+    },
+    "STEAM": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "STM",
+            "STEAM"
+        ]
+    },
+    "SWXTHRD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SWXTHRD",
+            "SOCKETWELD X THREADED ENDS"
+        ]
+    },
+    "SOCKETWELD X THREADED ENDS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "SWXTHRD",
+            "SOCKETWELD X THREADED ENDS"
+        ]
+    },
+    "THRMDYNMC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "THRMDYNMC",
+            "THERMODYNAMIC",
+            "TDC"
+        ]
+    },
+    "THERMODYNAMIC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "THRMDYNMC",
+            "THERMODYNAMIC",
+            "TDC"
+        ]
+    },
+    "TDC": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "THRMDYNMC",
+            "THERMODYNAMIC",
+            "TDC"
+        ]
+    },
+    "ALST": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "ALST",
+            "ALL STAINLESS"
+        ]
+    },
+    "ALL STAINLESS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "ALST",
+            "ALL STAINLESS"
+        ]
+    },
+    "UNIV CONN": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "UNIV CONN",
+            "UNIVERSAL CONNECTOR"
+        ]
+    },
+    "UNIVERSAL CONNECTOR": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "UNIV CONN",
+            "UNIVERSAL CONNECTOR"
+        ]
+    },
+    "BCKT": {
+        "TYPE": "TYPE_(STEAM)",
+        "PEERS": [
+            "BCKT",
+            "BUCKET"
+        ]
+    },
+    "BUCKET": {
+        "TYPE": "TYPE_(STEAM)",
+        "PEERS": [
+            "BCKT",
+            "BUCKET"
+        ]
+    },
+    "CSXSS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CSXSS",
+            "CARBON STEEL X STAINLESS STEEL"
+        ]
+    },
+    "CARBON STEEL X STAINLESS STEEL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "CSXSS",
+            "CARBON STEEL X STAINLESS STEEL"
+        ]
+    },
+    " SP ": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "SP",
+            "STANDARD PORT",
+            "REDUCED PORT"
+        ]
+    },
+    "STANDARD PORT": {
+        "TYPE": "PORT",
+        "PEERS": [
+            "SP",
+            "STANDARD PORT",
+            "REDUCED PORT"
+        ]
+    },
+    "SPW": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SPW",
+            "SPIRAL WOUND"
+        ]
+    },
+    "SPIRAL WOUND": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SPW",
+            "SPIRAL WOUND"
+        ]
+    },
+    "SPV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SPV",
+            "SLEEVED PLUG VALVE"
+        ]
+    },
+    "SLEEVED PLUG VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "SPV",
+            "SLEEVED PLUG VALVE"
+        ]
+    },
+    "BDY": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BDY",
+            "BODY"
+        ]
+    },
+    "BODY": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BDY",
+            "BODY"
+        ]
+    },
+    "RND": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "RND",
+            "ROUND"
+        ]
+    },
+    "ROUND": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "RND",
+            "ROUND"
+        ]
+    },
+    "MNTG": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MNTG",
+            "MOUNTING"
+        ]
+    },
+    "MOUNTING": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "MNTG",
+            "MOUNTING"
+        ]
+    },
+    "PLTD": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "PLTD",
+            "PLATED"
+        ]
+    },
+    "PLATED": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "PLTD",
+            "PLATED"
+        ]
+    },
+    "COMP COUP": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "COMP COUP",
+            "COMPRESSION COUPLING"
+        ]
+    },
+    "COMPRESSION COUPLING": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "COMP COUP",
+            "COMPRESSION COUPLING"
+        ]
+    },
+    "MSBALL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "MSBALL",
+            "METAL SEATED BALL"
+        ]
+    },
+    "METAL SEATED BALL": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "MSBALL",
+            "METAL SEATED BALL"
+        ]
+    },
+    "BRCH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BRCH",
+            "BRANCH"
+        ]
+    },
+    "BRANCH": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BRCH",
+            "BRANCH"
+        ]
+    },
+    "DBL": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DBL",
+            "DOUBLE"
+        ]
+    },
+    "DOUBLE": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "DBL",
+            "DOUBLE"
+        ]
+    },
+    "F/GLS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "F/GLS",
+            "FIBERGLASS"
+        ]
+    },
+    "FIBERGLASS": {
+        "TYPE": "MATERIAL",
+        "PEERS": [
+            "F/GLS",
+            "FIBERGLASS"
+        ]
+    },
+    "ADPT": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "ADPT",
+            "ADAPTER"
+        ]
+    },
+    "ADAPTER": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "ADPT",
+            "ADAPTER"
+        ]
+    },
+    "BU RING": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BU RING",
+            "BACKUP RING"
+        ]
+    },
+    "BACKUP RING": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "BU RING",
+            "BACKUP RING"
+        ]
+    },
+    "TPRD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TPRD",
+            "TAPERED"
+        ]
+    },
+    "TAPERED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TPRD",
+            "TAPERED"
+        ]
+    },
+    "NDL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NDL",
+            "NEEDLE"
+        ]
+    },
+    "NEEDLE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "NDL",
+            "NEEDLE"
+        ]
+    },
+    "HPBF": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "HPBF",
+            "HIGH PERFORMANCE BUTTERFLY VALVE"
+        ]
+    },
+    "HIGH PERFORMANCE BUTTERFLY VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "HPBF",
+            "HIGH PERFORMANCE BUTTERFLY VALVE"
+        ]
+    },
+    "KGV": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "KGV",
+            "KNIFE GATE VALVE"
+        ]
+    },
+    "KNIFE GATE VALVE": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "KGV",
+            "KNIFE GATE VALVE"
+        ]
+    },
+    "BXP": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BXP",
+            "BEVELED X PLAIN",
+            "B X P"
+        ]
+    },
+    "BEVELED X PLAIN": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BXP",
+            "BEVELED X PLAIN",
+            "B X P"
+        ]
+    },
+    "B X P": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BXP",
+            "BEVELED X PLAIN",
+            "B X P"
+        ]
+    },
+    "TXP": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TXP",
+            "THREADED X PLAIN",
+            "T X P"
+        ]
+    },
+    "THREADED X PLAIN": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TXP",
+            "THREADED X PLAIN",
+            "T X P"
+        ]
+    },
+    "T X P": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TXP",
+            "THREADED X PLAIN",
+            "T X P"
+        ]
+    },
+    "PXT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXT",
+            "PLAIN X THREADED",
+            "P X T"
+        ]
+    },
+    "PLAIN X THREADED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXT",
+            "PLAIN X THREADED",
+            "P X T"
+        ]
+    },
+    "P X T": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXT",
+            "PLAIN X THREADED",
+            "P X T"
+        ]
+    },
+    "PXB": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXB",
+            "PLAIN X BEVELED",
+            "P X B"
+        ]
+    },
+    "PLAIN X BEVELED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXB",
+            "PLAIN X BEVELED",
+            "P X B"
+        ]
+    },
+    "P X B": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXB",
+            "PLAIN X BEVELED",
+            "P X B"
+        ]
+    },
+    "BBE": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BBE",
+            "BEVELED BOTH ENDS"
+        ]
+    },
+    "BEVELED BOTH ENDS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BBE",
+            "BEVELED BOTH ENDS"
+        ]
+    },
+    "BXT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BXT",
+            "BEVELED X THREADED",
+            "B X T"
+        ]
+    },
+    "BEVELED X THREADED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BXT",
+            "BEVELED X THREADED",
+            "B X T"
+        ]
+    },
+    "B X T": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "BXT",
+            "BEVELED X THREADED",
+            "B X T"
+        ]
+    },
+    "TXB": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TXB",
+            "THREADED X BEVELED",
+            "T X B"
+        ]
+    },
+    "THREADED X BEVELED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TXB",
+            "THREADED X BEVELED",
+            "T X B"
+        ]
+    },
+    "T X B": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "TXB",
+            "THREADED X BEVELED",
+            "T X B"
+        ]
+    },
+    "MHT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MHT",
+            "MALE HOSE THREAD"
+        ]
+    },
+    "MALE HOSE THREAD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "MHT",
+            "MALE HOSE THREAD"
+        ]
+    },
+    "PXM": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXM",
+            "PRESS X MALE THREADED"
+        ]
+    },
+    "PRESS X MALE THREADED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXM",
+            "PRESS X MALE THREADED"
+        ]
+    },
+    "GJ": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "GJ",
+            "GROUND JOINT"
+        ]
+    },
+    "GROUND JOINT": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "GJ",
+            "GROUND JOINT"
+        ]
+    },
+    "PXP": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXP",
+            "PRESS X PRESSS"
+        ]
+    },
+    "PRESS X PRESSS": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXP",
+            "PRESS X PRESSS"
+        ]
+    },
+    "PXMHT": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXMHT",
+            "PRESS X MALE HOSE THREAD"
+        ]
+    },
+    "PRESS X MALE HOSE THREAD": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PXMHT",
+            "PRESS X MALE HOSE THREAD"
+        ]
+    },
+    "ISS": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ISS",
+            "INSIDE SCREW STEM"
+        ]
+    },
+    "INSIDE SCREW STEM": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "ISS",
+            "INSIDE SCREW STEM"
+        ]
+    },
+    "PEB": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PEB",
+            "PLAIN END BEVELED"
+        ]
+    },
+    "PLAIN END BEVELED": {
+        "TYPE": "END_CONN",
+        "PEERS": [
+            "PEB",
+            "PLAIN END BEVELED"
+        ]
+    },
+    "A/SA": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "A/SA",
+            "ASTM/ASME"
+        ]
+    },
+    "ASTM/ASME": {
+        "TYPE": "GENERAL",
+        "PEERS": [
+            "A/SA",
+            "ASTM/ASME"
+        ]
+    },
+    "LOL": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LOL",
+            "LONG OUTLET"
+        ]
+    },
+    "LONG OUTLET": {
+        "TYPE": "TYPE",
+        "PEERS": [
+            "LOL",
+            "LONG OUTLET"
+        ]
+    }
+}

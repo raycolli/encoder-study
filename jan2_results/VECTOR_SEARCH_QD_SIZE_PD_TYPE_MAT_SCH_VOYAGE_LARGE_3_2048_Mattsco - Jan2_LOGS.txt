@@ -1,0 +1,2530 @@
+[2025-01-02 21:15:18] VECTOR_SEARCH_QD_SIZE_PD_TYPE_MAT_SCH_VOYAGE_LARGE_3_2048_Mattsco - Jan2
+[2025-01-02 21:15:18] unraveling dynamic filtering query process...
+[2025-01-02 21:15:18] -----------------------------------------GT_NUMBER---> i:  0 previous rank:  0
+[2025-01-02 21:15:18] gt_desc:  4" X 3" STD CONCENTRIC WELD REDUCER, SA234-WPB
+[2025-01-02 21:15:18] inc_rfq:  3" X 4" SCH. STD WALL CONCENTRIC REDUCER A234 FR. WPB
+[2025-01-02 21:15:18] quality:  EXCELLENT
+[2025-01-02 21:15:18] size raw:  3.0
+[2025-01-02 21:15:18] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:15:27] did we find it gt_response?  ([], None)
+[2025-01-02 21:15:27] what is size_raw:  3.0
+[2025-01-02 21:15:27] what is material:  CARBON STEEL
+[2025-01-02 21:15:27] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:15:27] what is schedule:  STANDARD
+[2025-01-02 21:15:32] len of vect + qdrant size results: 3326
+[2025-01-02 21:15:32] **** TYPE *****
+[2025-01-02 21:15:32] Incoming dataframe size:  3326
+[2025-01-02 21:15:32] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:15:32] type perms:  ['SWAGE CONCENTRIC', 'CONCENTRIC SWAGE', 'SWAGE CONC', 'CONC SWAGE', 'SWAGE CON', 'CON SWAGE', 'SWG CONC', 'CONC SWG', 'SWG CON', 'CON SWG', 'CONCENTRIC REDUCER']
+[2025-01-02 21:15:32] len of type filter results:  269
+[2025-01-02 21:15:32] **** MATERIAL *****
+[2025-01-02 21:15:32] Incoming dataframe size:  269
+[2025-01-02 21:15:32] what is material:  CARBON STEEL
+[2025-01-02 21:15:32] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:15:32] len of material filter results:  108
+[2025-01-02 21:15:32] **** SCHEDULE *****
+[2025-01-02 21:15:32] Incoming dataframe size:  108
+[2025-01-02 21:15:32] what is sched:  STANDARD
+[2025-01-02 21:15:32] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH-40', 'SCHDL40', 'SCHEDULE FORTY', 'SCH FORTY', 'STD', 'STANDARD']
+[2025-01-02 21:15:32] len of schedule filter results:  45
+[2025-01-02 21:15:32] ---------------------------top 25 for item:  0
+[2025-01-02 21:15:32] 3      3 X 1-0.5 CARBON STEEL SCHEDULE 40 X SCHEDULE 80 WLD CONCENTRIC REDUCER
+4                      3 X 1-0.25 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+6                           3 X 1 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+7                           3 X 1 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+8                 3 X 2 GALVANIZED CARBON STEEL SCHEDULE 40 CONCENTRIC REDUCER
+9          3 X 2 CARBON STEEL SCHEDULE 40 X SCHEDULE 80 WLD CONCENTRIC REDUCER
+10                          3 X 2 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+11                          3 X 2 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+12                      3 X 1-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+13                      3 X 1-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+14                      3 X 2-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+15                      3 X 2-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+19                 3 X 2-0.5 CARBON STEEL WPL6 STANDARD WLD CONCENTRIC REDUCER
+23                         3 X 1 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+25                     3 X 1-0.5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+31             3 X 2 GALVANIZED CARBON STEEL SCHEDULE 40 CONCENTRIC REDUCER *Z
+32                     3 X 2-0.5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+33                     3 X 2-0.5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+40                     3 X 1 CARBON STEEL WPL6 STANDARD WLD CONCENTRIC REDUCER
+50                     3 X 2 CARBON STEEL WPL6 STANDARD WLD CONCENTRIC REDUCER
+79                               3 X 2 CARBON STEEL S40XS80 CONCENTRIC REDUCER
+145                               3 X 2 CS STD X EXTRA HEAVY WELD CONC REDUCER
+146                               3 X 2 CS STD X EXTRA HEAVY WELD CONC REDUCER
+156                                             3 X 2 CS STD WELD CONC REDUCER
+157                                             3 X 2 CS STD WELD CONC REDUCER
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:15:32] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:15:32] lens of idx:  0
+[2025-01-02 21:15:32] ------------------------------------------------------------GT_NUMBER---> i:  0 RANK:  10000
+[2025-01-02 21:15:32] -----------------------------------------GT_NUMBER---> i:  1 previous rank:  0
+[2025-01-02 21:15:32] gt_desc:  12" 150 RF WELD NECK FLANGE XH BORE, SA105N
+[2025-01-02 21:15:32] inc_rfq:  11100566-FLG,WN,RF,12,150 ,XH-SA-105N
+[2025-01-02 21:15:32] quality:  EXCELLENT
+[2025-01-02 21:15:32] size raw:  12.0
+[2025-01-02 21:15:32] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:15:41] did we find it gt_response?  ([], None)
+[2025-01-02 21:15:42] what is size_raw:  12.0
+[2025-01-02 21:15:42] what is material:  CARBON STEEL
+[2025-01-02 21:15:42] what is type:  WELD NECK
+[2025-01-02 21:15:42] what is schedule:  XH
+[2025-01-02 21:15:57] len of vect + qdrant size results: 1319
+[2025-01-02 21:15:57] **** TYPE *****
+[2025-01-02 21:15:57] Incoming dataframe size:  1319
+[2025-01-02 21:15:57] what is type:  WELD NECK
+[2025-01-02 21:15:57] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:15:57] len of type filter results:  56
+[2025-01-02 21:15:57] **** MATERIAL *****
+[2025-01-02 21:15:57] Incoming dataframe size:  56
+[2025-01-02 21:15:57] what is material:  CARBON STEEL
+[2025-01-02 21:15:57] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:15:57] len of material filter results:  45
+[2025-01-02 21:15:57] **** SCHEDULE *****
+[2025-01-02 21:15:57] Incoming dataframe size:  45
+[2025-01-02 21:15:57] what is sched:  XH
+[2025-01-02 21:15:57] sched perms:  ['SCHEDULE XH', 'XH', 'SCH XH', 'SXH', 'SCHEDXH', 'SCHXH', 'SCHDLXH', 'XH', 'SCH. XH', 'SCH-XH', 'S-XH', 'S.XH', 'SCHDXH', 'X-H', 'SCHED XH', 'SCHEDL XH', 'SCH 0XH', 'SCHED-XH', 'SCHEDULE0XH', 'SCHEDX-H', 'S/XH', 'SCXH', 'S-X-H', 'SCH-X-H', 'SCHED.X.H', 'XH.', 'EXTRA HEAVY SCHEDULE', 'EXTRA HEAVY', 'SCHEDULE EXTRA HEAVY', 'SCHEDULE-XH', 'SCH X H', 'SCHEDULEX-H']
+[2025-01-02 21:15:57] len of schedule filter results:  9
+[2025-01-02 21:15:57] ---------------------------top 25 for item:  1
+[2025-01-02 21:15:57] 3                                           12 CS 150 XH RF WN FLG
+8                                           12 CS 600 XH RF WN FLG
+15                                         12 CS 600 XH RTJ WN FLG
+25                               12 CS 150 XH RF WELDNECK FLG LRES
+48                               12 CS 300 XH RF WELDNECK FLG LRES
+170    12 CARBON STEEL 150 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+231      12 CARBON STEEL 150 EXTRA HEAVY FLAT FACE WELDNECK FLANGE
+302    12 CARBON STEEL 300 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+401            12 CARBON STEEL 600 EXTRA HEAVY RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:15:57] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:15:57] lens of idx:  0
+[2025-01-02 21:15:57] ------------------------------------------------------------GT_NUMBER---> i:  1 RANK:  10000
+[2025-01-02 21:15:57] -----------------------------------------GT_NUMBER---> i:  2 previous rank:  0
+[2025-01-02 21:15:57] gt_desc:  4" S-10 LR 90 WELD ELL, SA403-WP304L
+[2025-01-02 21:15:57] inc_rfq:  H29984 ELBOW,4",45-WELDED,LR,BW,S10S,ASTM A403
+[2025-01-02 21:15:57] quality:  EXCELLENT
+[2025-01-02 21:15:57] size raw:  4.0
+[2025-01-02 21:15:57] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:16:01] did we find it gt_response?  ([], None)
+[2025-01-02 21:16:01] what is size_raw:  4.0
+[2025-01-02 21:16:01] what is material:  STAINLESS STEEL
+[2025-01-02 21:16:01] what is type:  45 DEGREE LONG RADIUS ELBOW
+[2025-01-02 21:16:01] what is schedule:  NAN
+[2025-01-02 21:16:07] len of vect + qdrant size results: 3111
+[2025-01-02 21:16:07] **** TYPE *****
+[2025-01-02 21:16:07] Incoming dataframe size:  3111
+[2025-01-02 21:16:07] what is type:  45 DEGREE LONG RADIUS ELBOW
+[2025-01-02 21:16:07] type perms:  ['45 DEGREE LONG RADIUS ELBOW', 'LONG RADIUS ELBOW 45', 'LR45', 'LR45°', 'LR 45', 'LR 45°', 'LONG RADIUS 45', 'LONG RADIUS 45°', '45LR', '45°LR', '45 LR', '45° LR']
+[2025-01-02 21:16:07] len of type filter results:  0
+[2025-01-02 21:16:07] no filtering taking place for type...
+[2025-01-02 21:16:07] **** MATERIAL *****
+[2025-01-02 21:16:07] Incoming dataframe size:  3111
+[2025-01-02 21:16:07] what is material:  STAINLESS STEEL
+[2025-01-02 21:16:07] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:16:07] len of material filter results:  960
+[2025-01-02 21:16:07] **** SCHEDULE *****
+[2025-01-02 21:16:07] Incoming dataframe size:  960
+[2025-01-02 21:16:07] schedule is NAN, no filtering...
+[2025-01-02 21:16:07] ---------------------------top 25 for item:  2
+[2025-01-02 21:16:07] 0              4 STAINLESS STEEL SCHEDULE 40 304L LR 45 ELBOW A403WPW
+1              4 STAINLESS STEEL SCHEDULE 40 304L LR 45 ELBOW A403WPW
+2              4 STAINLESS STEEL SCHEDULE 40 304L LR 45 ELBOW A403WPW
+3              4 STAINLESS STEEL SCHEDULE 10 304L LR 45 ELBOW A403WPW
+4              4 STAINLESS STEEL SCHEDULE 10 304L LR 45 ELBOW A403WPW
+5              4 STAINLESS STEEL SCHEDULE 10 304L LR 45 ELBOW A403WPW
+6              4 STAINLESS STEEL SCHEDULE 40 304L LR 90 ELBOW A403WPW
+7              4 STAINLESS STEEL SCHEDULE 40 304L LR 90 ELBOW A403WPW
+8              4 STAINLESS STEEL SCHEDULE 40 304L LR 90 ELBOW A403WPW
+9              4 STAINLESS STEEL SCHEDULE 10 304L LR 90 ELBOW A403WPW
+10             4 STAINLESS STEEL SCHEDULE 10 304L LR 90 ELBOW A403WPW
+11             4 STAINLESS STEEL SCHEDULE 10 304L LR 90 ELBOW A403WPW
+12             4 STAINLESS STEEL SCHEDULE 10 304L SR 90 ELBOW A403WPW
+13             4 STAINLESS STEEL SCHEDULE 10 304L SR 90 ELBOW A403WPW
+14             4 STAINLESS STEEL SCHEDULE 40 304L SR 90 ELBOW A403WPW
+15             4 STAINLESS STEEL SCHEDULE 40 304L SR 90 ELBOW A403WPW
+16                4 STAINLESS STEEL SCHEDULE 80 304L 45 ELBOW A403WPW
+25    4 STAINLESS STEEL SCHEDULE 10 304L LONG RADIUS 90 ELBOW A403WPW
+32                4 STAINLESS STEEL SCHEDULE 40 304L SMLS LR 90 ELBOW
+33                4 STAINLESS STEEL SCHEDULE 40 304L SMLS LR 90 ELBOW
+34                4 STAINLESS STEEL SCHEDULE 40 304L SMLS LR 90 ELBOW
+37            4 STAINLESS STEEL SCHEDULE 40 316 L LR 90 ELBOW A403WPW
+38            4 STAINLESS STEEL SCHEDULE 40 316 L LR 90 ELBOW A403WPW
+39            4 STAINLESS STEEL SCHEDULE 40 316 L LR 90 ELBOW A403WPW
+41            4 STAINLESS STEEL SCHEDULE 10 316 L LR 90 ELBOW A403WPW
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:16:07] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:16:07] lens of idx:  0
+[2025-01-02 21:16:07] ------------------------------------------------------------GT_NUMBER---> i:  2 RANK:  10000
+[2025-01-02 21:16:07] -----------------------------------------GT_NUMBER---> i:  3 previous rank:  0
+[2025-01-02 21:16:07] gt_desc:  10" 150 RF WELD NECK FLANGE STD BORE, SA105N-FGP
+[2025-01-02 21:16:07] inc_rfq:  10-150-FLG,WN,RF,10,150 ,STD-SA-105
+[2025-01-02 21:16:07] quality:  EXCELLENT
+[2025-01-02 21:16:07] size raw:  10.0
+[2025-01-02 21:16:07] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:16:11] did we find it gt_response?  ([], None)
+[2025-01-02 21:16:12] what is size_raw:  10.0
+[2025-01-02 21:16:12] what is material:  CARBON STEEL
+[2025-01-02 21:16:12] what is type:  WELD NECK
+[2025-01-02 21:16:12] what is schedule:  STANDARD
+[2025-01-02 21:16:21] len of vect + qdrant size results: 1400
+[2025-01-02 21:16:21] **** TYPE *****
+[2025-01-02 21:16:21] Incoming dataframe size:  1400
+[2025-01-02 21:16:21] what is type:  WELD NECK
+[2025-01-02 21:16:21] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:16:21] len of type filter results:  87
+[2025-01-02 21:16:21] **** MATERIAL *****
+[2025-01-02 21:16:21] Incoming dataframe size:  87
+[2025-01-02 21:16:21] what is material:  CARBON STEEL
+[2025-01-02 21:16:21] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:16:21] len of material filter results:  70
+[2025-01-02 21:16:21] **** SCHEDULE *****
+[2025-01-02 21:16:21] Incoming dataframe size:  70
+[2025-01-02 21:16:21] what is sched:  STANDARD
+[2025-01-02 21:16:21] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH-40', 'SCHDL40', 'SCHEDULE FORTY', 'SCH FORTY', 'STD', 'STANDARD']
+[2025-01-02 21:16:21] len of schedule filter results:  38
+[2025-01-02 21:16:21] ---------------------------top 25 for item:  3
+[2025-01-02 21:16:21] 3                                              10 CS 150 STD FF WN FLG
+5                              10 CS 150 STANDARD RF WELDNECK FLG LRES
+8                                              10 CS 600 STD RF WN FLG
+10                                             10 CS 300 STD RF WN FLG
+33                        10 CS 300 STANDARD RF WELDNECK ORFC FLG LRES
+36                           10 CS 150 STD RAISED FACE WELDNECK FLANGE
+74     10 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+75     10 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+81                       10 CS LF2 300 STD RAISED FACE WELDNECK FLANGE
+83       10 CARBON STEEL LF2 150 STANDARD RAISED FACE WELD NECK FLANGE
+89              10 CARBON STEEL 150 STANDARD FLAT FACE WELDNECK FLANGE
+90              10 CARBON STEEL 150 STANDARD FLAT FACE WELDNECK FLANGE
+91              10 CARBON STEEL 150 STANDARD FLAT FACE WELDNECK FLANGE
+92              10 CARBON STEEL 150 STANDARD FLAT FACE WELDNECK FLANGE
+105           10 CARBON STEEL 150 STANDARD RAISED FACE WELDNECK FLANGE
+110          10 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE
+139       10 CARBON STEEL F52 150 STANDARD RAISED FACE WELDNECK FLANGE
+140       10 CARBON STEEL F52 150 STANDARD RAISED FACE WELDNECK FLANGE
+162                     10 CS 300 STD RAISED FACE WELDNECK ORFC FLANGE
+235      10 CARBON STEEL LF2 300 STANDARD RAISED FACE WELD NECK FLANGE
+245       10 CARBON STEEL LF2 300 STANDARD RAISED FACE WELDNECK FLANGE
+250             10 CARBON STEEL 300 STANDARD FLAT FACE WELDNECK FLANGE
+251             10 CARBON STEEL 300 STANDARD FLAT FACE WELDNECK FLANGE
+252       10 CARBON STEEL F52 300 STANDARD RAISED FACE WELDNECK FLANGE
+260      10 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK ORFC FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:16:21] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:16:21] lens of idx:  0
+[2025-01-02 21:16:21] ------------------------------------------------------------GT_NUMBER---> i:  3 RANK:  10000
+[2025-01-02 21:16:21] -----------------------------------------GT_NUMBER---> i:  4 previous rank:  0
+[2025-01-02 21:16:21] gt_desc:  1" 150 RF SOCKET WELD FLANGE XH BORE, SA105
+[2025-01-02 21:16:21] inc_rfq:  HB5023 FL1,150,SW,RF,SCHXS,ASTM A105N
+[2025-01-02 21:16:21] quality:  EXCELLENT
+[2025-01-02 21:16:21] size raw:  1.0
+[2025-01-02 21:16:21] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:16:25] did we find it gt_response?  ([], None)
+[2025-01-02 21:16:25] what is size_raw:  1.0
+[2025-01-02 21:16:25] what is material:  CARBON STEEL
+[2025-01-02 21:16:25] what is type:  SLIP ON
+[2025-01-02 21:16:25] what is schedule:  XS
+[2025-01-02 21:16:34] len of vect + qdrant size results: 4354
+[2025-01-02 21:16:34] **** TYPE *****
+[2025-01-02 21:16:34] Incoming dataframe size:  4354
+[2025-01-02 21:16:34] what is type:  SLIP ON
+[2025-01-02 21:16:34] type perms:  ['SLIP ON', 'SLIPON', 'SO', 'S/O', 'SLIP ON FLANGE', 'SLIPON FLANGE', 'SO FLANGE', 'S/O FLANGE', 'SLIP ON FLG', 'SLIPON FLG', 'SLIP ON FLANGE', 'SLIPON FLANGE', 'SO FLG', 'S/O FLG']
+[2025-01-02 21:16:34] len of type filter results:  29
+[2025-01-02 21:16:34] **** MATERIAL *****
+[2025-01-02 21:16:34] Incoming dataframe size:  29
+[2025-01-02 21:16:34] what is material:  CARBON STEEL
+[2025-01-02 21:16:34] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:16:34] len of material filter results:  18
+[2025-01-02 21:16:34] **** SCHEDULE *****
+[2025-01-02 21:16:34] Incoming dataframe size:  18
+[2025-01-02 21:16:34] what is sched:  XS
+[2025-01-02 21:16:34] sched perms:  ['SCHEDULE XS', 'XS', 'SCH XS', 'SCHED XS', 'SCH-XS', 'EXTRA STRONG', 'XSTRONG', 'X-STRONG', 'X.S.', 'EXTRA STR', 'X STRONG']
+[2025-01-02 21:16:34] len of schedule filter results:  0
+[2025-01-02 21:16:34] ---------------------------top 25 for item:  4
+[2025-01-02 21:16:34] 196                   1 CARBON STEEL 150 RAISED FACE SLIP ON FLANGE
+197                   1 CARBON STEEL 150 RAISED FACE SLIP ON FLANGE
+198                   1 CARBON STEEL 150 RAISED FACE SLIP ON FLANGE
+202               1 CARBON STEEL LF2 150 RAISED FACE SLIP ON FLANGE
+203               1 CARBON STEEL LF2 150 RAISED FACE SLIP ON FLANGE
+286            1 X 0.75 CARBON STEEL 150 RAISED FACE SLIP ON FLANGE
+287            1 X 0.75 CARBON STEEL 150 RAISED FACE SLIP ON FLANGE
+364          1 GALVANIZED CARBON STEEL 150 FLAT FACE SLIP ON FLANGE
+409                  1 CARBON STEEL 1500 RAISED FACE SLIP ON FLANGE
+410                  1 CARBON STEEL 1500 RAISED FACE SLIP ON FLANGE
+498     1 GALVANIZED CARBON STEEL 150 RAISED FACE SLIP ON FLANGE *Z
+537                                              1 CS 150 RF SO FLG
+835                   1 CARBON STEEL 300 RAISED FACE SLIP ON FLANGE
+836                   1 CARBON STEEL 300 RAISED FACE SLIP ON FLANGE
+1048                  1 CARBON STEEL 600 RAISED FACE SLIP ON FLANGE
+1050                  1 CARBON STEEL 600 RAISED FACE SLIP ON FLANGE
+1533                                        1X0.75 CS 300 RF SO FLG
+2569                                             1 CS 300 RF SO FLG
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:16:34] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:16:34] lens of idx:  0
+[2025-01-02 21:16:34] ------------------------------------------------------------GT_NUMBER---> i:  4 RANK:  10000
+[2025-01-02 21:16:34] -----------------------------------------GT_NUMBER---> i:  5 previous rank:  0
+[2025-01-02 21:16:34] gt_desc:  6" X 5" S-160 CONCENTRIC WELD REDUCER, SA234-WPB
+[2025-01-02 21:16:34] inc_rfq:  CONC RED,6X5,S160-CONC RED,6X5,S160-SA-234-WPB
+[2025-01-02 21:16:34] quality:  EXCELLENT
+[2025-01-02 21:16:34] size raw:  6.0
+[2025-01-02 21:16:34] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:16:38] did we find it gt_response?  ([], None)
+[2025-01-02 21:16:39] what is size_raw:  6.0
+[2025-01-02 21:16:39] what is material:  CARBON STEEL
+[2025-01-02 21:16:39] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:16:39] what is schedule:  160
+[2025-01-02 21:16:45] len of vect + qdrant size results: 2442
+[2025-01-02 21:16:45] **** TYPE *****
+[2025-01-02 21:16:45] Incoming dataframe size:  2442
+[2025-01-02 21:16:45] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:16:45] type perms:  ['SWAGE CONCENTRIC', 'CONCENTRIC SWAGE', 'SWAGE CONC', 'CONC SWAGE', 'SWAGE CON', 'CON SWAGE', 'SWG CONC', 'CONC SWG', 'SWG CON', 'CON SWG', 'CONCENTRIC REDUCER']
+[2025-01-02 21:16:45] len of type filter results:  170
+[2025-01-02 21:16:45] **** MATERIAL *****
+[2025-01-02 21:16:45] Incoming dataframe size:  170
+[2025-01-02 21:16:45] what is material:  CARBON STEEL
+[2025-01-02 21:16:45] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:16:45] len of material filter results:  72
+[2025-01-02 21:16:45] **** SCHEDULE *****
+[2025-01-02 21:16:45] Incoming dataframe size:  72
+[2025-01-02 21:16:45] what is sched:  160
+[2025-01-02 21:16:45] sched perms:  ['SCHEDULE 160', '160', 'SCH 160', 'S160', 'SCHED160', 'SCH160', 'SCHDL160', 'SCH. 160', 'SCH-160', 'S-160', 'S.160', 'SCHD160', 'SCHED 160', 'SCHEDL 160', 'S/160', 'SC160', 'SCHEDULE ONE SIXTY', 'SCH ONE SIXTY', 'SCHED-160', 'SCHEDULE-160', 'SCH 160', 'SCHEDULE160']
+[2025-01-02 21:16:45] len of schedule filter results:  8
+[2025-01-02 21:16:45] ---------------------------top 25 for item:  5
+[2025-01-02 21:16:45] 0                                  *1119 6X4 CS S160 WLD CONC RED
+11                                6 X 3 CS S160 WELD CONC REDUCER
+29    6 X 3 CARBON STEEL WPL6 SCHEDULE 160 WLD CONCENTRIC REDUCER
+36         6 X 3 CARBON STEEL SCHEDULE 160 WLD CONCENTRIC REDUCER
+59    6 X 4 CARBON STEEL WPL6 SCHEDULE 160 WLD CONCENTRIC REDUCER
+69         6 X 4 CARBON STEEL SCHEDULE 160 WLD CONCENTRIC REDUCER
+83        6 X 2 CARBON STEEL SCHEDULE 160 WELD CONCENTRIC REDUCER
+86        6 X 4 CARBON STEEL SCHEDULE 160 WELD CONCENTRIC REDUCER
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:16:45] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:16:45] lens of idx:  0
+[2025-01-02 21:16:45] ------------------------------------------------------------GT_NUMBER---> i:  5 RANK:  10000
+[2025-01-02 21:16:45] -----------------------------------------GT_NUMBER---> i:  6 previous rank:  0
+[2025-01-02 21:16:45] gt_desc:  4" XXH .674W BLK SA106-B SEAMLESS PIPE
+[2025-01-02 21:16:45] inc_rfq:  4-XX106B-PIPE,SMLS,4,XXH-SA-106B
+[2025-01-02 21:16:45] quality:  EXCELLENT
+[2025-01-02 21:16:45] size raw:  4.0
+[2025-01-02 21:16:45] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:16:51] did we find it gt_response?  ([], None)
+[2025-01-02 21:16:51] what is size_raw:  4.0
+[2025-01-02 21:16:51] what is material:  CARBON STEEL
+[2025-01-02 21:16:51] what is type:  SEAMLESS PIPE
+[2025-01-02 21:16:51] what is schedule:  XXH
+[2025-01-02 21:16:57] len of vect + qdrant size results: 3111
+[2025-01-02 21:16:57] **** TYPE *****
+[2025-01-02 21:16:57] Incoming dataframe size:  3111
+[2025-01-02 21:16:57] what is type:  SEAMLESS PIPE
+[2025-01-02 21:16:57] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:16:57] len of type filter results:  14
+[2025-01-02 21:16:57] **** MATERIAL *****
+[2025-01-02 21:16:57] Incoming dataframe size:  14
+[2025-01-02 21:16:57] what is material:  CARBON STEEL
+[2025-01-02 21:16:57] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:16:57] len of material filter results:  10
+[2025-01-02 21:16:57] **** SCHEDULE *****
+[2025-01-02 21:16:57] Incoming dataframe size:  10
+[2025-01-02 21:16:57] what is sched:  XXH
+[2025-01-02 21:16:57] sched perms:  ['SCHEDULE XXH', 'XXH', 'SCH XXH', 'SXXH', 'SCHEDXXH', 'SCHXXH', 'SCHDLXXH', 'XXH', 'SCH. XXH', 'SCH-XXH', 'S-XXH', 'S.XXH', 'SCHDXXH', 'XX-H', 'SCHED XXH', 'SCHEDL XXH', 'SCH 0XXH', 'SCHED-XXH', 'SCHEDULE0XXH', 'SCHEDXX-H', 'S/XXH', 'SCXXH', 'S-XX-H', 'SCH-XX-H', 'SCHED.XX.H', 'XX.H', 'DOUBLE EXTRA HEAVY', 'SCH DOUBLE EXTRA HEAVY', 'SCHEDULE DOUBLE EXTRA H', 'SCHEDULE-XXH', 'SCH XX H', 'DOUBLE EXTRA HEAVY PIPE']
+[2025-01-02 21:16:57] len of schedule filter results:  0
+[2025-01-02 21:16:57] ---------------------------top 25 for item:  6
+[2025-01-02 21:16:57] 22       4 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+23       4 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+35       4 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+36       4 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+37       4 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+38       4 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+46       4 BLACK PLAIN END A106B SCHEDULE 80 SEAMLESS SRL PIPE
+68       4 BLACK PLAIN END A106B SCHEDULE 80 SEAMLESS DRL PIPE
+99     4 BK PLAIN ENDS A106B SCHEDULE 40 SEAMLESS DRL FBE PIPE
+237                4 BLACK A333 GR6 SCHEDULE 160 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:16:57] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:16:57] lens of idx:  0
+[2025-01-02 21:16:57] ------------------------------------------------------------GT_NUMBER---> i:  6 RANK:  10000
+[2025-01-02 21:16:57] -----------------------------------------GT_NUMBER---> i:  7 previous rank:  0
+[2025-01-02 21:16:57] gt_desc:  4" XH LR 45 WELD ELL, SA234-WPB
+[2025-01-02 21:16:57] inc_rfq:  4-LR45X-ELBOW,LR45,4,XH (S80)-SA-234-WPB
+[2025-01-02 21:16:57] quality:  EXCELLENT
+[2025-01-02 21:16:57] size raw:  4.0
+[2025-01-02 21:16:57] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:17:02] did we find it gt_response?  ([], None)
+[2025-01-02 21:17:02] what is size_raw:  4.0
+[2025-01-02 21:17:02] what is material:  CARBON STEEL
+[2025-01-02 21:17:02] what is type:  LONG RADIUS 45 ELBOW
+[2025-01-02 21:17:02] what is schedule:  XH
+[2025-01-02 21:17:09] len of vect + qdrant size results: 3111
+[2025-01-02 21:17:09] **** TYPE *****
+[2025-01-02 21:17:09] Incoming dataframe size:  3111
+[2025-01-02 21:17:09] what is type:  LONG RADIUS 45 ELBOW
+[2025-01-02 21:17:09] type perms:  ['LONG RADIUS 45 ELBOW', 'LR 45 ELL', 'LR 45° ELBOW', 'LR 45 ELBOW', 'LR 45° ELL', 'LONG RAD 45 ELL', 'LONG RAD 45° ELBOW', 'LONG RADIUS 45° ELL', 'L.R. 45 ELBOW', 'L.R. 45° ELL', 'ELBOW LR 45']
+[2025-01-02 21:17:09] len of type filter results:  0
+[2025-01-02 21:17:09] no filtering taking place for type...
+[2025-01-02 21:17:09] **** MATERIAL *****
+[2025-01-02 21:17:09] Incoming dataframe size:  3111
+[2025-01-02 21:17:09] what is material:  CARBON STEEL
+[2025-01-02 21:17:09] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:17:09] len of material filter results:  1245
+[2025-01-02 21:17:09] **** SCHEDULE *****
+[2025-01-02 21:17:09] Incoming dataframe size:  1245
+[2025-01-02 21:17:09] what is sched:  XH
+[2025-01-02 21:17:09] sched perms:  ['SCHEDULE XH', 'XH', 'SCH XH', 'SXH', 'SCHEDXH', 'SCHXH', 'SCHDLXH', 'XH', 'SCH. XH', 'SCH-XH', 'S-XH', 'S.XH', 'SCHDXH', 'X-H', 'SCHED XH', 'SCHEDL XH', 'SCH 0XH', 'SCHED-XH', 'SCHEDULE0XH', 'SCHEDX-H', 'S/XH', 'SCXH', 'S-X-H', 'SCH-X-H', 'SCHED.X.H', 'XH.', 'EXTRA HEAVY SCHEDULE', 'EXTRA HEAVY', 'SCHEDULE EXTRA HEAVY', 'SCHEDULE-XH', 'SCH X H', 'SCHEDULEX-H']
+[2025-01-02 21:17:09] len of schedule filter results:  202
+[2025-01-02 21:17:09] ---------------------------top 25 for item:  7
+[2025-01-02 21:17:09] 7                                    4 CS EXTRA HEAVY WELD LR 45 ELBOW
+12                                    4 CS EXTRA HEAVY WLD LR 90 ELBOW
+23                                   4 CS EXTRA HEAVY WELD LR 90 ELBOW
+71                            4 CARBON STEEL SCHEDULE XH WELD 45 ELBOW
+81                4 CARBON STEEL SCHEDULE XH WELD LONG RADIUS 90 ELBOW
+87                                   4 CS EXTRA HEAVY WELD SR 90 ELBOW
+88                          4 CARBON STEEL EXTRA HEAVY 3R 90 WLD ELBOW
+89                             4 CARBON STEEL EXTRA HEAVY WLD 45 ELBOW
+90                             4 CARBON STEEL EXTRA HEAVY WLD 45 ELBOW
+102    4 GALVANIZED CARBON STEEL EXTRA HEAVY WELD LONG RADIUS 90 ELBOW
+113                         4 CARBON STEEL EXTRA HEAVY WLD SR 90 ELBOW
+115          4 CARBON STEEL WPL6 SCHEDULE XH WELD LONG RADIUS 90 ELBOW
+117                4 CARBON STEEL EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+121                    4 CARBON STEEL Y52 EXTRA HEAVY WELD 3R 45 ELBOW
+130               4 CARBON STEEL EXTRA HEAVY WELD LONG RADIUS 90 ELBOW
+134                        4 CARBON STEEL Y52 EXTRA HEAVY WLD 45 ELBOW
+135                        4 CARBON STEEL Y52 EXTRA HEAVY WLD 45 ELBOW
+138            4 X 3 CARBON STEEL EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+143                       4 CARBON STEEL WPL6 EXTRA HEAVY WLD 45 ELBOW
+144                       4 CARBON STEEL WPL6 EXTRA HEAVY WLD 45 ELBOW
+167            4 CARBON STEEL Y52 EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+168            4 CARBON STEEL Y52 EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+169            4 X 2 CARBON STEEL EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+178           4 CARBON STEEL WPL6 EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+179           4 CARBON STEEL WPL6 EXTRA HEAVY WLD LONG RADIUS 90 ELBOW
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:17:09] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:17:09] lens of idx:  0
+[2025-01-02 21:17:09] ------------------------------------------------------------GT_NUMBER---> i:  7 RANK:  10000
+[2025-01-02 21:17:09] -----------------------------------------GT_NUMBER---> i:  8 previous rank:  0
+[2025-01-02 21:17:09] gt_desc:  8" S-60 .406W BLK SA106-B SEAMLESS PIPE
+[2025-01-02 21:17:09] inc_rfq:  12700629-PIPE,SMLS,8,S60
+[2025-01-02 21:17:09] quality:  EXCELLENT
+[2025-01-02 21:17:09] size raw:  8.0
+[2025-01-02 21:17:09] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:17:13] did we find it gt_response?  ([], None)
+[2025-01-02 21:17:13] what is size_raw:  8.0
+[2025-01-02 21:17:13] what is material:  NAN
+[2025-01-02 21:17:13] what is type:  SEAMLESS PIPE
+[2025-01-02 21:17:13] what is schedule:  60
+[2025-01-02 21:17:23] len of vect + qdrant size results: 1892
+[2025-01-02 21:17:23] **** TYPE *****
+[2025-01-02 21:17:23] Incoming dataframe size:  1892
+[2025-01-02 21:17:23] what is type:  SEAMLESS PIPE
+[2025-01-02 21:17:23] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:17:23] len of type filter results:  6
+[2025-01-02 21:17:23] **** MATERIAL *****
+[2025-01-02 21:17:23] Incoming dataframe size:  6
+[2025-01-02 21:17:23] material is NAN, no filtering taking place
+[2025-01-02 21:17:23] **** SCHEDULE *****
+[2025-01-02 21:17:23] Incoming dataframe size:  6
+[2025-01-02 21:17:23] what is sched:  60
+[2025-01-02 21:17:23] sched perms:  ['SCHEDULE 60', '60', 'SCH 60', 'S60', 'SCHED60', 'SCH60', 'SCHDL60', 'SCH. 60', 'SCH-60', 'S-60', 'S.60', 'SCHD60', '60-S', 'SCHED 60', 'SCHEDL 60', 'SCH 060', 'SCHED-060', 'SCHEDULE060', 'SCHED60-S', 'S/60', 'SC60', 'S-60-S', 'SCH-60-S', 'SCHED.60.S', '60.S', 'SCHEDULE SIXTY', 'SCH SIXTY', 'SCHED-60', 'SCHEDULE-60', 'SCH 60', 'SCHEDULE60']
+[2025-01-02 21:17:23] len of schedule filter results:  0
+[2025-01-02 21:17:23] ---------------------------top 25 for item:  8
+[2025-01-02 21:17:23] 23            8 BLACK A333 GR6 SCHEDULE 80 SEAMLESS DRL PIPE
+28     8 STAINLESS STEEL SCHEDULE 80 304L A312 SEAMLESS PIPE
+42     8 STAINLESS STEEL SCHEDULE 40 316L A312 SEAMLESS PIPE
+47     8 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+116              8 CRMLY P11 SCHEDULE 40 SA335 SEAMLESS PIPE
+118    8 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:17:23] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:17:23] lens of idx:  0
+[2025-01-02 21:17:23] ------------------------------------------------------------GT_NUMBER---> i:  8 RANK:  10000
+[2025-01-02 21:17:23] -----------------------------------------GT_NUMBER---> i:  9 previous rank:  0
+[2025-01-02 21:17:23] gt_desc:  6" X 5" XX CONCENTRIC WELD REDUCER, SA234-WPB
+[2025-01-02 21:17:23] inc_rfq:  CONC RED,6X5,XXH-MATL: SA-234-WPB
+[2025-01-02 21:17:23] quality:  EXCELLENT
+[2025-01-02 21:17:23] size raw:  6.0
+[2025-01-02 21:17:23] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:17:26] did we find it gt_response?  ([], None)
+[2025-01-02 21:17:26] what is size_raw:  6.0
+[2025-01-02 21:17:26] what is material:  CARBON STEEL
+[2025-01-02 21:17:26] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:17:26] what is schedule:  XXH
+[2025-01-02 21:17:32] len of vect + qdrant size results: 2442
+[2025-01-02 21:17:32] **** TYPE *****
+[2025-01-02 21:17:32] Incoming dataframe size:  2442
+[2025-01-02 21:17:32] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:17:32] type perms:  ['SWAGE CONCENTRIC', 'CONCENTRIC SWAGE', 'SWAGE CONC', 'CONC SWAGE', 'SWAGE CON', 'CON SWAGE', 'SWG CONC', 'CONC SWG', 'SWG CON', 'CON SWG', 'CONCENTRIC REDUCER']
+[2025-01-02 21:17:32] len of type filter results:  170
+[2025-01-02 21:17:32] **** MATERIAL *****
+[2025-01-02 21:17:32] Incoming dataframe size:  170
+[2025-01-02 21:17:32] what is material:  CARBON STEEL
+[2025-01-02 21:17:32] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:17:32] len of material filter results:  72
+[2025-01-02 21:17:32] **** SCHEDULE *****
+[2025-01-02 21:17:32] Incoming dataframe size:  72
+[2025-01-02 21:17:32] what is sched:  XXH
+[2025-01-02 21:17:32] sched perms:  ['SCHEDULE XXH', 'XXH', 'SCH XXH', 'SXXH', 'SCHEDXXH', 'SCHXXH', 'SCHDLXXH', 'XXH', 'SCH. XXH', 'SCH-XXH', 'S-XXH', 'S.XXH', 'SCHDXXH', 'XX-H', 'SCHED XXH', 'SCHEDL XXH', 'SCH 0XXH', 'SCHED-XXH', 'SCHEDULE0XXH', 'SCHEDXX-H', 'S/XXH', 'SCXXH', 'S-XX-H', 'SCH-XX-H', 'SCHED.XX.H', 'XX.H', 'DOUBLE EXTRA HEAVY', 'SCH DOUBLE EXTRA HEAVY', 'SCHEDULE DOUBLE EXTRA H', 'SCHEDULE-XXH', 'SCH XX H', 'DOUBLE EXTRA HEAVY PIPE']
+[2025-01-02 21:17:32] len of schedule filter results:  1
+[2025-01-02 21:17:32] ---------------------------top 25 for item:  9
+[2025-01-02 21:17:32] 1                                  *1119 6X5 CS STD WLD CONC RED
+2                       6 X 3 CS EXTRA HEAVY X STD WELD CONC RED
+3                                         6X2 CS XH WLD CONC RED
+4                                   *1119 6X3 CS XH WLD CONC RED
+5                                  *1119 6X3 CS STD WLD CONC RED
+6                                 *1119 6X4 CS S160 WLD CONC RED
+7                                  *1119 6X2 CS STD WLD CONC RED
+8                                   *1119 6X4 CS XH WLD CONC RED
+9                                  *1119 6X4 CS STD WLD CONC RED
+13                                            6X1 PP CONC 150 CS
+18                        6 X 3 CS EXTRA HEAVY WELD CONC REDUCER
+19                        6 X 3 CS EXTRA HEAVY WELD CONC REDUCER
+24                                6 X 3 CS STD WELD CONC REDUCER
+26                               6 X 3 CS S120 WELD CONC REDUCER
+28                               6 X 3 CS S160 WELD CONC REDUCER
+36                        6 X 4 CS EXTRA HEAVY WELD CONC REDUCER
+38         6 X 5 CARBON STEEL EXTRA HEAVY WLD CONCENTRIC REDUCER
+45                      6 X 4 CS STD A420 WPL6 WELD CONC REDUCER
+46                               6 X 4 CS S120 WELD CONC REDUCER
+47                                6 X 4 CS STD WELD CONC REDUCER
+48            6 X 5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+49            6 X 5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+50                                6 X 2 CS STD WELD CONC REDUCER
+53    6 X 3 CARBON STEEL WPL6 EXTRA HEAVY WLD CONCENTRIC REDUCER
+57           6 X 5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:17:32] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:17:32] lens of idx:  0
+[2025-01-02 21:17:32] ------------------------------------------------------------GT_NUMBER---> i:  9 RANK:  10000
+[2025-01-02 21:17:32] -----------------------------------------GT_NUMBER---> i:  10 previous rank:  0
+[2025-01-02 21:17:32] gt_desc:  6" XH .432W BLK SA53B/SA106-B/C SEAMLESS PIPE (SPAIN)
+[2025-01-02 21:17:32] inc_rfq:  6-XA106BS-PIPE,SMLS,6,XH (S80)-SA-106B
+[2025-01-02 21:17:32] quality:  EXCELLENT
+[2025-01-02 21:17:32] size raw:  6.0
+[2025-01-02 21:17:32] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:17:36] did we find it gt_response?  ([], None)
+[2025-01-02 21:17:36] what is size_raw:  6.0
+[2025-01-02 21:17:36] what is material:  CARBON STEEL
+[2025-01-02 21:17:36] what is type:  SEAMLESS PIPE
+[2025-01-02 21:17:36] what is schedule:  XH
+[2025-01-02 21:17:42] len of vect + qdrant size results: 2442
+[2025-01-02 21:17:42] **** TYPE *****
+[2025-01-02 21:17:42] Incoming dataframe size:  2442
+[2025-01-02 21:17:42] what is type:  SEAMLESS PIPE
+[2025-01-02 21:17:42] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:17:42] len of type filter results:  9
+[2025-01-02 21:17:42] **** MATERIAL *****
+[2025-01-02 21:17:42] Incoming dataframe size:  9
+[2025-01-02 21:17:42] what is material:  CARBON STEEL
+[2025-01-02 21:17:42] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:17:42] len of material filter results:  4
+[2025-01-02 21:17:42] **** SCHEDULE *****
+[2025-01-02 21:17:42] Incoming dataframe size:  9
+[2025-01-02 21:17:42] what is sched:  XH
+[2025-01-02 21:17:42] sched perms:  ['SCHEDULE XH', 'XH', 'SCH XH', 'SXH', 'SCHEDXH', 'SCHXH', 'SCHDLXH', 'XH', 'SCH. XH', 'SCH-XH', 'S-XH', 'S.XH', 'SCHDXH', 'X-H', 'SCHED XH', 'SCHEDL XH', 'SCH 0XH', 'SCHED-XH', 'SCHEDULE0XH', 'SCHEDX-H', 'S/XH', 'SCXH', 'S-X-H', 'SCH-X-H', 'SCHED.X.H', 'XH.', 'EXTRA HEAVY SCHEDULE', 'EXTRA HEAVY', 'SCHEDULE EXTRA HEAVY', 'SCHEDULE-XH', 'SCH X H', 'SCHEDULEX-H']
+[2025-01-02 21:17:42] len of schedule filter results:  0
+[2025-01-02 21:17:42] ---------------------------top 25 for item:  10
+[2025-01-02 21:17:42] 12     6" STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+31      6 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+55                6 CRMLY P11 SCHEDULE 80 SA335 SEAMLESS PIPE
+62      6 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+63      6 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+103            6 BLACK A333 GR6 SCHEDULE 80 SEAMLESS DRL PIPE
+129                6 CRMLY P9 SCHEDULE 80 SA335 SEAMLESS PIPE
+198            6 BLACK A333 GR6 SCHEDULE 40 SEAMLESS DRL PIPE
+227     6 STAINLESS STEEL SCHEDULE 40 304L A312 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:17:42] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:17:42] lens of idx:  0
+[2025-01-02 21:17:42] ------------------------------------------------------------GT_NUMBER---> i:  10 RANK:  10000
+[2025-01-02 21:17:42] -----------------------------------------GT_NUMBER---> i:  11 previous rank:  0
+[2025-01-02 21:17:42] gt_desc:  6" S-120LR 45WELD ELL, SA234-WPB
+[2025-01-02 21:17:42] inc_rfq:  15000222-ELBOW,LR45,6,S120-SA-234-WPB
+[2025-01-02 21:17:42] quality:  EXCELLENT
+[2025-01-02 21:17:42] size raw:  6.0
+[2025-01-02 21:17:42] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:17:46] did we find it gt_response?  ([], None)
+[2025-01-02 21:17:46] what is size_raw:  6.0
+[2025-01-02 21:17:46] what is material:  CARBON STEEL
+[2025-01-02 21:17:46] what is type:  LONG RADIUS 45 ELBOW
+[2025-01-02 21:17:46] what is schedule:  120
+[2025-01-02 21:17:52] len of vect + qdrant size results: 2442
+[2025-01-02 21:17:52] **** TYPE *****
+[2025-01-02 21:17:52] Incoming dataframe size:  2442
+[2025-01-02 21:17:52] what is type:  LONG RADIUS 45 ELBOW
+[2025-01-02 21:17:52] type perms:  ['LONG RADIUS 45 ELBOW', 'LR 45 ELL', 'LR 45° ELBOW', 'LR 45 ELBOW', 'LR 45° ELL', 'LONG RAD 45 ELL', 'LONG RAD 45° ELBOW', 'LONG RADIUS 45° ELL', 'L.R. 45 ELBOW', 'L.R. 45° ELL', 'ELBOW LR 45']
+[2025-01-02 21:17:52] len of type filter results:  0
+[2025-01-02 21:17:52] no filtering taking place for type...
+[2025-01-02 21:17:52] **** MATERIAL *****
+[2025-01-02 21:17:52] Incoming dataframe size:  2442
+[2025-01-02 21:17:52] what is material:  CARBON STEEL
+[2025-01-02 21:17:52] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:17:52] len of material filter results:  1053
+[2025-01-02 21:17:52] **** SCHEDULE *****
+[2025-01-02 21:17:52] Incoming dataframe size:  1053
+[2025-01-02 21:17:52] what is sched:  120
+[2025-01-02 21:17:52] sched perms:  ['SCHEDULE 120', '120', 'SCH 120', 'S120', 'SCHED120', 'SCH120', 'SCHDL120', 'SCH. 120', 'SCH-120', 'S-120', 'S.120', 'SCHD120', 'SCHED 120', 'SCHEDL 120', 'S/120', 'SC120', 'SCHEDULE ONE TWENTY', 'SCH ONE TWENTY', 'SCHED-120', 'SCHEDULE-120', 'SCH 120', 'SCHEDULE120']
+[2025-01-02 21:17:52] len of schedule filter results:  30
+[2025-01-02 21:17:52] ---------------------------top 25 for item:  11
+[2025-01-02 21:17:52] 6                                            6 CS S120 WELD LR 45 ELBOW
+8                                            6 CS S120 WELD LR 90 ELBOW
+81                        6 CARBON STEEL S120 WELD LONG RADIUS 90 ELBOW
+211                                      *1119 6 CS S120 WELD LR 90 ELL
+299        6 X 3 CARBON STEEL S120 X EXTRA HEAVY WELD ECCENTRIC REDUCER
+335                     6 X 4 CARBON STEEL S120 WELD CONCENTRIC REDUCER
+350                          6 CS 1500 S120 RAISED FACE WELDNECK FLANGE
+398                                  6 CS 300 S120 RF WELDNECK FLG LRES
+478                6 BLACK PE A106B S120 SMLS DOUBLE RANDOM LENGTH PIPE
+494                                      6 X 4 CS S120 WELD ECC REDUCER
+507                              6 BLACK PLAIN END A106B S120 PIPE LRES
+532                                     6 X 3 CS S120 WELD CONC REDUCER
+539                      6 BLACK PLAIN END A106B S120 SEAMLESS PIPE SRL
+578                                     6 X 4 CS S120 WELD CONC REDUCER
+585                      6 BLACK PLAIN END A106B S120 SEAMLESS SRL PIPE
+636                                                  6 CS S120 WELD TEE
+765                                          6 X 4 CS S120 WELD ECC RED
+779                 6 CARBON STEEL 150 S120 RAISED FACE WELDNECK FLANGE
+780                 6 CARBON STEEL 150 S120 RAISED FACE WELDNECK FLANGE
+848                6 CARBON STEEL 1500 S120 RAISED FACE WELDNECK FLANGE
+849                6 CARBON STEEL 1500 S120 RAISED FACE WELDNECK FLANGE
+859                        6 CARBON STEEL 1500 S120 RTJ WELDNECK FLANGE
+883     6 BLACK PLAIN END A106B S120 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+1464                          6 CS 300 S120 RAISED FACE WELDNECK FLANGE
+1751                6 CARBON STEEL 900 S120 RAISED FACE WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:17:52] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:17:52] lens of idx:  0
+[2025-01-02 21:17:52] ------------------------------------------------------------GT_NUMBER---> i:  11 RANK:  10000
+[2025-01-02 21:17:52] -----------------------------------------GT_NUMBER---> i:  12 previous rank:  0
+[2025-01-02 21:17:52] gt_desc:  10" 300 RF LONG WELD NECK X 14" LG, SA105
+[2025-01-02 21:17:52] inc_rfq:  FLG,LWN,RF,10,300 ,13 INCHLG-FLG,LWN,RF,10,300 ,13 INCHLG
+[2025-01-02 21:17:52] quality:  EXCELLENT
+[2025-01-02 21:17:52] size raw:  10.0
+[2025-01-02 21:17:52] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:17:56] did we find it gt_response?  ([], None)
+[2025-01-02 21:17:56] what is size_raw:  10.0
+[2025-01-02 21:17:56] what is material:  NAN
+[2025-01-02 21:17:56] what is type:  WELD NECK
+[2025-01-02 21:17:56] what is schedule:  NAN
+[2025-01-02 21:18:05] len of vect + qdrant size results: 1400
+[2025-01-02 21:18:05] **** TYPE *****
+[2025-01-02 21:18:05] Incoming dataframe size:  1400
+[2025-01-02 21:18:05] what is type:  WELD NECK
+[2025-01-02 21:18:05] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:18:05] len of type filter results:  87
+[2025-01-02 21:18:05] **** MATERIAL *****
+[2025-01-02 21:18:05] Incoming dataframe size:  87
+[2025-01-02 21:18:05] material is NAN, no filtering taking place
+[2025-01-02 21:18:05] **** SCHEDULE *****
+[2025-01-02 21:18:05] Incoming dataframe size:  87
+[2025-01-02 21:18:05] schedule is NAN, no filtering...
+[2025-01-02 21:18:05] ---------------------------top 25 for item:  12
+[2025-01-02 21:18:05] 6                                                   10 CS 300 STD RF WN FLG
+7                                                    10 CS 300 XH RF WN FLG
+10                                                  10 CS 600 STD RF WN FLG
+11                             10 CS 300 STANDARD RF WELDNECK ORFC FLG LRES
+17                                                   10 CS 600 XH RF WN FLG
+24                        10 STAINLESS STEEL 304L 300 S10 RF WN ORFC FLANGE
+33                                                  10 CS 600 S80 RF WN FLG
+35                             10 STAINLESS STEEL 304L 150 S10 RF WN FLANGE
+39                                       10 CS 300 S80 RF WELDNECK FLG LRES
+41                                                  10 CS 150 STD FF WN FLG
+42                            10 CS LF2 300 STD RAISED FACE WELDNECK FLANGE
+51          10 STAINLESS STEEL 304L 150 SCHEDULE 10 RF WELDNECK FLANGE .02C
+60                      10 STAINLESS STEEL 316 L 300 STD RF WELDNECK FLANGE
+62                                  10 CS 150 STANDARD RF WELDNECK FLG LRES
+66              10 STAINLESS STEEL 316 L 300 SCHEDULE 10 RF WELDNECK FLANGE
+73                       10 STAINLESS STEEL 316 L 150 STANDARD RF WN FLANGE
+75                              10 STAINLESS STEEL 304L 900 XH RF WN FLANGE
+100           10 CARBON STEEL LF2 300 STANDARD RAISED FACE WELD NECK FLANGE
+110            10 CARBON STEEL LF2 300 STANDARD RAISED FACE WELDNECK FLANGE
+115       10 STAINLESS STEEL 304L 300 STANDARD RAISED FACE WELD NECK FLANGE
+116                           10 CARBON STEEL 300 RAISED FACE 12 LWN FLANGE
+122    10 STAINLESS STEEL 316 L 300 SCHEDULE 10 RAISED FACE WELDNECK FLANGE
+133             10 STAINLESS STEEL 304L 300 STD RAISED FACE WELDNECK FLANGE
+135            10 STAINLESS STEEL 316 L 300 STD RAISED FACE WELDNECK FLANGE
+143    10 STAINLESS STEEL 316 L 150 SCHEDULE 10 RAISED FACE WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:18:05] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:18:05] lens of idx:  0
+[2025-01-02 21:18:05] ------------------------------------------------------------GT_NUMBER---> i:  12 RANK:  10000
+[2025-01-02 21:18:05] -----------------------------------------GT_NUMBER---> i:  13 previous rank:  0
+[2025-01-02 21:18:05] gt_desc:  6" STD .280W API-5L X52/SA333 GR 6/SA106B SEAMLESS PIPE
+[2025-01-02 21:18:05] inc_rfq:  6" SCH 40 A106B SMLS
+[2025-01-02 21:18:05] quality:  EXCELLENT
+[2025-01-02 21:18:05] size raw:  6.0
+[2025-01-02 21:18:05] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:18:09] did we find it gt_response?  ([], None)
+[2025-01-02 21:18:09] what is size_raw:  6.0
+[2025-01-02 21:18:09] what is material:  CARBON STEEL
+[2025-01-02 21:18:09] what is type:  SMLS PIPE
+[2025-01-02 21:18:09] what is schedule:  40
+[2025-01-02 21:18:15] len of vect + qdrant size results: 2442
+[2025-01-02 21:18:15] **** TYPE *****
+[2025-01-02 21:18:15] Incoming dataframe size:  2442
+[2025-01-02 21:18:15] what is type:  SMLS PIPE
+[2025-01-02 21:18:15] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:18:15] len of type filter results:  9
+[2025-01-02 21:18:15] **** MATERIAL *****
+[2025-01-02 21:18:15] Incoming dataframe size:  9
+[2025-01-02 21:18:15] what is material:  CARBON STEEL
+[2025-01-02 21:18:15] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:18:15] len of material filter results:  4
+[2025-01-02 21:18:15] **** SCHEDULE *****
+[2025-01-02 21:18:15] Incoming dataframe size:  9
+[2025-01-02 21:18:15] what is sched:  40
+[2025-01-02 21:18:15] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH40', 'SCHDL40', 'SCH. 40', 'SCH-40', 'SCHEDULE FORTY', 'STANDARD WALL']
+[2025-01-02 21:18:15] len of schedule filter results:  4
+[2025-01-02 21:18:15] ---------------------------top 25 for item:  13
+[2025-01-02 21:18:15] 7       6 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+8       6 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+122            6 BLACK A333 GR6 SCHEDULE 40 SEAMLESS DRL PIPE
+137    6" STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+178     6 STAINLESS STEEL SCHEDULE 40 304L A312 SEAMLESS PIPE
+236     6 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+245            6 BLACK A333 GR6 SCHEDULE 80 SEAMLESS DRL PIPE
+478               6 CRMLY P11 SCHEDULE 80 SA335 SEAMLESS PIPE
+568                6 CRMLY P9 SCHEDULE 80 SA335 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:18:15] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:18:15] lens of idx:  0
+[2025-01-02 21:18:15] ------------------------------------------------------------GT_NUMBER---> i:  13 RANK:  10000
+[2025-01-02 21:18:15] -----------------------------------------GT_NUMBER---> i:  14 previous rank:  0
+[2025-01-02 21:18:15] gt_desc:  14" S-100 .938W SA106-B SEAMLESS PIPE
+[2025-01-02 21:18:15] inc_rfq:  12700363-PIPE,SMLS,14,S100-SA-106B
+[2025-01-02 21:18:15] quality:  EXCELLENT
+[2025-01-02 21:18:15] size raw:  14.0
+[2025-01-02 21:18:15] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:18:21] did we find it gt_response?  ([], None)
+[2025-01-02 21:18:21] what is size_raw:  14.0
+[2025-01-02 21:18:21] what is material:  CARBON STEEL
+[2025-01-02 21:18:21] what is type:  SEAMLESS PIPE
+[2025-01-02 21:18:21] what is schedule:  S100
+[2025-01-02 21:18:31] len of vect + qdrant size results: 646
+[2025-01-02 21:18:31] **** TYPE *****
+[2025-01-02 21:18:31] Incoming dataframe size:  646
+[2025-01-02 21:18:31] what is type:  SEAMLESS PIPE
+[2025-01-02 21:18:31] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:18:31] len of type filter results:  2
+[2025-01-02 21:18:31] no filtering taking place for type...
+[2025-01-02 21:18:31] **** MATERIAL *****
+[2025-01-02 21:18:31] Incoming dataframe size:  646
+[2025-01-02 21:18:31] what is material:  CARBON STEEL
+[2025-01-02 21:18:31] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:18:31] len of material filter results:  304
+[2025-01-02 21:18:31] **** SCHEDULE *****
+[2025-01-02 21:18:31] Incoming dataframe size:  304
+[2025-01-02 21:18:31] what is sched:  S100
+[2025-01-02 21:18:31] sched perms:  ['SCHEDULE 100', '100', 'SCH 100', 'S100', 'SCHED100', 'SCH100', 'SCHDL100', 'SCH. 100', 'SCH-100', 'S-100', 'S.100', 'SCHD100', 'SCHED 100', 'SCHEDL 100', 'SCH 0100', 'SCHED-0100', 'SCHEDULE0100', 'S/100', 'SC100', 'SCHEDULE ONE HUNDRED', 'SCH ONE HUNDRED', 'SCHED-100', 'SCHEDULE-100', 'SCH 100', 'SCHEDULE100']
+[2025-01-02 21:18:31] len of schedule filter results:  0
+[2025-01-02 21:18:31] ---------------------------top 25 for item:  14
+[2025-01-02 21:18:31] 0                                      14 BLACK PE A106B S60 SMLS SRL PIPE
+1                              14 BLACK PE A106B EXTRA HEAVY SMLS SRL PIPE
+2                              14 BLACK PE A106B SCHEDULE 80 SMLS SRL PIPE
+4                                   14 BLACK PLAIN END A106B S40 PIPE LRES
+5                                   14 BLACK PLAIN END A106B S80 PIPE LRES
+6                           14 BLACK PLAIN END A106B T80 SEAMLESS SRL PIPE
+7                      14 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+8                      14 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+9                      14 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+10                     14 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+12                          14 BLACK PLAIN END A106B T40 SEAMLESS SRL PIPE
+25         14 BLACK PLAIN END A106B S60 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+26                  14 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+27                  14 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+28                  14 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+29                             14 BLACK PLAIN END A106B STANDARD PIPE LRES
+32                                   14 BLACK PLAIN END A106B XH PIPE LRES
+34                  14 BLACK PLAIN END A106B SCHEDULE 80 SEAMLESS PIPE SRL
+35                14 GALVANIZED PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+39         14 BLACK PLAIN END A106B T40 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+41         14 BLACK PLAIN END A106B T80 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+42    14 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+43    14 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+44    14 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+45    14 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:18:31] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:18:31] lens of idx:  0
+[2025-01-02 21:18:31] ------------------------------------------------------------GT_NUMBER---> i:  14 RANK:  10000
+[2025-01-02 21:18:31] -----------------------------------------GT_NUMBER---> i:  15 previous rank:  0
+[2025-01-02 21:18:31] gt_desc:  1" 300 RF SOCKET WELD FLANGE XH BORE, SA105
+[2025-01-02 21:18:31] inc_rfq:  1" 300 RFSW FLANGE S/80 BORE A/SA105
+[2025-01-02 21:18:31] quality:  EXCELLENT
+[2025-01-02 21:18:31] size raw:  1.0
+[2025-01-02 21:18:31] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:18:34] did we find it gt_response?  ([], None)
+[2025-01-02 21:18:35] what is size_raw:  1.0
+[2025-01-02 21:18:35] what is material:  CARBON STEEL
+[2025-01-02 21:18:35] what is type:  SOCKET WELD
+[2025-01-02 21:18:35] what is schedule:  80
+[2025-01-02 21:18:44] len of vect + qdrant size results: 4354
+[2025-01-02 21:18:44] **** TYPE *****
+[2025-01-02 21:18:44] Incoming dataframe size:  4354
+[2025-01-02 21:18:44] what is type:  SOCKET WELD
+[2025-01-02 21:18:44] type perms:  ['SOCKETWELD', 'SW', 'SCKT WLD', 'SKT WLD', 'S/W', 'SOCKET WELD', 'SCKT WELD', 'S.W.', 'SKT-WLD', 'SCKT-WLD', 'S-W']
+[2025-01-02 21:18:44] len of type filter results:  17
+[2025-01-02 21:18:44] **** MATERIAL *****
+[2025-01-02 21:18:44] Incoming dataframe size:  17
+[2025-01-02 21:18:44] what is material:  CARBON STEEL
+[2025-01-02 21:18:44] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:18:44] len of material filter results:  10
+[2025-01-02 21:18:44] **** SCHEDULE *****
+[2025-01-02 21:18:44] Incoming dataframe size:  10
+[2025-01-02 21:18:44] what is sched:  80
+[2025-01-02 21:18:44] sched perms:  ['SCHEDULE 80', '80', 'SCH 80', 'S80', 'SCHED80', 'SCH80', 'SCHDL80', 'SCH. 80', 'SCH-80', 'SCHEDULE EIGHTY', 'SCH EIGHTY']
+[2025-01-02 21:18:44] len of schedule filter results:  0
+[2025-01-02 21:18:44] ---------------------------top 25 for item:  15
+[2025-01-02 21:18:44] 3       1" 300 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE XH RAISED FACE
+4       1" 300 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE XH RAISED FACE
+5          1" 150 SOCKETWELD FLANGE A105 CARBON STEEL STANDARD RAISED FACE
+6      1" 150 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE 160 RAISED FACE
+12      1" 600 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE XH RAISED FACE
+13      1" 600 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE XH RAISED FACE
+16      1" 150 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE XH RAISED FACE
+17      1" 150 SOCKETWELD FLANGE A105 CARBON STEEL SCHEDULE XH RAISED FACE
+52           1" 300 SOCKETWELD FLANGE CARBON STEEL SCHEDULE XH RAISED FACE
+186      1" 600 SOCKETWELD FLANGE LF2 CARBON STEEL SCHEDULE XH RAISED FACE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:18:44] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:18:44] lens of idx:  0
+[2025-01-02 21:18:44] ------------------------------------------------------------GT_NUMBER---> i:  15 RANK:  10000
+[2025-01-02 21:18:44] -----------------------------------------GT_NUMBER---> i:  16 previous rank:  0
+[2025-01-02 21:18:44] gt_desc:  8" X 6" S10 ECCENTRIC WELD REDUCER, A403 WP1.0L
+[2025-01-02 21:18:44] inc_rfq:  887520 RED ECC,WELD,8X6*SCH10S/SCH10S,ASTM A403
+[2025-01-02 21:18:44] quality:  EXCELLENT
+[2025-01-02 21:18:44] size raw:  8.0
+[2025-01-02 21:18:44] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:18:49] did we find it gt_response?  ([], None)
+[2025-01-02 21:18:49] what is size_raw:  8.0
+[2025-01-02 21:18:49] what is material:  STAINLESS STEEL
+[2025-01-02 21:18:49] what is type:  ECCENTRIC REDUCER
+[2025-01-02 21:18:49] what is schedule:  10S
+[2025-01-02 21:18:58] len of vect + qdrant size results: 1892
+[2025-01-02 21:18:58] **** TYPE *****
+[2025-01-02 21:18:58] Incoming dataframe size:  1892
+[2025-01-02 21:18:58] what is type:  ECCENTRIC REDUCER
+[2025-01-02 21:18:58] type perms:  ['ECCENTRIC REDUCER', 'ECC RED', 'ECCRED', 'ECC R', 'ECC REDUC', 'ECCENTRIC RED', 'ECCENTRIC RDCR', 'ECC RDCR']
+[2025-01-02 21:18:58] len of type filter results:  81
+[2025-01-02 21:18:58] **** MATERIAL *****
+[2025-01-02 21:18:58] Incoming dataframe size:  81
+[2025-01-02 21:18:58] what is material:  STAINLESS STEEL
+[2025-01-02 21:18:58] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:18:58] len of material filter results:  28
+[2025-01-02 21:18:58] **** SCHEDULE *****
+[2025-01-02 21:18:58] Incoming dataframe size:  28
+[2025-01-02 21:18:58] what is sched:  10S
+[2025-01-02 21:18:58] sched perms:  ['10', 'SCHEDULE 10S', '10S', 'SCH 10S', 'S10S', 'SCHED10S', 'SCH10S', 'SCHDL10S', '10S', 'SCH. 10S', 'SCH-10S', 'S-10S', 'S.10S', 'SCHD10S', '10-S', 'SCHED 10S', 'SCHEDL 10S', 'SCH 010S', 'SCHED-010S', 'SCHEDULE010S', 'SCHED10-S', 'S/10S', 'SC10S', 'S-10-S', 'SCH-10-S', 'SCHED.10.S', '10.S', 'SCHEDULE TEN S', 'SCH TEN S', 'SCHED-10S', 'SCHEDULE-10S', 'SCH 10 S', 'SCHEDULE10-S']
+[2025-01-02 21:18:58] len of schedule filter results:  19
+[2025-01-02 21:18:58] ---------------------------top 25 for item:  16
+[2025-01-02 21:18:58] 0                                   8X6 SS S10 316L ECC RED A403CR
+1                                   8X6 SS S10 304L ECC RED A403CR
+3                                   8X4 SS S10 316L ECC RED A403CR
+4                                   8X4 SS S10 304L ECC RED A403CR
+5               8 X 6 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+6               8 X 6 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+7               8 X 6 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+11         8 X 6 STAINLESS STEEL SCHEDULE 10 304L SMLS ECC REDUCER
+14             8 X 6 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER
+15             8 X 6 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER
+16        8 X 6 STAINLESS STEEL SCHEDULE 10 316L ECCENTRIC REDUCER
+21        8 X 6 STAINLESS STEEL SCHEDULE 10 316 L SMLS ECC REDUCER
+29     8 X 4 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER A403WPW
+47              8 X 4 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+48              8 X 4 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+52        8 X 3 STAINLESS STEEL SCHEDULE 10 316 L A774 ECC REDUCER
+54             8 X 4 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER
+56        8 X 4 STAINLESS STEEL SCHEDULE 10 304L ECCENTRIC REDUCER
+58    8 X 4 STAINLESS STEEL SCHEDULE 10 2205 SMLS WELD ECC REDUCER
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:18:58] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:18:58] lens of idx:  0
+[2025-01-02 21:18:58] ------------------------------------------------------------GT_NUMBER---> i:  16 RANK:  10000
+[2025-01-02 21:18:58] -----------------------------------------GT_NUMBER---> i:  17 previous rank:  0
+[2025-01-02 21:18:58] gt_desc:  3" S10 .120" WALL SEAMLESS PIPE SA312-TP-304LSS
+[2025-01-02 21:18:58] inc_rfq:  3" S/10 SMLS OR WELDED PIPE X SRL A/SA312-TP304
+[2025-01-02 21:18:58] quality:  EXCELLENT
+[2025-01-02 21:18:58] size raw:  3.0
+[2025-01-02 21:18:58] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:19:01] did we find it gt_response?  ([], None)
+[2025-01-02 21:19:01] what is size_raw:  3.0
+[2025-01-02 21:19:01] what is material:  STAINLESS STEEL
+[2025-01-02 21:19:01] what is type:  PIPE
+[2025-01-02 21:19:01] what is schedule:  10
+[2025-01-02 21:19:06] len of vect + qdrant size results: 3326
+[2025-01-02 21:19:06] **** TYPE *****
+[2025-01-02 21:19:06] Incoming dataframe size:  3326
+[2025-01-02 21:19:06] what is type:  PIPE
+[2025-01-02 21:19:06] type perms:  ['PIPE', 'PIP', 'PIPING', 'LINE PIPE', 'TUBE', 'TUBING', 'P/P', 'P.P', 'PP', 'LN PIPE', 'PIPES']
+[2025-01-02 21:19:06] len of type filter results:  242
+[2025-01-02 21:19:06] **** MATERIAL *****
+[2025-01-02 21:19:06] Incoming dataframe size:  242
+[2025-01-02 21:19:06] what is material:  STAINLESS STEEL
+[2025-01-02 21:19:06] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:19:06] len of material filter results:  85
+[2025-01-02 21:19:06] **** SCHEDULE *****
+[2025-01-02 21:19:06] Incoming dataframe size:  85
+[2025-01-02 21:19:06] what is sched:  10
+[2025-01-02 21:19:06] sched perms:  ['SCHEDULE 10', '10', 'SCH 10', 'S10', 'SCHED10', 'SCH10', 'SCHDL10', 'SCH. 10', 'SCH-10', 'S-10', 'S.10', 'SCHD10', 'S/10', 'SC10', 'SCHEDULE TEN', 'SCH TEN', 'SCHED-10', 'SCHEDULE-10', 'SCH 10', 'SCHEDULE10']
+[2025-01-02 21:19:06] len of schedule filter results:  23
+[2025-01-02 21:19:06] ---------------------------top 25 for item:  17
+[2025-01-02 21:19:06] 0                                   3 SS S10 304L A312 SMLS PIPE
+1              3 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+2              3 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+3              3 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+4              3 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+5              3 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+7          3 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+8          3 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+9          3 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+16             3 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+17             3 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+18             3 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+19             3 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+20             3 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+22             3 STAINLESS STEEL SCHEDULE 10 317L A312 WELD PIPE
+32     3 STAINLESS STEEL GROOVED SCHEDULE 10 304L A312 WELD PIPE
+40        3 STAINLESS STEEL SCHEDULE 10 316 L A312 SEAMLESS PIPE
+41            3 STAINLESS STEEL SCHEDULE 10 316L A312 SW41M PIPE
+43         3 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+44         3 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+56          3 STAINLESS STEEL SCHEDULE 10 321 A312 SEAMLESS PIPE
+125                 3 STAINLESS STEEL SCHEDULE 10 2205 WELD PIPE
+137             3 STAINLESS STEEL SCHEDULE 10 2507 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:19:06] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:19:06] lens of idx:  0
+[2025-01-02 21:19:06] ------------------------------------------------------------GT_NUMBER---> i:  17 RANK:  10000
+[2025-01-02 21:19:06] -----------------------------------------GT_NUMBER---> i:  18 previous rank:  0
+[2025-01-02 21:19:06] gt_desc:  4" 300 RF WELD NECK FLANGE STD BORE, SA105
+[2025-01-02 21:19:06] inc_rfq:  4-300RFWNS-FLG,WN,RF,4,300 ,STD (S40)
+[2025-01-02 21:19:06] quality:  EXCELLENT
+[2025-01-02 21:19:06] size raw:  4.0
+[2025-01-02 21:19:06] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:19:10] did we find it gt_response?  ([], None)
+[2025-01-02 21:19:10] what is size_raw:  4.0
+[2025-01-02 21:19:10] what is material:  NAN
+[2025-01-02 21:19:10] what is type:  WELD NECK
+[2025-01-02 21:19:10] what is schedule:  STD
+[2025-01-02 21:19:16] len of vect + qdrant size results: 3111
+[2025-01-02 21:19:16] **** TYPE *****
+[2025-01-02 21:19:16] Incoming dataframe size:  3111
+[2025-01-02 21:19:16] what is type:  WELD NECK
+[2025-01-02 21:19:16] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:19:16] len of type filter results:  151
+[2025-01-02 21:19:16] **** MATERIAL *****
+[2025-01-02 21:19:16] Incoming dataframe size:  151
+[2025-01-02 21:19:16] material is NAN, no filtering taking place
+[2025-01-02 21:19:16] **** SCHEDULE *****
+[2025-01-02 21:19:16] Incoming dataframe size:  151
+[2025-01-02 21:19:16] what is sched:  STD
+[2025-01-02 21:19:16] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH-40', 'SCHDL40', 'SCHEDULE FORTY', 'SCH FORTY', 'STD', 'STANDARD']
+[2025-01-02 21:19:16] len of schedule filter results:  65
+[2025-01-02 21:19:16] ---------------------------top 25 for item:  18
+[2025-01-02 21:19:16] 0                                         4 300 HFN STD RF WN LRES FLG
+10                                        4 150 HFN STD RF WN LRES FLG
+13                         4 CS 300 STANDARD RF WELDNECK ORFC FLG LRES
+17                           4 MNL 400 300 STANDARD RF WELDNECK FLANGE
+23                   4 STAINLESS STEEL 316 L 300 STANDARD RF WN FLANGE
+35              4 STAINLESS STEEL 316 L 300 STANDARD RF WN ORFC FLANGE
+41                                         4 SS 316L 150 STD FF WN FLG
+63                   4 STAINLESS STEEL 316 L 600 STANDARD RF WN FLANGE
+65                                  4 600 STD RF WNF SPEC TOL +/- .003
+67                   4 STAINLESS STEEL 304L 900 STD RF WELDNECK FLANGE
+69                  4 STAINLESS STEEL 316 L 300 STD RF WELDNECK FLANGE
+77                                        4 CS 150 STD RF WELDNECK FLG
+83                   4 STAINLESS STEEL 304L 150 STD RF WELDNECK FLANGE
+107                   4 STAINLESS STEEL 304L 150 STANDARD FF WN FLANGE
+113       4 CARBON STEEL LF2 300 STANDARD RAISED FACE WELD NECK FLANGE
+114       4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK ORFC FLANGE
+115       4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK ORFC FLANGE
+116       4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK ORFC FLANGE
+121            4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK FLANGE
+122            4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK FLANGE
+123            4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK FLANGE
+124            4 CARBON STEEL 300 STANDARD RAISED FACE WELDNECK FLANGE
+130        4 CARBON STEEL LF2 300 STANDARD RAISED FACE WELDNECK FLANGE
+136                                   4 CS 300 STD RTJ WELDNECK FLANGE
+143    4 CARBON STEEL 300 SCHEDULE 40 RAISED FACE WELDNECK FLANGE LRES
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:19:16] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:19:16] lens of idx:  0
+[2025-01-02 21:19:16] ------------------------------------------------------------GT_NUMBER---> i:  18 RANK:  10000
+[2025-01-02 21:19:16] -----------------------------------------GT_NUMBER---> i:  19 previous rank:  0
+[2025-01-02 21:19:16] gt_desc:  3" XH .300W ASTM/ASME/SA53B/API5L/X42/SA106B/C SEAMLESS PIPE
+[2025-01-02 21:19:16] inc_rfq:  3-XA106BS-PIPE,SMLS,3,XH(S80)-SA-106B
+[2025-01-02 21:19:16] quality:  EXCELLENT
+[2025-01-02 21:19:16] size raw:  3.0
+[2025-01-02 21:19:16] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:19:21] did we find it gt_response?  ([], None)
+[2025-01-02 21:19:21] what is size_raw:  3.0
+[2025-01-02 21:19:21] what is material:  CARBON STEEL
+[2025-01-02 21:19:21] what is type:  SEAMLESS PIPE
+[2025-01-02 21:19:21] what is schedule:  80
+[2025-01-02 21:19:26] len of vect + qdrant size results: 3326
+[2025-01-02 21:19:26] **** TYPE *****
+[2025-01-02 21:19:26] Incoming dataframe size:  3326
+[2025-01-02 21:19:26] what is type:  SEAMLESS PIPE
+[2025-01-02 21:19:26] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:19:26] len of type filter results:  7
+[2025-01-02 21:19:26] **** MATERIAL *****
+[2025-01-02 21:19:26] Incoming dataframe size:  7
+[2025-01-02 21:19:26] what is material:  CARBON STEEL
+[2025-01-02 21:19:26] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:19:26] len of material filter results:  4
+[2025-01-02 21:19:26] **** SCHEDULE *****
+[2025-01-02 21:19:26] Incoming dataframe size:  7
+[2025-01-02 21:19:26] what is sched:  80
+[2025-01-02 21:19:26] sched perms:  ['SCHEDULE 80', '80', 'SCH 80', 'S80', 'SCHED80', 'SCH80', 'SCHDL80', 'SCH. 80', 'SCH-80', 'SCHEDULE EIGHTY', 'SCH EIGHTY']
+[2025-01-02 21:19:26] len of schedule filter results:  2
+[2025-01-02 21:19:26] ---------------------------top 25 for item:  19
+[2025-01-02 21:19:26] 39               3 CRMLY P11 SCHEDULE 80 SA335 SEAMLESS PIPE
+45     3 BLACK PLAIN END A106B SCHEDULE 80 SEAMLESS DRL PIPE
+57     3 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+81               3 CRMLY P11 SCHEDULE 40 SA335 SEAMLESS PIPE
+88     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+89     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+116               3 BLACK A333 GR6 SCHEDULE 40 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:19:26] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:19:26] lens of idx:  0
+[2025-01-02 21:19:26] ------------------------------------------------------------GT_NUMBER---> i:  19 RANK:  10000
+[2025-01-02 21:19:26] -----------------------------------------GT_NUMBER---> i:  20 previous rank:  0
+[2025-01-02 21:19:26] gt_desc:  4" 600 RF BLIND FLANGE, SA105N-FGP/SA350-LF2 CL1/A694F42
+[2025-01-02 21:19:26] inc_rfq:  4" 600 A-105 BLIND
+[2025-01-02 21:19:26] quality:  EXCELLENT
+[2025-01-02 21:19:26] size raw:  4.0
+[2025-01-02 21:19:26] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:19:31] did we find it gt_response?  ([], None)
+[2025-01-02 21:19:32] what is size_raw:  4.0
+[2025-01-02 21:19:32] what is material:  CARBON STEEL
+[2025-01-02 21:19:32] what is type:  BLIND
+[2025-01-02 21:19:32] what is schedule:  NAN
+[2025-01-02 21:19:38] len of vect + qdrant size results: 3111
+[2025-01-02 21:19:38] **** TYPE *****
+[2025-01-02 21:19:38] Incoming dataframe size:  3111
+[2025-01-02 21:19:38] what is type:  BLIND
+[2025-01-02 21:19:38] type perms:  ['BLIND FLANGE', 'BLIND', 'BLND', 'BL', 'BLIND FLG', 'BLND FLG', 'BL FLG', 'BLIND FLANGE', 'BLND FLANGE', 'BL FLANGE']
+[2025-01-02 21:19:38] len of type filter results:  119
+[2025-01-02 21:19:38] **** MATERIAL *****
+[2025-01-02 21:19:38] Incoming dataframe size:  119
+[2025-01-02 21:19:38] what is material:  CARBON STEEL
+[2025-01-02 21:19:38] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:19:38] len of material filter results:  68
+[2025-01-02 21:19:38] **** SCHEDULE *****
+[2025-01-02 21:19:38] Incoming dataframe size:  68
+[2025-01-02 21:19:38] schedule is NAN, no filtering...
+[2025-01-02 21:19:38] ---------------------------top 25 for item:  20
+[2025-01-02 21:19:38] 3                     4 CARBON STEEL 150 RAISED FACE BLIND FLANGE A105N
+4                     4 CARBON STEEL 150 RAISED FACE BLIND FLANGE A105N
+5                     4 CARBON STEEL 300 RAISED FACE BLIND FLANGE A105N
+6                     4 CARBON STEEL 300 RAISED FACE BLIND FLANGE A105N
+7                     4 CARBON STEEL 300 RAISED FACE BLIND FLANGE A105N
+8                                          4 CS 600 RF BLND FLANGE LRES
+9                            4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+10                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+11                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+12                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+13                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+14                                   4 CARBON STEEL 600 RTJ BLND FLANGE
+15                                   4 CARBON STEEL 600 RTJ BLND FLANGE
+30                       4 CARBON STEEL F52 600 RAISED FACE BLND FLANGE
+33                                     4 CS 150 RAISED FACE BLND FLANGE
+44                                                 4 CS 600 RF BLND FLG
+48                       4 CARBON STEEL LF2 600 RAISED FACE BLND FLANGE
+56                                 4 CS LF2 150 RAISED FACE BLND FLANGE
+57                           4 CARBON STEEL 150 RAISED FACE BLND FLANGE
+58                           4 CARBON STEEL 150 RAISED FACE BLND FLANGE
+59                           4 CARBON STEEL 150 RAISED FACE BLND FLANGE
+60                           4 CARBON STEEL 400 RAISED FACE BLND FLANGE
+70                             4 CARBON STEEL 150 FLAT FACE BLND FLANGE
+82    4 CARBON STEEL 150 RAISED FACE BLND FLANGE LP 0.5 IPT TAP ON PIPE
+87                             4 CARBON STEEL 300 FLAT FACE BLND FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:19:38] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:19:38] lens of idx:  0
+[2025-01-02 21:19:38] ------------------------------------------------------------GT_NUMBER---> i:  20 RANK:  10000
+[2025-01-02 21:19:38] -----------------------------------------GT_NUMBER---> i:  21 previous rank:  0
+[2025-01-02 21:19:38] gt_desc:  3" STD .216W BLK QUAD STENCILED PSL2 SA53-B/API5L/B/X42 SA106B/C SEAMLESS PIPE
+[2025-01-02 21:19:38] inc_rfq:  3" SCH. STD. PIPE SCARFED TO SUIT 3" NPS OD A106 GR. B
+[2025-01-02 21:19:38] quality:  EXCELLENT
+[2025-01-02 21:19:38] size raw:  3.0
+[2025-01-02 21:19:38] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:19:42] did we find it gt_response?  ([], None)
+[2025-01-02 21:19:42] what is size_raw:  3.0
+[2025-01-02 21:19:42] what is material:  CARBON STEEL
+[2025-01-02 21:19:42] what is type:  PIPE
+[2025-01-02 21:19:42] what is schedule:  STANDARD
+[2025-01-02 21:19:47] len of vect + qdrant size results: 3326
+[2025-01-02 21:19:47] **** TYPE *****
+[2025-01-02 21:19:47] Incoming dataframe size:  3326
+[2025-01-02 21:19:47] what is type:  PIPE
+[2025-01-02 21:19:47] type perms:  ['PIPE', 'PIP', 'PIPING', 'LINE PIPE', 'TUBE', 'TUBING', 'P/P', 'P.P', 'PP', 'LN PIPE', 'PIPES']
+[2025-01-02 21:19:47] len of type filter results:  242
+[2025-01-02 21:19:47] **** MATERIAL *****
+[2025-01-02 21:19:47] Incoming dataframe size:  242
+[2025-01-02 21:19:47] what is material:  CARBON STEEL
+[2025-01-02 21:19:47] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:19:47] len of material filter results:  123
+[2025-01-02 21:19:47] **** SCHEDULE *****
+[2025-01-02 21:19:47] Incoming dataframe size:  123
+[2025-01-02 21:19:47] what is sched:  STANDARD
+[2025-01-02 21:19:47] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH-40', 'SCHDL40', 'SCHEDULE FORTY', 'SCH FORTY', 'STD', 'STANDARD']
+[2025-01-02 21:19:47] len of schedule filter results:  28
+[2025-01-02 21:19:47] ---------------------------top 25 for item:  21
+[2025-01-02 21:19:47] 0                       3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+1                       3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+2                       3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+12     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+13     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+14     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+15     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+23                 3 GALVANIZED PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+24                               3 GALVANIZED PLAIN END A53A SCHEDULE 40 PIPE
+30           3 BLACK PLAIN END A53B SCHEDULE 40 ERW DOUBLE RANDOM LENGTH PIPE
+31           3 BLACK PLAIN END A53B SCHEDULE 40 ERW DOUBLE RANDOM LENGTH PIPE
+33           3 BLACK PLAIN END A53B SCHEDULE 40 ERW DOUBLE RANDOM LENGTH PIPE
+34                            3 BLACK PLAIN END A53B SCHEDULE 40 ERW SRL PIPE
+35                            3 BLACK PLAIN END A53B SCHEDULE 40 ERW SRL PIPE
+36                            3 BLACK PLAIN END A53B SCHEDULE 40 ERW SRL PIPE
+45                       3 GALVANIZED PLAIN END A53B SCHEDULE 40 ERW SRL PIPE
+53                           3 BLACK THREADED & COUPLED A53A SCHEDULE 40 PIPE
+63                                      3 BLACK PLAIN END A106B S40 PIPE LRES
+90               3 BK PE A106B SCHEDULE 40 SMLS DOUBLE RANDOM LENGTH FBE PIPE
+103                                3 BLACK A333 GR6 SCHEDULE 40 SEAMLESS PIPE
+110                                                    3 GALV BE A53 S40 PIPE
+111                            3 GALVANIZED ROLL GROOVE A53A SCHEDULE 40 PIPE
+141                            3 BLACK A333 GR6 SCHEDULE 40 SEAMLESS SRL PIPE
+183           3 BLACK PLAIN END API5LB STANDARD ERW DOUBLE RANDOM LENGTH PIPE
+208                                          3 PRIMED A106B S40 SMLS SRL PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:19:47] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:19:47] lens of idx:  0
+[2025-01-02 21:19:47] ------------------------------------------------------------GT_NUMBER---> i:  21 RANK:  10000
+[2025-01-02 21:19:47] -----------------------------------------GT_NUMBER---> i:  22 previous rank:  0
+[2025-01-02 21:19:47] gt_desc:  1-0.5" S-160 .281W BLK API-5L/X42/SA106-B SEAMLESS PIPE
+[2025-01-02 21:19:47] inc_rfq:  1-.5-160-PIPE,SMLS,1.5,S160
+[2025-01-02 21:19:47] quality:  EXCELLENT
+[2025-01-02 21:19:47] size raw:  1.5
+[2025-01-02 21:19:47] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:19:49] did we find it gt_response?  ([], None)
+[2025-01-02 21:19:49] what is size_raw:  1.5
+[2025-01-02 21:19:49] what is material:  NAN
+[2025-01-02 21:19:49] what is type:  SMLS
+[2025-01-02 21:19:49] what is schedule:  160
+[2025-01-02 21:19:59] len of vect + qdrant size results: 3503
+[2025-01-02 21:19:59] **** TYPE *****
+[2025-01-02 21:19:59] Incoming dataframe size:  3503
+[2025-01-02 21:19:59] what is type:  SMLS
+[2025-01-02 21:19:59] type perms:  ['PIPE SMLS', 'P-SMLS', 'PSMLS', 'SMLS', 'SMLS PIPE']
+[2025-01-02 21:19:59] len of type filter results:  0
+[2025-01-02 21:19:59] no filtering taking place for type...
+[2025-01-02 21:19:59] **** MATERIAL *****
+[2025-01-02 21:19:59] Incoming dataframe size:  3503
+[2025-01-02 21:19:59] material is NAN, no filtering taking place
+[2025-01-02 21:19:59] **** SCHEDULE *****
+[2025-01-02 21:19:59] Incoming dataframe size:  3503
+[2025-01-02 21:19:59] what is sched:  160
+[2025-01-02 21:19:59] sched perms:  ['SCHEDULE 160', '160', 'SCH 160', 'S160', 'SCHED160', 'SCH160', 'SCHDL160', 'SCH. 160', 'SCH-160', 'S-160', 'S.160', 'SCHD160', 'SCHED 160', 'SCHEDL 160', 'S/160', 'SC160', 'SCHEDULE ONE SIXTY', 'SCH ONE SIXTY', 'SCHED-160', 'SCHEDULE-160', 'SCH 160', 'SCHEDULE160']
+[2025-01-02 21:19:59] len of schedule filter results:  192
+[2025-01-02 21:19:59] ---------------------------top 25 for item:  22
+[2025-01-02 21:19:59] 0                                        1-0.5 CRMLY P22 S160 PIPE
+1                                        1-0.5 CRMLY P22 S160 PIPE
+2                                        1-0.5 CRMLY P11 S160 PIPE
+8               1-0.5 STAINLESS STEEL S160 304L A312 SEAMLESS PIPE
+9                        1-0.5 BLACK PLAIN END A106B S160 SRL PIPE
+10                       1-0.5 BLACK PLAIN END A106B S160 SRL PIPE
+11                       1-0.5 BLACK PLAIN END A106B S160 SRL PIPE
+12                       1-0.5 BLACK PLAIN END A106B S160 SRL PIPE
+13                1-0.5 GALVANIZED PE A106B SCHEDULE 160 SMLS PIPE
+14                         1-0.5 CRMLY P11 S160 A335 SEAMLESS PIPE
+16                      1-0.5 BLACK PLAIN END A106B S160 PIPE LRES
+17      1-0.5 STAINLESS STEEL SCHEDULE 160 316L A312 SEAMLESS PIPE
+18      1-0.5 STAINLESS STEEL SCHEDULE 160 316L A312 SEAMLESS PIPE
+19      1-0.5 STAINLESS STEEL SCHEDULE 160 316L A312 SEAMLESS PIPE
+20      1-0.5 STAINLESS STEEL SCHEDULE 160 304L A312 SEAMLESS PIPE
+27                         1-0.5 BLACK A333 GR6 S160 SEAMLESS PIPE
+30                    1-0.5 X 6 BLACK SMLS SCHEDULE 160 NIPPLE PBE
+31                    1-0.5 X 6 BLACK SMLS SCHEDULE 160 NIPPLE PBE
+32           1-0.5 STAINLESS STEEL SCHEDULE 160 304H SEAMLESS PIPE
+33                               1-0.5 S160 LR 90 ELL SMLS MNL 400
+34    1-0.5 X 3 BLACK SCHEDULE 160 SMLS A106 NIPPLE PLAIN X THREAD
+37               1-0.5 BLACK PLAIN END A106B SCHEDULE 160 SRL PIPE
+39                    1-0.5 X 3 BLACK SMLS SCHEDULE 160 NIPPLE PBE
+40                    1-0.5 X 3 BLACK SMLS SCHEDULE 160 NIPPLE PBE
+42                   1-0.5 BLACK THREADED ONLY A106B S160 SRL PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:19:59] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:19:59] lens of idx:  0
+[2025-01-02 21:19:59] ------------------------------------------------------------GT_NUMBER---> i:  22 RANK:  10000
+[2025-01-02 21:19:59] -----------------------------------------GT_NUMBER---> i:  23 previous rank:  0
+[2025-01-02 21:19:59] gt_desc:  3" XH .300W BLK SA53-B/ SA106-B/C SEAMLESS PIPE (SPAIN)
+[2025-01-02 21:19:59] inc_rfq:  3" - SCH 160 A53 - B - A106B SMLS- SRL PIPE
+[2025-01-02 21:19:59] quality:  EXCELLENT
+[2025-01-02 21:19:59] size raw:  3.0
+[2025-01-02 21:19:59] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:20:03] did we find it gt_response?  ([], None)
+[2025-01-02 21:20:03] what is size_raw:  3.0
+[2025-01-02 21:20:03] what is material:  CARBON STEEL
+[2025-01-02 21:20:03] what is type:  SEAMLESS PIPE
+[2025-01-02 21:20:03] what is schedule:  160
+[2025-01-02 21:20:08] len of vect + qdrant size results: 3326
+[2025-01-02 21:20:08] **** TYPE *****
+[2025-01-02 21:20:08] Incoming dataframe size:  3326
+[2025-01-02 21:20:08] what is type:  SEAMLESS PIPE
+[2025-01-02 21:20:08] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:20:08] len of type filter results:  7
+[2025-01-02 21:20:08] **** MATERIAL *****
+[2025-01-02 21:20:08] Incoming dataframe size:  7
+[2025-01-02 21:20:08] what is material:  CARBON STEEL
+[2025-01-02 21:20:08] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:20:08] len of material filter results:  4
+[2025-01-02 21:20:08] **** SCHEDULE *****
+[2025-01-02 21:20:08] Incoming dataframe size:  7
+[2025-01-02 21:20:08] what is sched:  160
+[2025-01-02 21:20:08] sched perms:  ['SCHEDULE 160', '160', 'SCH 160', 'S160', 'SCHED160', 'SCH160', 'SCHDL160', 'SCH. 160', 'SCH-160', 'S-160', 'S.160', 'SCHD160', 'SCHED 160', 'SCHEDL 160', 'S/160', 'SC160', 'SCHEDULE ONE SIXTY', 'SCH ONE SIXTY', 'SCHED-160', 'SCHEDULE-160', 'SCH 160', 'SCHEDULE160']
+[2025-01-02 21:20:08] len of schedule filter results:  0
+[2025-01-02 21:20:08] ---------------------------top 25 for item:  23
+[2025-01-02 21:20:08] 21     3 BLACK PLAIN END A106B SCHEDULE 80 SEAMLESS DRL PIPE
+24     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+25     3 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+98                3 BLACK A333 GR6 SCHEDULE 40 SEAMLESS PIPE
+151              3 CRMLY P11 SCHEDULE 40 SA335 SEAMLESS PIPE
+158              3 CRMLY P11 SCHEDULE 80 SA335 SEAMLESS PIPE
+179    3 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:20:08] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:20:08] lens of idx:  0
+[2025-01-02 21:20:08] ------------------------------------------------------------GT_NUMBER---> i:  23 RANK:  10000
+[2025-01-02 21:20:08] -----------------------------------------GT_NUMBER---> i:  24 previous rank:  0
+[2025-01-02 21:20:08] gt_desc:  8" 150 RF WELD NECK FLANGE XH BORE, SA105N-FGP
+[2025-01-02 21:20:08] inc_rfq:  11100825-FLG,WN,RF,8,300 ,XH (S80)-SA-105N
+[2025-01-02 21:20:08] quality:  EXCELLENT
+[2025-01-02 21:20:08] size raw:  8.0
+[2025-01-02 21:20:08] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:20:12] did we find it gt_response?  ([], None)
+[2025-01-02 21:20:12] what is size_raw:  8.0
+[2025-01-02 21:20:12] what is material:  CARBON STEEL
+[2025-01-02 21:20:12] what is type:  WELD NECK
+[2025-01-02 21:20:12] what is schedule:  XH
+[2025-01-02 21:20:22] len of vect + qdrant size results: 1892
+[2025-01-02 21:20:22] **** TYPE *****
+[2025-01-02 21:20:22] Incoming dataframe size:  1892
+[2025-01-02 21:20:22] what is type:  WELD NECK
+[2025-01-02 21:20:22] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:20:22] len of type filter results:  100
+[2025-01-02 21:20:22] **** MATERIAL *****
+[2025-01-02 21:20:22] Incoming dataframe size:  100
+[2025-01-02 21:20:22] what is material:  CARBON STEEL
+[2025-01-02 21:20:22] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:20:22] len of material filter results:  77
+[2025-01-02 21:20:22] **** SCHEDULE *****
+[2025-01-02 21:20:22] Incoming dataframe size:  77
+[2025-01-02 21:20:22] what is sched:  XH
+[2025-01-02 21:20:22] sched perms:  ['SCHEDULE XH', 'XH', 'SCH XH', 'SXH', 'SCHEDXH', 'SCHXH', 'SCHDLXH', 'XH', 'SCH. XH', 'SCH-XH', 'S-XH', 'S.XH', 'SCHDXH', 'X-H', 'SCHED XH', 'SCHEDL XH', 'SCH 0XH', 'SCHED-XH', 'SCHEDULE0XH', 'SCHEDX-H', 'S/XH', 'SCXH', 'S-X-H', 'SCH-X-H', 'SCHED.X.H', 'XH.', 'EXTRA HEAVY SCHEDULE', 'EXTRA HEAVY', 'SCHEDULE EXTRA HEAVY', 'SCHEDULE-XH', 'SCH X H', 'SCHEDULEX-H']
+[2025-01-02 21:20:22] len of schedule filter results:  18
+[2025-01-02 21:20:22] ---------------------------top 25 for item:  24
+[2025-01-02 21:20:22] 6                                                8 CS 150 XH RF WN FLG
+9                                                8 CS 600 XH RF WN FLG
+14                                              8 CS 900 XH RTJ WN FLG
+197     8 CARBON STEEL LF2 300 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+295         8 CARBON STEEL 300 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+317         8 CARBON STEEL 600 SCHEDULE XH RAISED FACE WELD NECK A105N
+332    8 CARBON STEEL 300 EXTRA HEAVY RAISED FACE WELDNECK ORFC FLANGE
+446         8 CARBON STEEL 150 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+447         8 CARBON STEEL 150 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+448         8 CARBON STEEL 150 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+449             8 CARBON STEEL F52 600 EXTRA HEAVY RTJ WELDNECK FLANGE
+484         8 CARBON STEEL 900 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+618           8 CARBON STEEL 150 EXTRA HEAVY FLAT FACE WELDNECK FLANGE
+619           8 CARBON STEEL 150 EXTRA HEAVY FLAT FACE WELDNECK FLANGE
+714                 8 CARBON STEEL 600 EXTRA HEAVY RTJ WELDNECK FLANGE
+715                 8 CARBON STEEL 600 EXTRA HEAVY RTJ WELDNECK FLANGE
+721                 8 CARBON STEEL 900 EXTRA HEAVY RTJ WELDNECK FLANGE
+900                8 CARBON STEEL 1500 EXTRA HEAVY RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:20:22] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:20:22] lens of idx:  0
+[2025-01-02 21:20:22] ------------------------------------------------------------GT_NUMBER---> i:  24 RANK:  10000
+[2025-01-02 21:20:22] -----------------------------------------GT_NUMBER---> i:  25 previous rank:  0
+[2025-01-02 21:20:22] gt_desc:  10" XH .500W SA106-B SEAMLESS PIPE
+[2025-01-02 21:20:22] inc_rfq:  12700315-PIPE,SMLS,10,XH (S60)-SA-106B
+[2025-01-02 21:20:22] quality:  EXCELLENT
+[2025-01-02 21:20:22] size raw:  10.0
+[2025-01-02 21:20:22] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:20:26] did we find it gt_response?  ([], None)
+[2025-01-02 21:20:26] what is size_raw:  10.0
+[2025-01-02 21:20:26] what is material:  CARBON STEEL
+[2025-01-02 21:20:26] what is type:  SEAMLESS
+[2025-01-02 21:20:26] what is schedule:  XH
+[2025-01-02 21:20:35] len of vect + qdrant size results: 1400
+[2025-01-02 21:20:35] **** TYPE *****
+[2025-01-02 21:20:35] Incoming dataframe size:  1400
+[2025-01-02 21:20:35] what is type:  SEAMLESS
+[2025-01-02 21:20:35] type perms:  ['SEAMLESS PIPE', 'SEAMLESS']
+[2025-01-02 21:20:35] len of type filter results:  8
+[2025-01-02 21:20:35] **** MATERIAL *****
+[2025-01-02 21:20:35] Incoming dataframe size:  8
+[2025-01-02 21:20:35] what is material:  CARBON STEEL
+[2025-01-02 21:20:35] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:20:35] len of material filter results:  5
+[2025-01-02 21:20:35] **** SCHEDULE *****
+[2025-01-02 21:20:35] Incoming dataframe size:  5
+[2025-01-02 21:20:35] what is sched:  XH
+[2025-01-02 21:20:35] sched perms:  ['SCHEDULE XH', 'XH', 'SCH XH', 'SXH', 'SCHEDXH', 'SCHXH', 'SCHDLXH', 'XH', 'SCH. XH', 'SCH-XH', 'S-XH', 'S.XH', 'SCHDXH', 'X-H', 'SCHED XH', 'SCHEDL XH', 'SCH 0XH', 'SCHED-XH', 'SCHEDULE0XH', 'SCHEDX-H', 'S/XH', 'SCXH', 'S-X-H', 'SCH-X-H', 'SCHED.X.H', 'XH.', 'EXTRA HEAVY SCHEDULE', 'EXTRA HEAVY', 'SCHEDULE EXTRA HEAVY', 'SCHEDULE-XH', 'SCH X H', 'SCHEDULEX-H']
+[2025-01-02 21:20:35] len of schedule filter results:  0
+[2025-01-02 21:20:35] ---------------------------top 25 for item:  25
+[2025-01-02 21:20:35] 49     10 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+52     10 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+70     10 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS DRL PIPE
+106           10 BLACK A333 GR6 SCHEDULE 40 SEAMLESS DRL PIPE
+107           10 BLACK A333 GR6 SCHEDULE 40 SEAMLESS DRL PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:20:35] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:20:35] lens of idx:  0
+[2025-01-02 21:20:35] ------------------------------------------------------------GT_NUMBER---> i:  25 RANK:  10000
+[2025-01-02 21:20:35] -----------------------------------------GT_NUMBER---> i:  26 previous rank:  0
+[2025-01-02 21:20:35] gt_desc:  8" 150 RF WELD NECK FLANGE STD BORE, SA105N-FGP
+[2025-01-02 21:20:35] inc_rfq:  11101079-FLG,WN,RF,8,300 ,S100-SA-105N
+[2025-01-02 21:20:35] quality:  EXCELLENT
+[2025-01-02 21:20:35] size raw:  8.0
+[2025-01-02 21:20:35] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:20:40] did we find it gt_response?  ([], None)
+[2025-01-02 21:20:40] what is size_raw:  8.0
+[2025-01-02 21:20:40] what is material:  CARBON STEEL
+[2025-01-02 21:20:40] what is type:  WELD NECK
+[2025-01-02 21:20:40] what is schedule:  NAN
+[2025-01-02 21:20:49] len of vect + qdrant size results: 1892
+[2025-01-02 21:20:49] **** TYPE *****
+[2025-01-02 21:20:49] Incoming dataframe size:  1892
+[2025-01-02 21:20:49] what is type:  WELD NECK
+[2025-01-02 21:20:49] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:20:49] len of type filter results:  100
+[2025-01-02 21:20:49] **** MATERIAL *****
+[2025-01-02 21:20:49] Incoming dataframe size:  100
+[2025-01-02 21:20:49] what is material:  CARBON STEEL
+[2025-01-02 21:20:49] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:20:49] len of material filter results:  77
+[2025-01-02 21:20:49] **** SCHEDULE *****
+[2025-01-02 21:20:49] Incoming dataframe size:  77
+[2025-01-02 21:20:49] schedule is NAN, no filtering...
+[2025-01-02 21:20:49] ---------------------------top 25 for item:  26
+[2025-01-02 21:20:49] 6                                             8 CS 300 S120 RF WN FLG
+9                                               8 CS 150 XH RF WN FLG
+11                                             8 CS 300 STD RF WN FLG
+16                                              8 CS 600 XH RF WN FLG
+28                                          8 CS 1500 S160 RTJ WN FLG
+30                                             8 CS 900 XH RTJ WN FLG
+31                                 8 CS 300 S120 RF WELDNECK FLG LRES
+47                        8 CS 300 STANDARD RF WELDNECK ORFC FLG LRES
+134                                 8 CS 150 RAISED FACE 9 LWN FLANGE
+135               8 CARBON STEEL 300 S100 RAISED FACE WELDNECK FLANGE
+171                         8 CS 300 S120 RAISED FACE WELDNECK FLANGE
+186                                8 CS 300 RAISED FACE 12 LWN FLANGE
+221    8 CARBON STEEL LF2 300 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+240       8 CARBON STEEL LF2 300 STANDARD RAISED FACE WELDNECK FLANGE
+241       8 CARBON STEEL LF2 300 STANDARD RAISED FACE WELDNECK FLANGE
+248               8 CARBON STEEL 150 S100 RAISED FACE WELDNECK FLANGE
+281               8 CARBON STEEL 300 S120 RAISED FACE WELDNECK FLANGE
+282    8 CARBON STEEL 600 STANDARD RAISED FACE WELD NECK FLANGE A105N
+314    8 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+315    8 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+316    8 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+340      8 CARBON STEEL LF2 600 STANDARD RAISED FACE WELD NECK FLANGE
+385      8 CARBON STEEL LF2 150 STANDARD RAISED FACE WELD NECK FLANGE
+391        8 CARBON STEEL 300 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+395       8 CARBON STEEL F52 300 STANDARD RAISED FACE WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:20:49] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:20:49] lens of idx:  0
+[2025-01-02 21:20:49] ------------------------------------------------------------GT_NUMBER---> i:  26 RANK:  10000
+[2025-01-02 21:20:49] -----------------------------------------GT_NUMBER---> i:  27 previous rank:  0
+[2025-01-02 21:20:49] gt_desc:  2" 600 RF WELD NECK FLANGE S-160 BORE, SA105N-FGP
+[2025-01-02 21:20:49] inc_rfq:  11100639-FLG,WN,RF,2,600 ,S160-SA-105N
+[2025-01-02 21:20:49] quality:  EXCELLENT
+[2025-01-02 21:20:49] size raw:  2.0
+[2025-01-02 21:20:49] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:20:53] did we find it gt_response?  ([], None)
+[2025-01-02 21:20:53] what is size_raw:  2.0
+[2025-01-02 21:20:53] what is material:  CARBON STEEL
+[2025-01-02 21:20:53] what is type:  WELD NECK
+[2025-01-02 21:20:53] what is schedule:  160
+[2025-01-02 21:21:00] len of vect + qdrant size results: 5090
+[2025-01-02 21:21:00] **** TYPE *****
+[2025-01-02 21:21:00] Incoming dataframe size:  5090
+[2025-01-02 21:21:00] what is type:  WELD NECK
+[2025-01-02 21:21:00] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:21:00] len of type filter results:  215
+[2025-01-02 21:21:00] **** MATERIAL *****
+[2025-01-02 21:21:00] Incoming dataframe size:  215
+[2025-01-02 21:21:00] what is material:  CARBON STEEL
+[2025-01-02 21:21:00] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:21:00] len of material filter results:  136
+[2025-01-02 21:21:00] **** SCHEDULE *****
+[2025-01-02 21:21:00] Incoming dataframe size:  136
+[2025-01-02 21:21:00] what is sched:  160
+[2025-01-02 21:21:00] sched perms:  ['SCHEDULE 160', '160', 'SCH 160', 'S160', 'SCHED160', 'SCH160', 'SCHDL160', 'SCH. 160', 'SCH-160', 'S-160', 'S.160', 'SCHD160', 'SCHED 160', 'SCHEDL 160', 'S/160', 'SC160', 'SCHEDULE ONE SIXTY', 'SCH ONE SIXTY', 'SCHED-160', 'SCHEDULE-160', 'SCH 160', 'SCHEDULE160']
+[2025-01-02 21:21:00] len of schedule filter results:  18
+[2025-01-02 21:21:00] ---------------------------top 25 for item:  27
+[2025-01-02 21:21:00] 1                                                 2 CS 600 S160 RF WN FLG
+18                                                2 CS 300 S160 RF WN FLG
+19                                               2 CS 600 S160 RTJ WN FLG
+43                                              2 CS 1500 S160 RTJ WN FLG
+161                                     2 CS 600 S160 RTJ WELDNECK FLANGE
+292           2 CARBON STEEL 600 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+293           2 CARBON STEEL 600 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+320       2 CARBON STEEL LF2 300 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+370              2 CARBON STEEL LF2 1500 SCHEDULE 160 RTJ WELDNECK FLANGE
+401                   2 CARBON STEEL 600 SCHEDULE 160 RTJ WELDNECK FLANGE
+630          2 CARBON STEEL 1500 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+703     2 CARBON STEEL 1500 SCHEDULE 160 RAISED FACE WELDNECK ORFC FLANGE
+752                  2 CARBON STEEL 1500 SCHEDULE 160 RTJ WELDNECK FLANGE
+753                  2 CARBON STEEL 1500 SCHEDULE 160 RTJ WELDNECK FLANGE
+754                  2 CARBON STEEL 1500 SCHEDULE 160 RTJ WELDNECK FLANGE
+759           2 CARBON STEEL 150 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+883                  2 CARBON STEEL 2500 SCHEDULE 160 RTJ WELDNECK FLANGE
+1009            2 CARBON STEEL 150 SCHEDULE 160 FLAT FACE WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:21:00] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:21:00] lens of idx:  0
+[2025-01-02 21:21:00] ------------------------------------------------------------GT_NUMBER---> i:  27 RANK:  10000
+[2025-01-02 21:21:00] -----------------------------------------GT_NUMBER---> i:  28 previous rank:  0
+[2025-01-02 21:21:00] gt_desc:  20" S-80 1.031W BLK SA106-B SEAMLESS PIPE
+[2025-01-02 21:21:00] inc_rfq:  12700464-PIPE,SMLS,20,S80-SA-106B
+[2025-01-02 21:21:00] quality:  EXCELLENT
+[2025-01-02 21:21:00] size raw:  20.0
+[2025-01-02 21:21:00] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:21:05] did we find it gt_response?  ([], None)
+[2025-01-02 21:21:05] what is size_raw:  20.0
+[2025-01-02 21:21:05] what is material:  CARBON STEEL
+[2025-01-02 21:21:05] what is type:  SEAMLESS PIPE
+[2025-01-02 21:21:05] what is schedule:  80
+[2025-01-02 21:21:14] len of vect + qdrant size results: 548
+[2025-01-02 21:21:14] **** TYPE *****
+[2025-01-02 21:21:14] Incoming dataframe size:  548
+[2025-01-02 21:21:14] what is type:  SEAMLESS PIPE
+[2025-01-02 21:21:14] type perms:  ['PIPE SEAMLESS', 'SMLS PIPE', 'SEAMLESS PIPE', 'S/L PIPE', 'PIPE S/L', 'SMLS LINE PIPE', 'S.L. PIPE', 'PIPE SMLS', 'SEAMLESS LINE PIPE', 'SML PIPE', 'PIPE (SMLS)']
+[2025-01-02 21:21:14] len of type filter results:  0
+[2025-01-02 21:21:14] no filtering taking place for type...
+[2025-01-02 21:21:14] **** MATERIAL *****
+[2025-01-02 21:21:14] Incoming dataframe size:  548
+[2025-01-02 21:21:14] what is material:  CARBON STEEL
+[2025-01-02 21:21:14] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:21:14] len of material filter results:  295
+[2025-01-02 21:21:14] **** SCHEDULE *****
+[2025-01-02 21:21:14] Incoming dataframe size:  295
+[2025-01-02 21:21:14] what is sched:  80
+[2025-01-02 21:21:14] sched perms:  ['SCHEDULE 80', '80', 'SCH 80', 'S80', 'SCHED80', 'SCH80', 'SCHDL80', 'SCH. 80', 'SCH-80', 'SCHEDULE EIGHTY', 'SCH EIGHTY']
+[2025-01-02 21:21:14] len of schedule filter results:  4
+[2025-01-02 21:21:14] ---------------------------top 25 for item:  28
+[2025-01-02 21:21:14] 0                                          20 BLK BE A106B XH SMLS SRL PIPE
+1                               20 BLACK PE A106B EXTRA HEAVY SMLS SRL PIPE
+2                               20 BLACK PE A106B SCHEDULE 40 SMLS SRL PIPE
+6                            20 BLACK PLAIN END A106B T80 SEAMLESS SRL PIPE
+7                                    20 BLACK PLAIN END A106B S40 PIPE LRES
+14                      20 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+20                              20 BLACK PLAIN END A106B STANDARD PIPE LRES
+26                                    20 BLACK PLAIN END A106B XH PIPE LRES
+30                                   20 IRON PIPE SIZE CS PAINTED BU FLANGE
+32     20 BLACK PLAIN END A53B STANDARD ELECTRIC RESISTANCE WELDED DRL PIPE
+36                         20 BLACK PLAIN END A53B SCHEDULE 10 ERW SRL PIPE
+39        20 BLACK PLAIN END A53B SCHEDULE 10 ERW DOUBLE RANDOM LENGTH PIPE
+43                            20 BLACK PLAIN END A53B STANDARD ERW SRL PIPE
+44                            20 BLACK PLAIN END A53B STANDARD ERW SRL PIPE
+50                                20 BLACK PLAIN END A53B 250 ERW 20FT PIPE
+54                         20 BLACK PLAIN END A53B EXTRA HEAVY ERW SRL PIPE
+55           20 BLACK PLAIN END A53B STANDARD ERW DOUBLE RANDOM LENGTH PIPE
+56           20 BLACK PLAIN END A53B STANDARD ERW DOUBLE RANDOM LENGTH PIPE
+69                          20 BLACK PLAIN END API5LB STANDARD ERW SRL PIPE
+70         20 BLACK PLAIN END API5LB STANDARD ERW DOUBLE RANDOM LENGTH PIPE
+87                             20 GALVANIZED CARBON STEEL MEDIUM PIPE CLAMP
+101                                 20 BLACK CARBON STEEL MEDIUM PIPE CLAMP
+108                                      20 CS 300 S40 RF WELDNECK FLG LRES
+117                                          *1119 20X20X10 CS STD WELD TEE
+118                       20 GALVANIZED CARBON STEEL DOUBLE BOLT PIPE CLAMP
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:21:14] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:21:14] lens of idx:  0
+[2025-01-02 21:21:14] ------------------------------------------------------------GT_NUMBER---> i:  28 RANK:  10000
+[2025-01-02 21:21:14] -----------------------------------------GT_NUMBER---> i:  29 previous rank:  0
+[2025-01-02 21:21:14] gt_desc:  6" STD LR 90 WELD ELL, SA403-WP304L
+[2025-01-02 21:21:14] inc_rfq:  H31943 EL6,90,LR,WLD,S40S,ASTM A403 GRWP1.0L
+[2025-01-02 21:21:14] quality:  EXCELLENT
+[2025-01-02 21:21:14] size raw:  6.0
+[2025-01-02 21:21:14] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:21:17] did we find it gt_response?  ([], None)
+[2025-01-02 21:21:18] what is size_raw:  6.0
+[2025-01-02 21:21:18] what is material:  STAINLESS STEEL
+[2025-01-02 21:21:18] what is type:  90 DEGREE LONG RADIUS ELBOW
+[2025-01-02 21:21:18] what is schedule:  40S
+[2025-01-02 21:21:23] len of vect + qdrant size results: 2442
+[2025-01-02 21:21:23] **** TYPE *****
+[2025-01-02 21:21:23] Incoming dataframe size:  2442
+[2025-01-02 21:21:23] what is type:  90 DEGREE LONG RADIUS ELBOW
+[2025-01-02 21:21:23] type perms:  ['90 DEGREE LONG RADIUS ELBOW', '90 DEG LR ELBOW', '90° LR ELL', '90 LR ELBOW', 'LR 90 ELBOW', '90 LR ELL', 'LONG RADIUS 90 ELL', '90 LONG RAD ELBOW', 'LR 90° ELBOW', '90 DEGREE LR ELL', 'ELBOW LR 90']
+[2025-01-02 21:21:23] len of type filter results:  10
+[2025-01-02 21:21:23] **** MATERIAL *****
+[2025-01-02 21:21:23] Incoming dataframe size:  10
+[2025-01-02 21:21:23] what is material:  STAINLESS STEEL
+[2025-01-02 21:21:23] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:21:23] len of material filter results:  3
+[2025-01-02 21:21:23] **** SCHEDULE *****
+[2025-01-02 21:21:23] Incoming dataframe size:  10
+[2025-01-02 21:21:23] what is sched:  40S
+[2025-01-02 21:21:23] sched perms:  ['SCHEDULE 40S', '40S', 'SCH 40S', 'S40S', 'SCHED40S', 'SCH-40S', 'SCHEDULE40S', 'SCH. 40S', 'SCHEDULE FORTY S', '40-S', 'S-40S']
+[2025-01-02 21:21:23] len of schedule filter results:  0
+[2025-01-02 21:21:23] ---------------------------top 25 for item:  29
+[2025-01-02 21:21:23] 1                6 STAINLESS STEEL SCHEDULE 40 304L LR 90 ELBOW A403WPW
+48     6 STAINLESS STEEL SCHEDULE 40 304L SEAMLESS LONG RADIUS 90 ELBOW
+89                 6 X 4 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+90                 6 X 4 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+91                  6 STAINLESS STEEL SCHEDULE 10 2205 WELD LR 90 ELBOW
+138               6 X 3 CARBON STEEL STANDARD WELD LONG RADIUS 90 ELBOW
+141                6 CARBON STEEL SCHEDULE 160 WLD LONG RADIUS 90 ELBOW
+162                       6 CARBON STEEL S120 WELD LONG RADIUS 90 ELBOW
+225               6 X 4 CARBON STEEL STANDARD WELD LONG RADIUS 90 ELBOW
+378                6 X 5 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:21:23] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:21:23] lens of idx:  0
+[2025-01-02 21:21:23] ------------------------------------------------------------GT_NUMBER---> i:  29 RANK:  10000
+[2025-01-02 21:21:23] -----------------------------------------GT_NUMBER---> i:  30 previous rank:  0
+[2025-01-02 21:21:23] gt_desc:  12" XH .500W BLK ASTM/ASME/SA53B/API5L/X42/SA106B/C SEAMLESS PIPE
+[2025-01-02 21:21:23] inc_rfq:  12700335-PIPE,SMLS,12,XH-SA-106B
+[2025-01-02 21:21:23] quality:  EXCELLENT
+[2025-01-02 21:21:23] size raw:  12.0
+[2025-01-02 21:21:23] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:21:27] did we find it gt_response?  ([], None)
+[2025-01-02 21:21:27] what is size_raw:  12.0
+[2025-01-02 21:21:27] what is material:  CARBON STEEL
+[2025-01-02 21:21:27] what is type:  SEAMLESS
+[2025-01-02 21:21:27] what is schedule:  EXTRA HEAVY
+[2025-01-02 21:21:36] len of vect + qdrant size results: 1319
+[2025-01-02 21:21:36] **** TYPE *****
+[2025-01-02 21:21:36] Incoming dataframe size:  1319
+[2025-01-02 21:21:36] what is type:  SEAMLESS
+[2025-01-02 21:21:36] type perms:  ['SEAMLESS PIPE', 'SEAMLESS']
+[2025-01-02 21:21:36] len of type filter results:  4
+[2025-01-02 21:21:36] no filtering taking place for type...
+[2025-01-02 21:21:36] **** MATERIAL *****
+[2025-01-02 21:21:36] Incoming dataframe size:  1319
+[2025-01-02 21:21:36] what is material:  CARBON STEEL
+[2025-01-02 21:21:36] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:21:36] len of material filter results:  581
+[2025-01-02 21:21:36] **** SCHEDULE *****
+[2025-01-02 21:21:36] Incoming dataframe size:  581
+[2025-01-02 21:21:36] what is sched:  EXTRA HEAVY
+[2025-01-02 21:21:36] sched perms:  ['EXTRA HEAVY', '80/XH', 'SCHEDULE 80 XH', 'SCH 80XH', 'SCHED80XH', 'SCH. 80XH', 'S-80 XH', 'S/80 XH', 'XH 80', 'XH SC80']
+[2025-01-02 21:21:36] len of schedule filter results:  0
+[2025-01-02 21:21:36] ---------------------------top 25 for item:  30
+[2025-01-02 21:21:36] 1                                                          12 CS GALV S80 SMLS PIPE
+2                              12 BLACK PE A106B S30 SMLS DOUBLE RANDOM LENGTH PIPE
+3                             12 BLACK PE A106B S120 SMLS DOUBLE RANDOM LENGTH PIPE
+4                                                     12 BLK PE A106B S60 PIPE LRES
+5                              12 BLACK PE A106B S60 SMLS DOUBLE RANDOM LENGTH PIPE
+6                                             12 BLACK PLAIN END A106B XH PIPE LRES
+7                                       12 BLACK PE A106B SCHEDULE 80 SMLS SRL PIPE
+8                                       12 BLACK PE A106B SCHEDULE 40 SMLS SRL PIPE
+13                                           12 BLACK PLAIN END A106B S80 PIPE LRES
+16                           12 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+17                           12 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+18                           12 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+19                           12 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+20                                  12 BLACK PLAIN END A106B S160 SEAMLESS SRL PIPE
+25                                   12 BLACK PLAIN END A106B T80 SEAMLESS SRL PIPE
+27                              12 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+28                              12 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+29                              12 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+30                              12 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+31                              12 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+32                                      12 BLACK PLAIN END A106B STANDARD PIPE LRES
+35                                           12 BLACK PLAIN END A106B T40 PIPE LRES
+40                                          12 BLACK A333 GR6 T80 SEAMLESS SRL PIPE
+42                                  12 BLACK PLAIN END A106B S120 SEAMLESS PIPE SRL
+47    12 BLACK PLAIN END A106B EXTRA EXTRA HEAVY SEAMLESS DOUBLE RANDOM LENGTH PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:21:36] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:21:36] lens of idx:  0
+[2025-01-02 21:21:36] ------------------------------------------------------------GT_NUMBER---> i:  30 RANK:  10000
+[2025-01-02 21:21:36] -----------------------------------------GT_NUMBER---> i:  31 previous rank:  0
+[2025-01-02 21:21:36] gt_desc:  6" 300 RF WN FLG XXH BORE, SA105N/FGP
+[2025-01-02 21:21:36] inc_rfq:  11100817-FLG,WN,RF,6,300 ,XXH-SA-105
+[2025-01-02 21:21:36] quality:  EXCELLENT
+[2025-01-02 21:21:36] size raw:  6.0
+[2025-01-02 21:21:36] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:21:42] did we find it gt_response?  ([], None)
+[2025-01-02 21:21:42] what is size_raw:  6.0
+[2025-01-02 21:21:42] what is material:  CARBON STEEL
+[2025-01-02 21:21:42] what is type:  WELD NECK
+[2025-01-02 21:21:42] what is schedule:  XXH
+[2025-01-02 21:21:49] len of vect + qdrant size results: 2442
+[2025-01-02 21:21:49] **** TYPE *****
+[2025-01-02 21:21:49] Incoming dataframe size:  2442
+[2025-01-02 21:21:49] what is type:  WELD NECK
+[2025-01-02 21:21:49] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:21:49] len of type filter results:  111
+[2025-01-02 21:21:49] **** MATERIAL *****
+[2025-01-02 21:21:49] Incoming dataframe size:  111
+[2025-01-02 21:21:49] what is material:  CARBON STEEL
+[2025-01-02 21:21:49] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:21:49] len of material filter results:  86
+[2025-01-02 21:21:49] **** SCHEDULE *****
+[2025-01-02 21:21:49] Incoming dataframe size:  86
+[2025-01-02 21:21:49] what is sched:  XXH
+[2025-01-02 21:21:49] sched perms:  ['SCHEDULE XXH', 'XXH', 'SCH XXH', 'SXXH', 'SCHEDXXH', 'SCHXXH', 'SCHDLXXH', 'XXH', 'SCH. XXH', 'SCH-XXH', 'S-XXH', 'S.XXH', 'SCHDXXH', 'XX-H', 'SCHED XXH', 'SCHEDL XXH', 'SCH 0XXH', 'SCHED-XXH', 'SCHEDULE0XXH', 'SCHEDXX-H', 'S/XXH', 'SCXXH', 'S-XX-H', 'SCH-XX-H', 'SCHED.XX.H', 'XX.H', 'DOUBLE EXTRA HEAVY', 'SCH DOUBLE EXTRA HEAVY', 'SCHEDULE DOUBLE EXTRA H', 'SCHEDULE-XXH', 'SCH XX H', 'DOUBLE EXTRA HEAVY PIPE']
+[2025-01-02 21:21:49] len of schedule filter results:  5
+[2025-01-02 21:21:49] ---------------------------top 25 for item:  31
+[2025-01-02 21:21:49] 193                   6 CS 300 EXTRA EXTRA HEAVY RF WELDNECK FLANGE LRES
+422     6 CARBON STEEL 300 EXTRA EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+573     6 CARBON STEEL 150 EXTRA EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+691     6 CARBON STEEL 900 EXTRA EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+1010           6 CARBON STEEL 1500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:21:49] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:21:49] lens of idx:  0
+[2025-01-02 21:21:49] ------------------------------------------------------------GT_NUMBER---> i:  31 RANK:  10000
+[2025-01-02 21:21:49] -----------------------------------------GT_NUMBER---> i:  32 previous rank:  0
+[2025-01-02 21:21:49] gt_desc:  36" - 0.75" X 0.5" 3000 FS THREADED FLEX-O-LET, SA182-F304L
+[2025-01-02 21:21:49] inc_rfq:  XF0748 TOL,8X.5,CL3000,MSS SP-97,ASTM A182 GR.F1.0L
+[2025-01-02 21:21:49] quality:  EXCELLENT
+[2025-01-02 21:21:49] size raw:  8.0
+[2025-01-02 21:21:49] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:21:53] did we find it gt_response?  ([], None)
+[2025-01-02 21:21:53] what is size_raw:  8.0
+[2025-01-02 21:21:53] what is material:  STAINLESS STEEL
+[2025-01-02 21:21:53] what is type:  THREADOLET
+[2025-01-02 21:21:53] what is schedule:  NAN
+[2025-01-02 21:22:02] len of vect + qdrant size results: 1892
+[2025-01-02 21:22:02] **** TYPE *****
+[2025-01-02 21:22:02] Incoming dataframe size:  1892
+[2025-01-02 21:22:02] what is type:  THREADOLET
+[2025-01-02 21:22:02] type perms:  ['THREADOLET', 'TOL', 'T-O-L', 'T O L', 'THREADED OUTLET', 'THD OUTLET', 'THREAD O LET']
+[2025-01-02 21:22:02] len of type filter results:  14
+[2025-01-02 21:22:02] **** MATERIAL *****
+[2025-01-02 21:22:02] Incoming dataframe size:  14
+[2025-01-02 21:22:02] what is material:  STAINLESS STEEL
+[2025-01-02 21:22:02] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:22:02] len of material filter results:  5
+[2025-01-02 21:22:02] **** SCHEDULE *****
+[2025-01-02 21:22:02] Incoming dataframe size:  5
+[2025-01-02 21:22:02] schedule is NAN, no filtering...
+[2025-01-02 21:22:02] ---------------------------top 25 for item:  32
+[2025-01-02 21:22:02] 104                          36 - 8 X 2 304L TOL
+105                          36 - 8 X 2 304L TOL
+344    36 - 8 X 2 STAINLESS STEEL 316 L 3000 TOL
+551     36 - 8 X 2 STAINLESS STEEL 304L 3000 TOL
+552                         36 - 8 X 2 316 L TOL
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:22:02] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:22:02] lens of idx:  0
+[2025-01-02 21:22:02] ------------------------------------------------------------GT_NUMBER---> i:  32 RANK:  10000
+[2025-01-02 21:22:02] -----------------------------------------GT_NUMBER---> i:  33 previous rank:  0
+[2025-01-02 21:22:02] gt_desc:  4" 600 RF BLIND FLANGE, SA105N
+[2025-01-02 21:22:02] inc_rfq:  4" 600 A-105 BLIND
+[2025-01-02 21:22:02] quality:  EXCELLENT
+[2025-01-02 21:22:02] size raw:  4.0
+[2025-01-02 21:22:02] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:22:06] did we find it gt_response?  ([], None)
+[2025-01-02 21:22:07] what is size_raw:  4.0
+[2025-01-02 21:22:07] what is material:  CARBON STEEL
+[2025-01-02 21:22:07] what is type:  BLIND
+[2025-01-02 21:22:07] what is schedule:  NAN
+[2025-01-02 21:22:13] len of vect + qdrant size results: 3111
+[2025-01-02 21:22:13] **** TYPE *****
+[2025-01-02 21:22:13] Incoming dataframe size:  3111
+[2025-01-02 21:22:13] what is type:  BLIND
+[2025-01-02 21:22:13] type perms:  ['BLIND FLANGE', 'BLIND', 'BLND', 'BL', 'BLIND FLG', 'BLND FLG', 'BL FLG', 'BLIND FLANGE', 'BLND FLANGE', 'BL FLANGE']
+[2025-01-02 21:22:13] len of type filter results:  119
+[2025-01-02 21:22:13] **** MATERIAL *****
+[2025-01-02 21:22:13] Incoming dataframe size:  119
+[2025-01-02 21:22:13] what is material:  CARBON STEEL
+[2025-01-02 21:22:13] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:22:13] len of material filter results:  68
+[2025-01-02 21:22:13] **** SCHEDULE *****
+[2025-01-02 21:22:13] Incoming dataframe size:  68
+[2025-01-02 21:22:13] schedule is NAN, no filtering...
+[2025-01-02 21:22:13] ---------------------------top 25 for item:  33
+[2025-01-02 21:22:13] 3                     4 CARBON STEEL 150 RAISED FACE BLIND FLANGE A105N
+4                     4 CARBON STEEL 150 RAISED FACE BLIND FLANGE A105N
+5                     4 CARBON STEEL 300 RAISED FACE BLIND FLANGE A105N
+6                     4 CARBON STEEL 300 RAISED FACE BLIND FLANGE A105N
+7                     4 CARBON STEEL 300 RAISED FACE BLIND FLANGE A105N
+8                                          4 CS 600 RF BLND FLANGE LRES
+9                            4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+10                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+11                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+12                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+13                           4 CARBON STEEL 600 RAISED FACE BLND FLANGE
+14                                   4 CARBON STEEL 600 RTJ BLND FLANGE
+15                                   4 CARBON STEEL 600 RTJ BLND FLANGE
+30                       4 CARBON STEEL F52 600 RAISED FACE BLND FLANGE
+33                                     4 CS 150 RAISED FACE BLND FLANGE
+44                                                 4 CS 600 RF BLND FLG
+48                       4 CARBON STEEL LF2 600 RAISED FACE BLND FLANGE
+56                                 4 CS LF2 150 RAISED FACE BLND FLANGE
+57                           4 CARBON STEEL 150 RAISED FACE BLND FLANGE
+58                           4 CARBON STEEL 150 RAISED FACE BLND FLANGE
+59                           4 CARBON STEEL 150 RAISED FACE BLND FLANGE
+60                           4 CARBON STEEL 400 RAISED FACE BLND FLANGE
+70                             4 CARBON STEEL 150 FLAT FACE BLND FLANGE
+82    4 CARBON STEEL 150 RAISED FACE BLND FLANGE LP 0.5 IPT TAP ON PIPE
+87                             4 CARBON STEEL 300 FLAT FACE BLND FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:22:13] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:22:13] lens of idx:  0
+[2025-01-02 21:22:13] ------------------------------------------------------------GT_NUMBER---> i:  33 RANK:  10000
+[2025-01-02 21:22:13] -----------------------------------------GT_NUMBER---> i:  34 previous rank:  0
+[2025-01-02 21:22:13] gt_desc:  1-0.5" XXH .400W BLK SA106-B SEAMLESS PIPE
+[2025-01-02 21:22:13] inc_rfq:  1-.5-XXA106BS-PIPE,SMLS,1.5,XXH
+[2025-01-02 21:22:13] quality:  EXCELLENT
+[2025-01-02 21:22:13] size raw:  1.5
+[2025-01-02 21:22:13] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:22:17] did we find it gt_response?  ([], None)
+[2025-01-02 21:22:18] what is size_raw:  1.5
+[2025-01-02 21:22:18] what is material:  CARBON STEEL
+[2025-01-02 21:22:18] what is type:  SEAMLESS
+[2025-01-02 21:22:18] what is schedule:  XXH
+[2025-01-02 21:22:27] len of vect + qdrant size results: 3503
+[2025-01-02 21:22:27] **** TYPE *****
+[2025-01-02 21:22:27] Incoming dataframe size:  3503
+[2025-01-02 21:22:27] what is type:  SEAMLESS
+[2025-01-02 21:22:27] type perms:  ['SEAMLESS PIPE', 'SEAMLESS']
+[2025-01-02 21:22:27] len of type filter results:  5
+[2025-01-02 21:22:27] **** MATERIAL *****
+[2025-01-02 21:22:27] Incoming dataframe size:  5
+[2025-01-02 21:22:27] what is material:  CARBON STEEL
+[2025-01-02 21:22:27] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:22:27] len of material filter results:  1
+[2025-01-02 21:22:27] **** SCHEDULE *****
+[2025-01-02 21:22:27] Incoming dataframe size:  5
+[2025-01-02 21:22:27] what is sched:  XXH
+[2025-01-02 21:22:27] sched perms:  ['SCHEDULE XXH', 'XXH', 'SCH XXH', 'SXXH', 'SCHEDXXH', 'SCHXXH', 'SCHDLXXH', 'XXH', 'SCH. XXH', 'SCH-XXH', 'S-XXH', 'S.XXH', 'SCHDXXH', 'XX-H', 'SCHED XXH', 'SCHEDL XXH', 'SCH 0XXH', 'SCHED-XXH', 'SCHEDULE0XXH', 'SCHEDXX-H', 'S/XXH', 'SCXXH', 'S-XX-H', 'SCH-XX-H', 'SCHED.XX.H', 'XX.H', 'DOUBLE EXTRA HEAVY', 'SCH DOUBLE EXTRA HEAVY', 'SCHEDULE DOUBLE EXTRA H', 'SCHEDULE-XXH', 'SCH XX H', 'DOUBLE EXTRA HEAVY PIPE']
+[2025-01-02 21:22:27] len of schedule filter results:  0
+[2025-01-02 21:22:27] ---------------------------top 25 for item:  34
+[2025-01-02 21:22:27] 25     1-0.5 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+104    1-0.5 STAINLESS STEEL SCHEDULE 40 304L A312 SEAMLESS PIPE
+197               1-0.5 BLACK A333 GR6 SCHEDULE 80 SEAMLESS PIPE
+394              1-0.5 CRMLY P11 SCHEDULE 80 SA335 SEAMLESS PIPE
+553                    1-0.5 MONEL 400 SCHEDULE 40 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:22:27] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:22:27] lens of idx:  0
+[2025-01-02 21:22:27] ------------------------------------------------------------GT_NUMBER---> i:  34 RANK:  10000
+[2025-01-02 21:22:27] -----------------------------------------GT_NUMBER---> i:  35 previous rank:  0
+[2025-01-02 21:22:27] gt_desc:  4" 600 RF WELD NECK FLANGE XXH BORE, SA105N
+[2025-01-02 21:22:27] inc_rfq:  11100758-FLG,WN,RF,4,600 ,XXH-SA105N
+[2025-01-02 21:22:27] quality:  EXCELLENT
+[2025-01-02 21:22:27] size raw:  4.0
+[2025-01-02 21:22:27] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:22:31] did we find it gt_response?  ([], None)
+[2025-01-02 21:22:31] what is size_raw:  4.0
+[2025-01-02 21:22:31] what is material:  CARBON STEEL
+[2025-01-02 21:22:31] what is type:  WELD NECK
+[2025-01-02 21:22:31] what is schedule:  XXH
+[2025-01-02 21:22:37] len of vect + qdrant size results: 3111
+[2025-01-02 21:22:37] **** TYPE *****
+[2025-01-02 21:22:37] Incoming dataframe size:  3111
+[2025-01-02 21:22:37] what is type:  WELD NECK
+[2025-01-02 21:22:37] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:22:37] len of type filter results:  151
+[2025-01-02 21:22:37] **** MATERIAL *****
+[2025-01-02 21:22:37] Incoming dataframe size:  151
+[2025-01-02 21:22:37] what is material:  CARBON STEEL
+[2025-01-02 21:22:37] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:22:37] len of material filter results:  110
+[2025-01-02 21:22:37] **** SCHEDULE *****
+[2025-01-02 21:22:37] Incoming dataframe size:  110
+[2025-01-02 21:22:37] what is sched:  XXH
+[2025-01-02 21:22:37] sched perms:  ['SCHEDULE XXH', 'XXH', 'SCH XXH', 'SXXH', 'SCHEDXXH', 'SCHXXH', 'SCHDLXXH', 'XXH', 'SCH. XXH', 'SCH-XXH', 'S-XXH', 'S.XXH', 'SCHDXXH', 'XX-H', 'SCHED XXH', 'SCHEDL XXH', 'SCH 0XXH', 'SCHED-XXH', 'SCHEDULE0XXH', 'SCHEDXX-H', 'S/XXH', 'SCXXH', 'S-XX-H', 'SCH-XX-H', 'SCHED.XX.H', 'XX.H', 'DOUBLE EXTRA HEAVY', 'SCH DOUBLE EXTRA HEAVY', 'SCHEDULE DOUBLE EXTRA H', 'SCHEDULE-XXH', 'SCH XX H', 'DOUBLE EXTRA HEAVY PIPE']
+[2025-01-02 21:22:37] len of schedule filter results:  8
+[2025-01-02 21:22:37] ---------------------------top 25 for item:  35
+[2025-01-02 21:22:37] 284                  4 CS 300 EXTRA EXTRA HEAVY RF WELDNECK FLANGE LRES
+339    4 CARBON STEEL 600 EXTRA EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+400       4 CARBON STEEL LF2 2500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+685           4 CARBON STEEL 2500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+686           4 CARBON STEEL 2500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+687           4 CARBON STEEL 2500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+765           4 CARBON STEEL 1500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+766           4 CARBON STEEL 1500 EXTRA EXTRA HEAVY RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:22:37] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:22:37] lens of idx:  0
+[2025-01-02 21:22:37] ------------------------------------------------------------GT_NUMBER---> i:  35 RANK:  10000
+[2025-01-02 21:22:37] -----------------------------------------GT_NUMBER---> i:  36 previous rank:  0
+[2025-01-02 21:22:37] gt_desc:  0.75" 3000 FS THREADED ROUND HEAD PLUG, SA182-F304/L
+[2025-01-02 21:22:37] inc_rfq:  HL6846 ROUND HEAD PLUG,NPT .75,ASTM A182 GR F1.0L
+[2025-01-02 21:22:37] quality:  EXCELLENT
+[2025-01-02 21:22:37] size raw:  0.75
+[2025-01-02 21:22:37] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:22:41] did we find it gt_response?  ([], None)
+[2025-01-02 21:22:41] what is size_raw:  0.75
+[2025-01-02 21:22:41] what is material:  STAINLESS STEEL
+[2025-01-02 21:22:41] what is type:  THREADED PLUG
+[2025-01-02 21:22:41] what is schedule:  NAN
+[2025-01-02 21:22:47] len of vect + qdrant size results: 3991
+[2025-01-02 21:22:47] **** TYPE *****
+[2025-01-02 21:22:47] Incoming dataframe size:  3991
+[2025-01-02 21:22:47] what is type:  THREADED PLUG
+[2025-01-02 21:22:47] type perms:  ['THREADED PLUG', 'THD PLUG', 'THRD PLUG', 'TH PLUG', 'THREADED PLG', 'THD PLG', 'THRD PLG', 'THREAD PLG', 'SCREWED PLUG', 'SCR PLUG', 'SCRW PLUG']
+[2025-01-02 21:22:47] len of type filter results:  0
+[2025-01-02 21:22:47] no filtering taking place for type...
+[2025-01-02 21:22:47] **** MATERIAL *****
+[2025-01-02 21:22:47] Incoming dataframe size:  3991
+[2025-01-02 21:22:47] what is material:  STAINLESS STEEL
+[2025-01-02 21:22:47] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:22:47] len of material filter results:  1478
+[2025-01-02 21:22:47] **** SCHEDULE *****
+[2025-01-02 21:22:47] Incoming dataframe size:  1478
+[2025-01-02 21:22:47] schedule is NAN, no filtering...
+[2025-01-02 21:22:47] ---------------------------top 25 for item:  36
+[2025-01-02 21:22:47] 0           0.75 STAINLESS STEEL 304 150 THREAD HEX PLUG
+1           0.75 STAINLESS STEEL 316 150 THREAD HEX PLUG
+2           0.75 STAINLESS STEEL 316 150 THREAD HEX PLUG
+3         0.75 STAINLESS STEEL 316 150 THREAD SQ HD PLUG
+4      0.75 STAINLESS STEEL 304L 3000 THREAD RND HD PLUG
+7     0.75 STAINLESS STEEL 316 150 SP114 THREAD HEX PLUG
+8                      0.75X3 SLD A182 304L REF HEX PLUG
+9     0.75 STAINLESS STEEL 304 150 SP114 THREAD HEX PLUG
+10       0.75 STAINLESS STEEL 316 L 6000 THREAD HEX PLUG
+11                     0.75X3 SLD A182 316L REF HEX PLUG
+13      0.75 STAINLESS STEEL 316 150 THREAD HEX CSK PLUG
+14     0.75 STAINLESS STEEL 316 L 3000 THREAD ROUND PLUG
+15        0.75 STAINLESS STEEL 304L 3000 THREAD HEX PLUG
+16        0.75 STAINLESS STEEL 304L 3000 THREAD HEX PLUG
+17        0.75 STAINLESS STEEL 304L 3000 THREAD HEX PLUG
+18           0.75 STAINLESS STEEL 316 150 THREAD SQ PLUG
+22       0.75 STAINLESS STEEL 316 L 3000 THREAD HEX PLUG
+23       0.75 STAINLESS STEEL 316 L 3000 THREAD HEX PLUG
+24       0.75 STAINLESS STEEL 316 L 3000 THREAD HEX PLUG
+25       0.75 STAINLESS STEEL 316 L 3000 THREAD HEX PLUG
+27        0.75 STAINLESS STEEL 304L 3000 THREAD RND PLUG
+28        0.75 STAINLESS STEEL 304L 3000 THREAD RND PLUG
+30           0.75 STAINLESS STEEL 304 150 THREAD SQ PLUG
+31         0.75 STAINLESS STEEL 304 3000 THREAD HEX PLUG
+32       0.75 STAINLESS STEEL 316 L 3000 THREAD RND PLUG
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:22:47] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:22:47] lens of idx:  0
+[2025-01-02 21:22:47] ------------------------------------------------------------GT_NUMBER---> i:  36 RANK:  10000
+[2025-01-02 21:22:47] -----------------------------------------GT_NUMBER---> i:  37 previous rank:  0
+[2025-01-02 21:22:47] gt_desc:  8" S-10 .148W SEAMLESS PIPE, SA312 TP304/L
+[2025-01-02 21:22:47] inc_rfq:  887483 PI8-10S,ASTM,A312,TP304L
+[2025-01-02 21:22:47] quality:  EXCELLENT
+[2025-01-02 21:22:47] size raw:  8.0
+[2025-01-02 21:22:47] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:22:50] did we find it gt_response?  ([], None)
+[2025-01-02 21:22:50] what is size_raw:  8.0
+[2025-01-02 21:22:50] what is material:  STAINLESS STEEL
+[2025-01-02 21:22:50] what is type:  PIPE
+[2025-01-02 21:22:50] what is schedule:  NAN
+[2025-01-02 21:22:59] len of vect + qdrant size results: 1892
+[2025-01-02 21:22:59] **** TYPE *****
+[2025-01-02 21:22:59] Incoming dataframe size:  1892
+[2025-01-02 21:22:59] what is type:  PIPE
+[2025-01-02 21:22:59] type perms:  ['PIPE', 'PIP', 'PIPING', 'LINE PIPE', 'TUBE', 'TUBING', 'P/P', 'P.P', 'PP', 'LN PIPE', 'PIPES']
+[2025-01-02 21:22:59] len of type filter results:  179
+[2025-01-02 21:22:59] **** MATERIAL *****
+[2025-01-02 21:22:59] Incoming dataframe size:  179
+[2025-01-02 21:22:59] what is material:  STAINLESS STEEL
+[2025-01-02 21:22:59] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:22:59] len of material filter results:  60
+[2025-01-02 21:22:59] **** SCHEDULE *****
+[2025-01-02 21:22:59] Incoming dataframe size:  60
+[2025-01-02 21:22:59] schedule is NAN, no filtering...
+[2025-01-02 21:22:59] ---------------------------top 25 for item:  37
+[2025-01-02 21:22:59] 0                               8 SS S10 304L A312 SMLS PIPE
+1          8 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+2          8 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+3          8 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+4      8 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+5      8 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+6          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+7          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+8          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+9          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+10         8 STAINLESS STEEL SCHEDULE 80 304L A312 WELD PIPE
+11         8 STAINLESS STEEL SCHEDULE 10 317L A312 WELD PIPE
+12              8 STAINLESS STEEL SCHEDULE 10 316 L A774 LAT
+13    8 STAINLESS STEEL SCHEDULE 10 316 L A312 SEAMLESS PIPE
+14                              8 SS S40 316L A312 SMLS PIPE
+15                                   8 SS S80 304H SMLS PIPE
+17         8 STAINLESS STEEL SCHEDULE 40 304L A312 WELD PIPE
+18         8 STAINLESS STEEL SCHEDULE 40 304L A312 WELD PIPE
+19         8 STAINLESS STEEL SCHEDULE 40 304L A312 WELD PIPE
+20     8 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+22     8 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+23        8 STAINLESS STEEL SCHEDULE 80 316 L A312 WELD PIPE
+24     8 STAINLESS STEEL SCHEDULE 80 304L A312 SEAMLESS PIPE
+25     8 STAINLESS STEEL SCHEDULE 80 304L A312 SEAMLESS PIPE
+27     8 STAINLESS STEEL SCHEDULE 80 304L A312 SEAMLESS PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:22:59] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:22:59] lens of idx:  0
+[2025-01-02 21:22:59] ------------------------------------------------------------GT_NUMBER---> i:  37 RANK:  10000
+[2025-01-02 21:22:59] -----------------------------------------GT_NUMBER---> i:  38 previous rank:  0
+[2025-01-02 21:22:59] gt_desc:  4" S-160 LR 90 WELD ELL, SA234-WPB
+[2025-01-02 21:22:59] inc_rfq:  15000391-ELBOW,LR90,4,S160-SA-234-WPB
+[2025-01-02 21:22:59] quality:  EXCELLENT
+[2025-01-02 21:22:59] size raw:  4.0
+[2025-01-02 21:22:59] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:23:03] did we find it gt_response?  ([], None)
+[2025-01-02 21:23:03] what is size_raw:  4.0
+[2025-01-02 21:23:03] what is material:  CARBON STEEL
+[2025-01-02 21:23:03] what is type:  LONG RADIUS 90 ELBOW
+[2025-01-02 21:23:03] what is schedule:  160
+[2025-01-02 21:23:10] len of vect + qdrant size results: 3111
+[2025-01-02 21:23:10] **** TYPE *****
+[2025-01-02 21:23:10] Incoming dataframe size:  3111
+[2025-01-02 21:23:10] what is type:  LONG RADIUS 90 ELBOW
+[2025-01-02 21:23:10] type perms:  ['LONG RADIUS 90 ELBOW', 'LR 90 ELBOW', 'LR 90 ELL', 'LR 90° ELBOW', 'LR 90° ELL', 'LONG RAD 90 ELBOW', 'LONG RAD 90 ELL', 'L.R. 90 ELBOW', 'L.R. 90 ELL', 'ELBOW LR 90', 'ELL LR 90']
+[2025-01-02 21:23:10] len of type filter results:  17
+[2025-01-02 21:23:10] **** MATERIAL *****
+[2025-01-02 21:23:10] Incoming dataframe size:  17
+[2025-01-02 21:23:10] what is material:  CARBON STEEL
+[2025-01-02 21:23:10] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:23:10] len of material filter results:  12
+[2025-01-02 21:23:10] **** SCHEDULE *****
+[2025-01-02 21:23:10] Incoming dataframe size:  12
+[2025-01-02 21:23:10] what is sched:  160
+[2025-01-02 21:23:10] sched perms:  ['SCHEDULE 160', '160', 'SCH 160', 'S160', 'SCHED160', 'SCH160', 'SCHDL160', 'SCH. 160', 'SCH-160', 'S-160', 'S.160', 'SCHD160', 'SCHED 160', 'SCHEDL 160', 'S/160', 'SC160', 'SCHEDULE ONE SIXTY', 'SCH ONE SIXTY', 'SCHED-160', 'SCHEDULE-160', 'SCH 160', 'SCHEDULE160']
+[2025-01-02 21:23:10] len of schedule filter results:  0
+[2025-01-02 21:23:10] ---------------------------top 25 for item:  38
+[2025-01-02 21:23:10] 9                                       4 CS STD WLD LR 90 ELBOW
+11                              4 CS EXTRA HEAVY WLD LR 90 ELBOW
+122             4 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+124         4 X 3 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+131       4 CARBON STEEL WPL6 STANDARD WELD LONG RADIUS 90 ELBOW
+132       4 CARBON STEEL WPL6 STANDARD WELD LONG RADIUS 90 ELBOW
+145         4 CARBON STEEL EXTRA HEAVY WELD LONG RADIUS 90 ELBOW
+155        4 X 3 CARBON STEEL STANDARD WELD LONG RADIUS 90 ELBOW
+181     4 X 2-0.5 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+195         4 X 2 CARBON STEEL STANDARD WLD LONG RADIUS 90 ELBOW
+202    4 CARBON STEEL WPL6 SCHEDULE XH WELD LONG RADIUS 90 ELBOW
+230         4 CARBON STEEL SCHEDULE XH WELD LONG RADIUS 90 ELBOW
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:23:10] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:23:10] lens of idx:  0
+[2025-01-02 21:23:10] ------------------------------------------------------------GT_NUMBER---> i:  38 RANK:  10000
+[2025-01-02 21:23:10] -----------------------------------------GT_NUMBER---> i:  39 previous rank:  0
+[2025-01-02 21:23:10] gt_desc:  24" S-30 .562W BLK SA106-B SEAMLESS PIPE
+[2025-01-02 21:23:10] inc_rfq:  12700487-PIPE,SMLS,24,S30 GR C-SA-106C
+[2025-01-02 21:23:10] quality:  EXCELLENT
+[2025-01-02 21:23:10] size raw:  24.0
+[2025-01-02 21:23:10] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:23:14] did we find it gt_response?  ([], None)
+[2025-01-02 21:23:14] what is size_raw:  24.0
+[2025-01-02 21:23:14] what is material:  CARBON STEEL
+[2025-01-02 21:23:14] what is type:  SEAMLESS
+[2025-01-02 21:23:14] what is schedule:  S30
+[2025-01-02 21:23:20] len of vect + qdrant size results: 544
+[2025-01-02 21:23:20] **** TYPE *****
+[2025-01-02 21:23:20] Incoming dataframe size:  544
+[2025-01-02 21:23:20] what is type:  SEAMLESS
+[2025-01-02 21:23:20] type perms:  ['SEAMLESS PIPE', 'SEAMLESS']
+[2025-01-02 21:23:20] len of type filter results:  1
+[2025-01-02 21:23:20] no filtering taking place for type...
+[2025-01-02 21:23:20] **** MATERIAL *****
+[2025-01-02 21:23:20] Incoming dataframe size:  544
+[2025-01-02 21:23:20] what is material:  CARBON STEEL
+[2025-01-02 21:23:20] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:23:20] len of material filter results:  284
+[2025-01-02 21:23:20] **** SCHEDULE *****
+[2025-01-02 21:23:20] Incoming dataframe size:  284
+[2025-01-02 21:23:20] what is sched:  S30
+[2025-01-02 21:23:20] sched perms:  ['SCHEDULE 30', '30', 'SCH 30', 'S30', 'SCHED30', 'SCH30', 'SCHDL30', 'SCH. 30', 'SCH-30', 'S-30', 'S.30', 'SCHD30', 'SCHED 30', 'SCHEDL 30', 'S/30', 'SC30', 'SCHEDULE THIRTY', 'SCH THIRTY', 'SCHED-30', 'SCHEDULE-30', 'SCH 30', 'SCHEDULE30']
+[2025-01-02 21:23:20] len of schedule filter results:  1
+[2025-01-02 21:23:20] ---------------------------top 25 for item:  39
+[2025-01-02 21:23:20] 1                                         24 BLACK PE A106B STD SMLS SRL PIPE
+3                                 24 BLACK PE A106B EXTRA HEAVY SMLS SRL PIPE
+6                                 24 BLACK PE A106B SCHEDULE 80 SMLS SRL PIPE
+19                            24 BLACK PLAIN END A106B S120 SEAMLESS SRL PIPE
+22                             24 BLACK PLAIN END A106B T40 SEAMLESS SRL PIPE
+23                     24 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+24                     24 BLACK PLAIN END A106B SCHEDULE 40 SEAMLESS SRL PIPE
+25                             24 BLACK PLAIN END A106B S60 SEAMLESS SRL PIPE
+26                             24 BLACK PLAIN END A106B S20 SEAMLESS SRL PIPE
+27                        24 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+28                        24 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+29                        24 BLACK PLAIN END A106B STANDARD SEAMLESS SRL PIPE
+30                                24 BLACK PLAIN END A106B STANDARD PIPE LRES
+31                     24 BLACK PLAIN END A106B EXTRA HEAVY SEAMLESS SRL PIPE
+32            24 BLACK PLAIN END A106B S30 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+33    24 BLACK PLAIN END A106B SCHEDULE 80 SEAMLESS DOUBLE RANDOM LENGTH PIPE
+34                                      24 BLACK PLAIN END A106B XH PIPE LRES
+35                        24 BLACK PLAIN END A106B STANDARD SEAMLESS DRL PIPE
+38                           24 BLACK PLAIN END A53B SCHEDULE 10 ERW SRL PIPE
+40       24 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+41       24 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+42       24 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+43       24 BLACK PLAIN END A106B STANDARD SEAMLESS DOUBLE RANDOM LENGTH PIPE
+48                              24 BLACK PLAIN END A53B STANDARD ERW SRL PIPE
+49                              24 BLACK PLAIN END A53B STANDARD ERW SRL PIPE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:23:20] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:23:20] lens of idx:  0
+[2025-01-02 21:23:20] ------------------------------------------------------------GT_NUMBER---> i:  39 RANK:  10000
+[2025-01-02 21:23:20] -----------------------------------------GT_NUMBER---> i:  40 previous rank:  0
+[2025-01-02 21:23:20] gt_desc:  6" X 4" STD ECCENTRIC REDUCER, SA403 WP1.0L
+[2025-01-02 21:23:20] inc_rfq:  H31984 RED ECC.-WELD.6X4*SCH40S/SCH40S,ASTM A403
+[2025-01-02 21:23:20] quality:  EXCELLENT
+[2025-01-02 21:23:20] size raw:  6.0
+[2025-01-02 21:23:20] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:23:24] did we find it gt_response?  ([], None)
+[2025-01-02 21:23:24] what is size_raw:  6.0
+[2025-01-02 21:23:24] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:24] what is type:  ECCENTRIC REDUCER
+[2025-01-02 21:23:24] what is schedule:  40S
+[2025-01-02 21:23:30] len of vect + qdrant size results: 2442
+[2025-01-02 21:23:30] **** TYPE *****
+[2025-01-02 21:23:30] Incoming dataframe size:  2442
+[2025-01-02 21:23:30] what is type:  ECCENTRIC REDUCER
+[2025-01-02 21:23:30] type perms:  ['ECCENTRIC REDUCER', 'ECC RED', 'ECCRED', 'ECC R', 'ECC REDUC', 'ECCENTRIC RED', 'ECCENTRIC RDCR', 'ECC RDCR']
+[2025-01-02 21:23:30] len of type filter results:  100
+[2025-01-02 21:23:30] **** MATERIAL *****
+[2025-01-02 21:23:30] Incoming dataframe size:  100
+[2025-01-02 21:23:30] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:30] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:23:30] len of material filter results:  32
+[2025-01-02 21:23:30] **** SCHEDULE *****
+[2025-01-02 21:23:30] Incoming dataframe size:  32
+[2025-01-02 21:23:30] what is sched:  40S
+[2025-01-02 21:23:30] sched perms:  ['SCHEDULE 40S', '40S', 'SCH 40S', 'S40S', 'SCHED40S', 'SCH-40S', 'SCHEDULE40S', 'SCH. 40S', 'SCHEDULE FORTY S', '40-S', 'S-40S']
+[2025-01-02 21:23:30] len of schedule filter results:  0
+[2025-01-02 21:23:30] ---------------------------top 25 for item:  40
+[2025-01-02 21:23:30] 1           6 X 4 STAINLESS STEEL SCHEDULE 40 316 L ECC REDUCER A403WPW
+4                    6 X 4 STAINLESS STEEL SCHEDULE 40 304L ECC REDUCER
+6               6 X 4 STAINLESS STEEL SCHEDULE 40 304L SMLS ECC REDUCER
+7     6 X 4 STAINLESS STEEL SCHEDULE 40 304L SEAMLESS ECCENTRIC REDUCER
+8                   6 X 4 STAINLESS STEEL SCHEDULE 40 316 L ECC REDUCER
+9              6 X 4 STAINLESS STEEL SCHEDULE 40 316 L SMLS ECC REDUCER
+10                                  6X2-0.5 SS S10 316L ECC RED A403WPW
+11             6 X 4 STAINLESS STEEL SCHEDULE 80 316 L SMLS ECC REDUCER
+15                                    6X4 SS S10S 304L WLD ECC SMLS RED
+22                   6 X 3 STAINLESS STEEL SCHEDULE 40 304L ECC REDUCER
+23                   6 X 3 STAINLESS STEEL SCHEDULE 40 304L ECC REDUCER
+25              6 X 3 STAINLESS STEEL SCHEDULE 40 304L SMLS ECC REDUCER
+26                  6 X 4 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER
+27                  6 X 4 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER
+28                   6 X 4 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+29                   6 X 4 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+37              6 X 4 STAINLESS STEEL SCHEDULE 10 304L SMLS ECC REDUCER
+38              6 X 4 STAINLESS STEEL SCHEDULE 10 304L SMLS ECC REDUCER
+39             6 X 3 STAINLESS STEEL SCHEDULE 40 316 L SMLS ECC REDUCER
+40                  6 X 3 STAINLESS STEEL SCHEDULE 40 316 L ECC REDUCER
+41                  6 X 3 STAINLESS STEEL SCHEDULE 40 316 L ECC REDUCER
+56          6 X 3 STAINLESS STEEL SCHEDULE 10 316 L ECC REDUCER A403WPW
+74                                         6X3 SS S10 304L SMLS ECC RED
+94                   6 X 3 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+95                   6 X 3 STAINLESS STEEL SCHEDULE 10 304L ECC REDUCER
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:23:30] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:23:30] lens of idx:  0
+[2025-01-02 21:23:30] ------------------------------------------------------------GT_NUMBER---> i:  40 RANK:  10000
+[2025-01-02 21:23:30] -----------------------------------------GT_NUMBER---> i:  41 previous rank:  0
+[2025-01-02 21:23:30] gt_desc:  6" X 4" STD CONCENTRIC WELD REDUCER, SA404.0L
+[2025-01-02 21:23:30] inc_rfq:  H32016 RED CON.-WELD.6X4*SCH40S/SCH40S,ASTM A403
+[2025-01-02 21:23:30] quality:  EXCELLENT
+[2025-01-02 21:23:30] size raw:  6.0
+[2025-01-02 21:23:30] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:23:33] did we find it gt_response?  ([], None)
+[2025-01-02 21:23:34] what is size_raw:  6.0
+[2025-01-02 21:23:34] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:34] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:23:34] what is schedule:  40S
+[2025-01-02 21:23:39] len of vect + qdrant size results: 2442
+[2025-01-02 21:23:39] **** TYPE *****
+[2025-01-02 21:23:39] Incoming dataframe size:  2442
+[2025-01-02 21:23:39] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:23:39] type perms:  ['SWAGE CONCENTRIC', 'CONCENTRIC SWAGE', 'SWAGE CONC', 'CONC SWAGE', 'SWAGE CON', 'CON SWAGE', 'SWG CONC', 'CONC SWG', 'SWG CON', 'CON SWG', 'CONCENTRIC REDUCER']
+[2025-01-02 21:23:39] len of type filter results:  170
+[2025-01-02 21:23:39] **** MATERIAL *****
+[2025-01-02 21:23:39] Incoming dataframe size:  170
+[2025-01-02 21:23:39] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:39] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:23:39] len of material filter results:  71
+[2025-01-02 21:23:39] **** SCHEDULE *****
+[2025-01-02 21:23:39] Incoming dataframe size:  71
+[2025-01-02 21:23:39] what is sched:  40S
+[2025-01-02 21:23:39] sched perms:  ['SCHEDULE 40S', '40S', 'SCH 40S', 'S40S', 'SCHED40S', 'SCH-40S', 'SCHEDULE40S', 'SCH. 40S', 'SCHEDULE FORTY S', '40-S', 'S-40S']
+[2025-01-02 21:23:39] len of schedule filter results:  0
+[2025-01-02 21:23:39] ---------------------------top 25 for item:  41
+[2025-01-02 21:23:39] 2         6 X 4 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+3         6 X 4 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+4         6 X 4 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+7          6 X 4 STAINLESS STEEL SCHEDULE 40 304L CONC REDUCER
+8          6 X 4 STAINLESS STEEL SCHEDULE 40 304L CONC REDUCER
+10           6 X 4 STAINLESS STEEL SCHEDULE 40 316 L SMLS CONC
+11           6 X 4 STAINLESS STEEL SCHEDULE 40 316 L SMLS CONC
+12        6 X 4 STAINLESS STEEL SCHEDULE 80 316 L CONC REDUCER
+21            6 X 4 STAINLESS STEEL SCHEDULE 40 304L SMLS CONC
+22            6 X 4 STAINLESS STEEL SCHEDULE 40 304L SMLS CONC
+23            6 X 4 STAINLESS STEEL SCHEDULE 40 304L SMLS CONC
+31         6 X 3 STAINLESS STEEL SCHEDULE 40 304L CONC REDUCER
+32         6 X 3 STAINLESS STEEL SCHEDULE 40 304L CONC REDUCER
+33         6 X 3 STAINLESS STEEL SCHEDULE 40 304L CONC REDUCER
+38    6 X 4 STAINLESS STEEL SCHEDULE 40 2205 WELD CONC REDUCER
+44    6 X 2-0.5 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+46        6 X 3 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+47        6 X 3 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+48        6 X 3 STAINLESS STEEL SCHEDULE 40 316 L CONC REDUCER
+53           6 X 4 STAINLESS STEEL SCHEDULE 80 316 L SMLS CONC
+54     6 X 2-0.5 STAINLESS STEEL SCHEDULE 40 304L CONC REDUCER
+59        6 X 4 STAINLESS STEEL SCHEDULE 10 316 L CONC REDUCER
+60        6 X 4 STAINLESS STEEL SCHEDULE 10 316 L CONC REDUCER
+61        6 X 4 STAINLESS STEEL SCHEDULE 10 316 L CONC REDUCER
+69           6 X 3 STAINLESS STEEL SCHEDULE 40 316 L SMLS CONC
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:23:39] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:23:39] lens of idx:  0
+[2025-01-02 21:23:39] ------------------------------------------------------------GT_NUMBER---> i:  41 RANK:  10000
+[2025-01-02 21:23:39] -----------------------------------------GT_NUMBER---> i:  42 previous rank:  0
+[2025-01-02 21:23:39] gt_desc:  1" 150 RF WELD NECK FLANGE STD BORE, SA182-F304H
+[2025-01-02 21:23:39] inc_rfq:  H23242 FL1.5,150,WN,RF,S40S,A-182-F304H
+[2025-01-02 21:23:39] quality:  EXCELLENT
+[2025-01-02 21:23:39] size raw:  1.5
+[2025-01-02 21:23:39] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:23:43] did we find it gt_response?  ([], None)
+[2025-01-02 21:23:43] what is size_raw:  1.5
+[2025-01-02 21:23:43] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:43] what is type:  WELD NECK
+[2025-01-02 21:23:43] what is schedule:  40S
+[2025-01-02 21:23:52] len of vect + qdrant size results: 3503
+[2025-01-02 21:23:52] **** TYPE *****
+[2025-01-02 21:23:52] Incoming dataframe size:  3503
+[2025-01-02 21:23:52] what is type:  WELD NECK
+[2025-01-02 21:23:52] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:23:52] len of type filter results:  77
+[2025-01-02 21:23:52] **** MATERIAL *****
+[2025-01-02 21:23:52] Incoming dataframe size:  77
+[2025-01-02 21:23:52] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:52] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:23:53] len of material filter results:  28
+[2025-01-02 21:23:53] **** SCHEDULE *****
+[2025-01-02 21:23:53] Incoming dataframe size:  28
+[2025-01-02 21:23:53] what is sched:  40S
+[2025-01-02 21:23:53] sched perms:  ['SCHEDULE 40S', '40S', 'SCH 40S', 'S40S', 'SCHED40S', 'SCH-40S', 'SCHEDULE40S', 'SCH. 40S', 'SCHEDULE FORTY S', '40-S', 'S-40S']
+[2025-01-02 21:23:53] len of schedule filter results:  0
+[2025-01-02 21:23:53] ---------------------------top 25 for item:  42
+[2025-01-02 21:23:53] 26                       1-0.5 STAINLESS STEEL 304L 150 STANDARD RF WN FLANGE
+37              1-0.5 STAINLESS STEEL 304L 150 EXTRA HEAVY RF WELDNECK FLANGE
+46                      1-0.5 STAINLESS STEEL 304L 150 STD RF WELDNECK FLANGE
+77                       1-0.5 STAINLESS STEEL 304L 300 STANDARD RF WN FLANGE
+93                       1-0.5 STAINLESS STEEL 304L 600 STANDARD RF WN FLANGE
+117                          1-0.5 STAINLESS STEEL 316 L 150 RF 12 LWN FLANGE
+118            1-0.5 STAINLESS STEEL 316 L 150 EXTRA HEAVY RF WELDNECK FLANGE
+130                                1-0.5 316 L 300 STANDARD RF WN ORFC FLANGE
+134               1-0.5 STAINLESS STEEL 316 L 150 STANDARD RF WELDNECK FLANGE
+141                     1-0.5 STAINLESS STEEL 304L 600 RF SLD WELDNECK FLANGE
+145                           1-0.5 STAINLESS STEEL 316 L 600 XH RF WN FLANGE
+151                     1-0.5 STAINLESS STEEL 304L 300 STD RF WELDNECK FLANGE
+154            1-0.5 STAINLESS STEEL 304L 150 STD RAISED FACE WELDNECK FLANGE
+155            1-0.5 STAINLESS STEEL 304L 150 STD RAISED FACE WELDNECK FLANGE
+167                          1-0.5 STAINLESS STEEL 316 L 300 RF 12 LWN FLANGE
+251           1-0.5 STAINLESS STEEL 316 L 150 STD RAISED FACE WELDNECK FLANGE
+264                  1-0.5 STAINLESS STEEL 316 L 1500 XXH RTJ WELDNECK FLANGE
+274    1-0.5 STAINLESS STEEL 304L 300 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+292      1-0.5 STAINLESS STEEL 316L 150 STANDARD RAISED FACE WELD NECK FLANGE
+309            1-0.5 STAINLESS STEEL 304L 300 STD RAISED FACE WELDNECK FLANGE
+316                 1-0.5 STAINLESS STEEL 316 L 1500 S160 RTJ WELDNECK FLANGE
+341          1-0.5 STAINLESS STEEL 316 L 1500 EXTRA HEAVY RTJ WELDNECK FLANGE
+384             1-0.5 STAINLESS STEEL 316 L 1500 STANDARD RTJ WELDNECK FLANGE
+458                    1-0.5 STAINLESS STEEL 304L 600 STD RTJ WELDNECK FLANGE
+579                 1-0.5 STAINLESS STEEL 316 L 2500 S160 RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:23:53] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:23:53] lens of idx:  0
+[2025-01-02 21:23:53] ------------------------------------------------------------GT_NUMBER---> i:  42 RANK:  10000
+[2025-01-02 21:23:53] -----------------------------------------GT_NUMBER---> i:  43 previous rank:  0
+[2025-01-02 21:23:53] gt_desc:  8" S-10S .148W WELDED SA312 TP1.0L
+[2025-01-02 21:23:53] inc_rfq:  H05617 PI8-S10S,WLD,ASTM A312TP1.0L
+[2025-01-02 21:23:53] quality:  EXCELLENT
+[2025-01-02 21:23:53] size raw:  8.0
+[2025-01-02 21:23:53] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:23:53] did we find it gt_response?  ([], None)
+[2025-01-02 21:23:53] what is size_raw:  8.0
+[2025-01-02 21:23:53] what is material:  STAINLESS STEEL
+[2025-01-02 21:23:53] what is type:  WELDED
+[2025-01-02 21:23:53] what is schedule:  S10
+[2025-01-02 21:24:02] len of vect + qdrant size results: 1892
+[2025-01-02 21:24:02] **** TYPE *****
+[2025-01-02 21:24:02] Incoming dataframe size:  1892
+[2025-01-02 21:24:02] what is type:  WELDED
+[2025-01-02 21:24:02] type perms:  ['WELD', 'WLD', 'WELDED', 'WLDMT', 'WELDMENT', 'W', 'WD', 'WEL', 'WELD.', 'W.', 'WELD-']
+[2025-01-02 21:24:02] len of type filter results:  0
+[2025-01-02 21:24:02] no filtering taking place for type...
+[2025-01-02 21:24:02] **** MATERIAL *****
+[2025-01-02 21:24:02] Incoming dataframe size:  1892
+[2025-01-02 21:24:02] what is material:  STAINLESS STEEL
+[2025-01-02 21:24:02] material perms:  ['STAINLESS STEEL', 'SS', 'S.S.', 'STL STL', 'STAIN STL', 'S S', 'STAINLESS STEEL', 'SS STL', 'STAIN STL', 'STAINLSS STL', 'STANLESS STL', 'STNLSS STL', 'STINL STL', 'S/ST', 'S.S.', 'STL/STL', 'STL.S.', 'STAIN STL', 'STAINLESS STL', 'S STL', 'S.STL']
+[2025-01-02 21:24:02] len of material filter results:  572
+[2025-01-02 21:24:02] **** SCHEDULE *****
+[2025-01-02 21:24:02] Incoming dataframe size:  572
+[2025-01-02 21:24:02] what is sched:  S10
+[2025-01-02 21:24:02] sched perms:  ['SCHEDULE 10', '10', 'SCH 10', 'S10', 'SCHED10', 'SCH10', 'SCHDL10', 'SCH. 10', 'SCH-10', 'S-10', 'S.10', 'SCHD10', 'S/10', 'SC10', 'SCHEDULE TEN', 'SCH TEN', 'SCHED-10', 'SCHEDULE-10', 'SCH 10', 'SCHEDULE10']
+[2025-01-02 21:24:02] len of schedule filter results:  169
+[2025-01-02 21:24:02] ---------------------------top 25 for item:  43
+[2025-01-02 21:24:02] 0          8 STAINLESS STEEL SCHEDULE 10 317L A312 WELD PIPE
+1          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+2          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+3          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+4          8 STAINLESS STEEL SCHEDULE 10 316L A312 WELD PIPE
+5                               8 SS S10 304L A312 SMLS PIPE
+6          8 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+7          8 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+8          8 STAINLESS STEEL SCHEDULE 10 304L A312 WELD PIPE
+9     8 STAINLESS STEEL SCHEDULE 10 316 L A312 SEAMLESS PIPE
+10     8 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+11     8 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+12     8 STAINLESS STEEL SCHEDULE 10 316L A312 SEAMLESS PIPE
+13     8 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+14     8 STAINLESS STEEL SCHEDULE 10 304L A312 SEAMLESS PIPE
+27           8 STAINLESS STEEL SCHEDULE 10 316 L CAP A403WPS
+35              8 STAINLESS STEEL SCHEDULE 10 316 L A774 LAT
+39            8 STAINLESS STEEL SCHEDULE 10 304L CAP A403WPS
+40            8 STAINLESS STEEL SCHEDULE 10 304L CAP A403WPS
+42     10 - 8 X 4 STAINLESS STEEL SCHEDULE 10 316 L WELDOLET
+44           8 STAINLESS STEEL SCHEDULE 10 316 L TEE A403WPW
+45           8 STAINLESS STEEL SCHEDULE 10 316 L TEE A403WPW
+47        8 STAINLESS STEEL SCHEDULE 10 316 L ASA STUB END A
+48              8 STAINLESS STEEL 316 L 150 S10 RF WN FLANGE
+49        8 STAINLESS STEEL 316 L 300 S10 RF WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:02] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:02] lens of idx:  0
+[2025-01-02 21:24:02] ------------------------------------------------------------GT_NUMBER---> i:  43 RANK:  10000
+[2025-01-02 21:24:02] -----------------------------------------GT_NUMBER---> i:  44 previous rank:  0
+[2025-01-02 21:24:02] gt_desc:  6" 600 RF WELD NECK FLANGE S-120 BORE, SA105N-FGP
+[2025-01-02 21:24:02] inc_rfq:  11100805-FLG,WN,RF,6,600 ,S120-SA-105N
+[2025-01-02 21:24:02] quality:  EXCELLENT
+[2025-01-02 21:24:02] size raw:  6.0
+[2025-01-02 21:24:02] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:03] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:03] what is size_raw:  6.0
+[2025-01-02 21:24:03] what is material:  CARBON STEEL
+[2025-01-02 21:24:03] what is type:  WELD NECK
+[2025-01-02 21:24:03] what is schedule:  120
+[2025-01-02 21:24:09] len of vect + qdrant size results: 2442
+[2025-01-02 21:24:09] **** TYPE *****
+[2025-01-02 21:24:09] Incoming dataframe size:  2442
+[2025-01-02 21:24:09] what is type:  WELD NECK
+[2025-01-02 21:24:09] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:24:09] len of type filter results:  111
+[2025-01-02 21:24:09] **** MATERIAL *****
+[2025-01-02 21:24:09] Incoming dataframe size:  111
+[2025-01-02 21:24:09] what is material:  CARBON STEEL
+[2025-01-02 21:24:09] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:24:09] len of material filter results:  86
+[2025-01-02 21:24:09] **** SCHEDULE *****
+[2025-01-02 21:24:09] Incoming dataframe size:  86
+[2025-01-02 21:24:09] what is sched:  120
+[2025-01-02 21:24:09] sched perms:  ['SCHEDULE 120', '120', 'SCH 120', 'S120', 'SCHED120', 'SCH120', 'SCHDL120', 'SCH. 120', 'SCH-120', 'S-120', 'S.120', 'SCHD120', 'SCHED 120', 'SCHEDL 120', 'S/120', 'SC120', 'SCHEDULE ONE TWENTY', 'SCH ONE TWENTY', 'SCHED-120', 'SCHEDULE-120', 'SCH 120', 'SCHEDULE120']
+[2025-01-02 21:24:09] len of schedule filter results:  8
+[2025-01-02 21:24:09] ---------------------------top 25 for item:  44
+[2025-01-02 21:24:09] 6                                  6 CS 300 S120 RF WN FLG
+42                      6 CS 300 S120 RF WELDNECK FLG LRES
+149              6 CS 300 S120 RAISED FACE WELDNECK FLANGE
+186    6 CARBON STEEL 900 S120 RAISED FACE WELDNECK FLANGE
+250            6 CARBON STEEL 900 S120 RTJ WELDNECK FLANGE
+251            6 CARBON STEEL 900 S120 RTJ WELDNECK FLANGE
+265    6 CARBON STEEL 300 S120 RAISED FACE WELDNECK FLANGE
+310           6 CARBON STEEL 1500 S120 RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:09] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:09] lens of idx:  0
+[2025-01-02 21:24:09] ------------------------------------------------------------GT_NUMBER---> i:  44 RANK:  10000
+[2025-01-02 21:24:09] -----------------------------------------GT_NUMBER---> i:  45 previous rank:  0
+[2025-01-02 21:24:09] gt_desc:  10" 150 RF BLIND FLANGE, SA105N-FGP
+[2025-01-02 21:24:09] inc_rfq:  10-150RFBL-FLG,BL,RF,10,150 -SA-105
+[2025-01-02 21:24:09] quality:  EXCELLENT
+[2025-01-02 21:24:09] size raw:  10.0
+[2025-01-02 21:24:09] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:10] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:10] what is size_raw:  10.0
+[2025-01-02 21:24:10] what is material:  CARBON STEEL
+[2025-01-02 21:24:10] what is type:  BLIND
+[2025-01-02 21:24:10] what is schedule:  NAN
+[2025-01-02 21:24:19] len of vect + qdrant size results: 1400
+[2025-01-02 21:24:19] **** TYPE *****
+[2025-01-02 21:24:19] Incoming dataframe size:  1400
+[2025-01-02 21:24:19] what is type:  BLIND
+[2025-01-02 21:24:19] type perms:  ['BLIND FLANGE', 'BLIND', 'BLND', 'BL', 'BLIND FLG', 'BLND FLG', 'BL FLG', 'BLIND FLANGE', 'BLND FLANGE', 'BL FLANGE']
+[2025-01-02 21:24:19] len of type filter results:  54
+[2025-01-02 21:24:19] **** MATERIAL *****
+[2025-01-02 21:24:19] Incoming dataframe size:  54
+[2025-01-02 21:24:19] what is material:  CARBON STEEL
+[2025-01-02 21:24:19] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:24:19] len of material filter results:  38
+[2025-01-02 21:24:19] **** SCHEDULE *****
+[2025-01-02 21:24:19] Incoming dataframe size:  38
+[2025-01-02 21:24:19] schedule is NAN, no filtering...
+[2025-01-02 21:24:19] ---------------------------top 25 for item:  45
+[2025-01-02 21:24:19] 3                              10 CS 150 RF BLND FLG LRES
+33                             10 CS 600 RF BLND FLG LRES
+34                      10 CS 150 RAISED FACE BLND FLANGE
+37                                  10 CS 300 RF BLND FLG
+65                                10 PTFE BLND FLG 150 CS
+68        10 CARBON STEEL LF2 150 RAISED FACE BLND FLANGE
+80       10 CARBON STEEL LF2 150 RAISED FACE BLIND FLANGE
+87            10 CARBON STEEL 150 RAISED FACE BLND FLANGE
+88            10 CARBON STEEL 150 RAISED FACE BLND FLANGE
+89            10 CARBON STEEL 150 RAISED FACE BLND FLANGE
+99     10 CARBON STEEL 150 RAISED FACE BLIND FLANGE A105N
+119                        10 125 GALVANIZED CS BU FLANGE
+133             10 CARBON STEEL 150 FLAT FACE BLND FLANGE
+134             10 CARBON STEEL 150 FLAT FACE BLND FLANGE
+167       10 CARBON STEEL LF2 300 RAISED FACE BLND FLANGE
+181        10 CARBON STEEL 150 RAISED FACE HH BLND FLANGE
+185          10 CARBON STEEL 1500 RAISED FACE BLND FLANGE
+190       10 CARBON STEEL LF2 600 RAISED FACE BLND FLANGE
+214                  10 CARBON STEEL 1500 RTJ BLND FLANGE
+221       10 CARBON STEEL F52 600 RAISED FACE BLND FLANGE
+222       10 CARBON STEEL F52 600 RAISED FACE BLND FLANGE
+257           10 CARBON STEEL 300 RAISED FACE BLND FLANGE
+258           10 CARBON STEEL 300 RAISED FACE BLND FLANGE
+259           10 CARBON STEEL 300 RAISED FACE BLND FLANGE
+260           10 CARBON STEEL 300 RAISED FACE BLND FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:19] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:19] lens of idx:  0
+[2025-01-02 21:24:19] ------------------------------------------------------------GT_NUMBER---> i:  45 RANK:  10000
+[2025-01-02 21:24:19] -----------------------------------------GT_NUMBER---> i:  46 previous rank:  0
+[2025-01-02 21:24:19] gt_desc:  4" X 3" STD CONCENTRIC WELD REDUCER, SA234-WPB
+[2025-01-02 21:24:19] inc_rfq:  3" X 4" SCH. STD WALL CONCENTRIC REDUCER A234 FR. WPB
+[2025-01-02 21:24:19] quality:  EXCELLENT
+[2025-01-02 21:24:19] size raw:  3.0
+[2025-01-02 21:24:19] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:20] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:20] what is size_raw:  3.0
+[2025-01-02 21:24:20] what is material:  CARBON STEEL
+[2025-01-02 21:24:20] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:24:20] what is schedule:  STANDARD
+[2025-01-02 21:24:25] len of vect + qdrant size results: 3326
+[2025-01-02 21:24:25] **** TYPE *****
+[2025-01-02 21:24:25] Incoming dataframe size:  3326
+[2025-01-02 21:24:25] what is type:  CONCENTRIC REDUCER
+[2025-01-02 21:24:25] type perms:  ['SWAGE CONCENTRIC', 'CONCENTRIC SWAGE', 'SWAGE CONC', 'CONC SWAGE', 'SWAGE CON', 'CON SWAGE', 'SWG CONC', 'CONC SWG', 'SWG CON', 'CON SWG', 'CONCENTRIC REDUCER']
+[2025-01-02 21:24:25] len of type filter results:  269
+[2025-01-02 21:24:25] **** MATERIAL *****
+[2025-01-02 21:24:25] Incoming dataframe size:  269
+[2025-01-02 21:24:25] what is material:  CARBON STEEL
+[2025-01-02 21:24:25] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:24:25] len of material filter results:  108
+[2025-01-02 21:24:25] **** SCHEDULE *****
+[2025-01-02 21:24:25] Incoming dataframe size:  108
+[2025-01-02 21:24:25] what is sched:  STANDARD
+[2025-01-02 21:24:25] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH-40', 'SCHDL40', 'SCHEDULE FORTY', 'SCH FORTY', 'STD', 'STANDARD']
+[2025-01-02 21:24:25] len of schedule filter results:  45
+[2025-01-02 21:24:25] ---------------------------top 25 for item:  46
+[2025-01-02 21:24:25] 3      3 X 1-0.5 CARBON STEEL SCHEDULE 40 X SCHEDULE 80 WLD CONCENTRIC REDUCER
+4                      3 X 1-0.25 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+6                           3 X 1 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+7                           3 X 1 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+8                 3 X 2 GALVANIZED CARBON STEEL SCHEDULE 40 CONCENTRIC REDUCER
+9          3 X 2 CARBON STEEL SCHEDULE 40 X SCHEDULE 80 WLD CONCENTRIC REDUCER
+10                          3 X 2 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+11                          3 X 2 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+12                      3 X 1-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+13                      3 X 1-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+14                      3 X 2-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+15                      3 X 2-0.5 CARBON STEEL STANDARD WLD CONCENTRIC REDUCER
+19                 3 X 2-0.5 CARBON STEEL WPL6 STANDARD WLD CONCENTRIC REDUCER
+23                         3 X 1 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+25                     3 X 1-0.5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+31             3 X 2 GALVANIZED CARBON STEEL SCHEDULE 40 CONCENTRIC REDUCER *Z
+32                     3 X 2-0.5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+33                     3 X 2-0.5 CARBON STEEL STANDARD WELD CONCENTRIC REDUCER
+40                     3 X 1 CARBON STEEL WPL6 STANDARD WLD CONCENTRIC REDUCER
+50                     3 X 2 CARBON STEEL WPL6 STANDARD WLD CONCENTRIC REDUCER
+79                               3 X 2 CARBON STEEL S40XS80 CONCENTRIC REDUCER
+145                               3 X 2 CS STD X EXTRA HEAVY WELD CONC REDUCER
+146                               3 X 2 CS STD X EXTRA HEAVY WELD CONC REDUCER
+156                                             3 X 2 CS STD WELD CONC REDUCER
+157                                             3 X 2 CS STD WELD CONC REDUCER
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:25] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:25] lens of idx:  0
+[2025-01-02 21:24:25] ------------------------------------------------------------GT_NUMBER---> i:  46 RANK:  10000
+[2025-01-02 21:24:25] -----------------------------------------GT_NUMBER---> i:  47 previous rank:  0
+[2025-01-02 21:24:25] gt_desc:  2" 600 RF WELD NECK FLANGE XXH BORE, SA105N
+[2025-01-02 21:24:25] inc_rfq:  2" XXS 600 RF A105 WN B16.5 FLANGES
+[2025-01-02 21:24:25] quality:  EXCELLENT
+[2025-01-02 21:24:25] size raw:  2.0
+[2025-01-02 21:24:25] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:25] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:26] what is size_raw:  2.0
+[2025-01-02 21:24:26] what is material:  CARBON STEEL
+[2025-01-02 21:24:26] what is type:  WELD NECK
+[2025-01-02 21:24:26] what is schedule:  XXS
+[2025-01-02 21:24:32] len of vect + qdrant size results: 5090
+[2025-01-02 21:24:32] **** TYPE *****
+[2025-01-02 21:24:32] Incoming dataframe size:  5090
+[2025-01-02 21:24:32] what is type:  WELD NECK
+[2025-01-02 21:24:32] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:24:32] len of type filter results:  215
+[2025-01-02 21:24:32] **** MATERIAL *****
+[2025-01-02 21:24:32] Incoming dataframe size:  215
+[2025-01-02 21:24:32] what is material:  CARBON STEEL
+[2025-01-02 21:24:32] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:24:32] len of material filter results:  136
+[2025-01-02 21:24:32] **** SCHEDULE *****
+[2025-01-02 21:24:32] Incoming dataframe size:  136
+[2025-01-02 21:24:32] what is sched:  XXS
+[2025-01-02 21:24:32] sched perms:  ['SCHEDULE XXS', 'XXS', 'SCH XXS', 'SCHED XXS', 'SCH-XXS', 'DOUBLE EXTRA STRONG', 'DOUBLE X STRONG', 'DBL EXTRA STRONG', '2XS', 'SCHEDULE DOUBLE EXTRA STRONG', 'SCH DBL X STRONG']
+[2025-01-02 21:24:32] len of schedule filter results:  0
+[2025-01-02 21:24:32] ---------------------------top 25 for item:  47
+[2025-01-02 21:24:32] 3                             2 CS 600 XXH RAISED FACE WELDNECK FLANGE
+20                                   2 CS 600 S160 RTJ WELDNECK FLANGE
+25                 2 CARBON STEEL 600 SCHEDULE 160 RTJ WELDNECK FLANGE
+29         2 CARBON STEEL 600 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+31         2 CARBON STEEL 600 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+45                            2 CS 600 STD RAISED FACE WELDNECK FLANGE
+67                     2 CARBON STEEL 600 STANDARD RTJ WELDNECK FLANGE
+68                     2 CARBON STEEL 600 STANDARD RTJ WELDNECK FLANGE
+70     2 CARBON STEEL LF2 600 SCHEDULE XH RAISED FACE WELD NECK FLANGE
+71     2 CARBON STEEL LF2 600 SCHEDULE XH RAISED FACE WELD NECK FLANGE
+83                                    2 CS 600 STD RTJ WELDNECK FLANGE
+84      2 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+88             2 CARBON STEEL 600 STANDARD RAISED FACE WELDNECK FLANGE
+89             2 CARBON STEEL 600 STANDARD RAISED FACE WELDNECK FLANGE
+90             2 CARBON STEEL 600 STANDARD RAISED FACE WELDNECK FLANGE
+92             2 CARBON STEEL 600 STANDARD RAISED FACE WELDNECK FLANGE
+104        2 CARBON STEEL 150 SCHEDULE 160 RAISED FACE WELDNECK FLANGE
+110          2 CARBON STEEL 150 SCHEDULE 160 FLAT FACE WELDNECK FLANGE
+124         2 CARBON STEEL 600 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+125         2 CARBON STEEL 600 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+127         2 CARBON STEEL 600 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+129         2 CARBON STEEL 600 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+143     2 CARBON STEEL F52 600 EXTRA HEAVY RAISED FACE WELDNECK FLANGE
+165                 2 CARBON STEEL 600 EXTRA HEAVY RTJ WELDNECK FLANGE
+166                 2 CARBON STEEL 600 EXTRA HEAVY RTJ WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:32] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:32] lens of idx:  0
+[2025-01-02 21:24:32] ------------------------------------------------------------GT_NUMBER---> i:  47 RANK:  10000
+[2025-01-02 21:24:32] -----------------------------------------GT_NUMBER---> i:  48 previous rank:  0
+[2025-01-02 21:24:32] gt_desc:  10" 300 RF LONG WELD NECK X 14" LG, SA105N-FGP/SA350LF2-FGP
+[2025-01-02 21:24:32] inc_rfq:  FLG,LWN,RF,10,300 ,13 INCHLG-FLG,LWN,RF,10,300 ,13 INCHLG-SA-105N
+[2025-01-02 21:24:32] quality:  EXCELLENT
+[2025-01-02 21:24:32] size raw:  10.0
+[2025-01-02 21:24:32] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:33] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:33] what is size_raw:  10.0
+[2025-01-02 21:24:33] what is material:  CARBON STEEL
+[2025-01-02 21:24:33] what is type:  WELD NECK
+[2025-01-02 21:24:33] what is schedule:  NAN
+[2025-01-02 21:24:42] len of vect + qdrant size results: 1400
+[2025-01-02 21:24:42] **** TYPE *****
+[2025-01-02 21:24:42] Incoming dataframe size:  1400
+[2025-01-02 21:24:42] what is type:  WELD NECK
+[2025-01-02 21:24:42] type perms:  ['WELD NECK', 'WELDNECK', 'WLDNCK', 'WN', 'W/N', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE', 'WN FLANGE', 'WN FLG', 'WELD NECK FLANGE', 'WELDNECK FLANGE', 'WLDNECK FLANGE', 'WLD NECK FLANGE']
+[2025-01-02 21:24:42] len of type filter results:  87
+[2025-01-02 21:24:42] **** MATERIAL *****
+[2025-01-02 21:24:42] Incoming dataframe size:  87
+[2025-01-02 21:24:42] what is material:  CARBON STEEL
+[2025-01-02 21:24:42] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:24:42] len of material filter results:  70
+[2025-01-02 21:24:42] **** SCHEDULE *****
+[2025-01-02 21:24:42] Incoming dataframe size:  70
+[2025-01-02 21:24:42] schedule is NAN, no filtering...
+[2025-01-02 21:24:42] ---------------------------top 25 for item:  48
+[2025-01-02 21:24:42] 6                                              10 CS 300 STD RF WN FLG
+8                                               10 CS 300 XH RF WN FLG
+13                                             10 CS 600 STD RF WN FLG
+14                        10 CS 300 STANDARD RF WELDNECK ORFC FLG LRES
+27                       10 CS LF2 300 STD RAISED FACE WELDNECK FLANGE
+28                                             10 CS 600 S80 RF WN FLG
+32                                  10 CS 300 S80 RF WELDNECK FLG LRES
+35                                              10 CS 600 XH RF WN FLG
+46                             10 CS 150 STANDARD RF WELDNECK FLG LRES
+62                                             10 CS 150 STD FF WN FLG
+106      10 CARBON STEEL LF2 300 STANDARD RAISED FACE WELD NECK FLANGE
+109       10 CARBON STEEL LF2 300 STANDARD RAISED FACE WELDNECK FLANGE
+136                      10 CARBON STEEL 300 RAISED FACE 12 LWN FLANGE
+144      10 CARBON STEEL LF2 150 STANDARD RAISED FACE WELD NECK FLANGE
+181      10 CARBON STEEL LF2 600 STANDARD RAISED FACE WELD NECK FLANGE
+184                     10 CS 300 SCHEDULE 160 RF WELDNECK FLANGE LRES
+190       10 CARBON STEEL LF2 600 STANDARD RAISED FACE WELDNECK FLANGE
+201                      10 CARBON STEEL 600 RAISED FACE 12 LWN FLANGE
+202                     10 CS 300 STD RAISED FACE WELDNECK ORFC FLANGE
+246                          10 CS 150 STD RAISED FACE WELDNECK FLANGE
+253       10 CARBON STEEL F52 300 STANDARD RAISED FACE WELDNECK FLANGE
+276    10 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+277    10 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+278    10 CARBON STEEL 150 STANDARD RAISED FACE WELD NECK FLANGE A105N
+285             10 CARBON STEEL 300 STANDARD FLAT FACE WELDNECK FLANGE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:42] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:42] lens of idx:  0
+[2025-01-02 21:24:42] ------------------------------------------------------------GT_NUMBER---> i:  48 RANK:  10000
+[2025-01-02 21:24:42] -----------------------------------------GT_NUMBER---> i:  49 previous rank:  0
+[2025-01-02 21:24:42] gt_desc:  8" STD WELD TEE, SA234-WPB (VIETNAM)
+[2025-01-02 21:24:42] inc_rfq:  933798 TEE STR, SMLS,8 X 8 * STD/STD, ASTM A234 GR,WPB
+[2025-01-02 21:24:42] quality:  EXCELLENT
+[2025-01-02 21:24:42] size raw:  8.0
+[2025-01-02 21:24:42] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:43] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:43] what is size_raw:  8.0
+[2025-01-02 21:24:43] what is material:  CARBON STEEL
+[2025-01-02 21:24:43] what is type:  STRAIGHT TEE
+[2025-01-02 21:24:43] what is schedule:  STANDARD
+[2025-01-02 21:24:53] len of vect + qdrant size results: 1892
+[2025-01-02 21:24:53] **** TYPE *****
+[2025-01-02 21:24:53] Incoming dataframe size:  1892
+[2025-01-02 21:24:53] what is type:  STRAIGHT TEE
+[2025-01-02 21:24:53] type perms:  ['STRAIGHT TEE', 'STR TEE', 'STRAIT TEE', 'STR T', 'STRAIGHT T', 'TEE STRAIGHT', 'EQUAL TEE', 'T STRAIGHT', 'STRGHT TEE', 'TEE STR', 'EQ TEE']
+[2025-01-02 21:24:53] len of type filter results:  1
+[2025-01-02 21:24:53] no filtering taking place for type...
+[2025-01-02 21:24:53] **** MATERIAL *****
+[2025-01-02 21:24:53] Incoming dataframe size:  1892
+[2025-01-02 21:24:53] what is material:  CARBON STEEL
+[2025-01-02 21:24:53] material perms:  ['CARBON_STEEL', 'CARBON STEEL', 'CS', 'C.S.', 'CARB STL', 'CARBON-STL', 'C S', 'CARBON STEEL', 'C-STL', 'CARB. STL', 'CARBONSTEEL', 'CARBON-STEAL', 'CARN STL', 'CRBN STL', 'C-ST', 'C/S', 'CAR-ST', 'C.S.-STL', 'CARBON STL', 'CARB STEEL', 'C STEEL', 'C STL']
+[2025-01-02 21:24:53] len of material filter results:  802
+[2025-01-02 21:24:53] **** SCHEDULE *****
+[2025-01-02 21:24:53] Incoming dataframe size:  802
+[2025-01-02 21:24:53] what is sched:  STANDARD
+[2025-01-02 21:24:53] sched perms:  ['SCHEDULE 40', '40', 'SCH 40', 'S40', 'SCHED40', 'SCH-40', 'SCHDL40', 'SCHEDULE FORTY', 'SCH FORTY', 'STD', 'STANDARD']
+[2025-01-02 21:24:53] len of schedule filter results:  248
+[2025-01-02 21:24:53] ---------------------------top 25 for item:  49
+[2025-01-02 21:24:53] 6          8 X 8 X 3 CARBON STEEL STANDARD WLD TEE
+7          8 X 8 X 3 CARBON STEEL STANDARD WLD TEE
+21     8 X 8 X 3 CARBON STEEL Y52 STANDARD WLD TEE
+24        8 X 8 X 3 CARBON STEEL STANDARD WELD TEE
+25                 8 CARBON STEEL STANDARD WLD TEE
+26                 8 CARBON STEEL STANDARD WLD TEE
+27                               8 CS STD WELD TEE
+28                       8 X 8 X 4 CS STD WELD TEE
+29                       8 X 8 X 4 CS STD WELD TEE
+30         8 X 8 X 4 CARBON STEEL STANDARD WLD TEE
+31         8 X 8 X 4 CARBON STEEL STANDARD WLD TEE
+32                       8 X 8 X 6 CS STD WELD TEE
+34            8 CARBON STEEL WPL6 STANDARD WLD TEE
+36                     8 CS A420 WPL6 STD WELD TEE
+38    8 X 8 X 4 CARBON STEEL WPL6 STANDARD WLD TEE
+46         8 X 8 X 4 CS STD X EXTRA HEAVY WELD TEE
+51     8 X 8 X 4 CARBON STEEL Y52 STANDARD WLD TEE
+52     8 X 8 X 4 CARBON STEEL Y52 STANDARD WLD TEE
+54                8 CARBON STEEL STANDARD WELD TEE
+55                8 CARBON STEEL STANDARD WELD TEE
+56         8 X 8 X 6 CARBON STEEL STANDARD WLD TEE
+57         8 X 8 X 6 CARBON STEEL STANDARD WLD TEE
+58             8 CARBON STEEL Y52 STANDARD WLD TEE
+59             8 CARBON STEEL Y52 STANDARD WLD TEE
+60    8 X 8 X 6 CARBON STEEL WPL6 STANDARD WLD TEE
+Name: DESCRIPTION, dtype: object
+[2025-01-02 21:24:53] ranking is:  Index([], dtype='int64')
+[2025-01-02 21:24:53] lens of idx:  0
+[2025-01-02 21:24:53] ------------------------------------------------------------GT_NUMBER---> i:  49 RANK:  10000
+[2025-01-02 21:24:53] -----------------------------------------GT_NUMBER---> i:  50 previous rank:  0
+[2025-01-02 21:24:53] gt_desc:  6" STD SR 90 WELD ELL, SA403-WP304L
+[2025-01-02 21:24:53] inc_rfq:  J75513 EL6,90,SR,SCH40S,SMLS,ASTM A403 GR.WP304L
+[2025-01-02 21:24:53] quality:  EXCELLENT
+[2025-01-02 21:24:53] size raw:  6.0
+[2025-01-02 21:24:53] --------------------------------------------------------------------------------------------------
+[2025-01-02 21:24:54] did we find it gt_response?  ([], None)
+[2025-01-02 21:24:54] what is size_raw:  6.0
+[2025-01-02 21:24:54] what is material:  STAINLESS STEEL
+[2025-01-02 21:24:54] what is type:  90 DEGREE ELBOW SR
+[2025-01-02 21:24:54] what is schedule:  40S
+[2025-01-02 21:25:00] len of vect + qdrant size results: 2442
+[2025-01-02 21:25:00] **** TYPE *****
+[2025-01-02 21:25:00] Incoming dataframe size:  2442
+[2025-01-02 21:25:00] what is type:  90 DEGREE ELBOW SR
+[2025-01-02 21:25:00] type perms:  None
